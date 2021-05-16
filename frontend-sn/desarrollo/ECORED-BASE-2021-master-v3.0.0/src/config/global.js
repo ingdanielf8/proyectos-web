@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+      'Plan de merchandising',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
+      'A través de este componente formativo el aprendiz debe apropiar los elementos de entrada requeridos para la elaboración del plan de merchandising para su idea de negocio o proyecto productivo.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -104,115 +104,6 @@ export default {
             numero: '1.13',
             titulo: 'Pasos',
             hash: 't_1_13',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Llamados a la acción',
-            hash: 't_1_14',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Tarjetas',
-            hash: 't_1_15',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Modal',
-            hash: 't_1_16',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
-        numero: '2',
-        titulo: 'Producción Audiovisual',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Infografía Animada',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Video Motion',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Motion + Presentador',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Fundamentación Textil',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Clasificación de los hilos',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
           },
         ],
       },
