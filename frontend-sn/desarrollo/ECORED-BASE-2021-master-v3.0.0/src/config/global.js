@@ -1,10 +1,9 @@
 export default {
   global: {
-    componenteFormativo:
-      'Plan de merchandising',
+    componenteFormativo: 'Plan de merchandising',
     descripcionCurso:
       'A través de este componente formativo el aprendiz debe apropiar los elementos de entrada requeridos para la elaboración del plan de merchandising para su idea de negocio o proyecto productivo.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
