@@ -29,79 +29,79 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Estilos tipográficos',
+            titulo: 'Evaluación y control.',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
+            titulo: 'Layout',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Bloques de texto destacado',
+            titulo: 'Planogramas y planimetría',
             hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Listas',
+            titulo: 'Mobiliario comercial',
             hash: 't_1_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: 'Tablas',
+            titulo: 'Estrategias de exhibición',
             hash: 't_1_5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.6',
-            titulo: 'Imagen',
+            titulo: 'Visual merchandising',
             hash: 't_1_6',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.7',
-            titulo: 'Video',
+            titulo: 'Vitrinismo',
             hash: 't_1_7',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.8',
-            titulo: 'Componentes',
+            titulo: 'Punto de venta',
             hash: 't_1_8',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.9',
-            titulo: 'Slyders',
+            titulo: 'Marketing sensorial',
             hash: 't_1_9',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.10',
-            titulo: 'Acordion',
+            titulo: 'Teoría del color',
             hash: 't_1_10',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.11',
-            titulo: 'Pestañas o Tabs',
+            titulo: 'Comunicación comercial. Recursos de apoyo',
             hash: 't_1_11',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.12',
-            titulo: 'Líneas de tiempo',
+            titulo: 'Software de gestión en el punto de venta',
             hash: 't_1_12',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.13',
-            titulo: 'Pasos',
+            titulo: 'Plan de exhibición',
             hash: 't_1_13',
           },
         ],
@@ -143,83 +143,23 @@ export default {
   },
   creditos: {
     liderEquipo: {
-      nombre: 'Maria Camila Garcia Santamaria',
-      cargo: 'Líder del equipo',
+      nombre: 'Claudia Juliana León Pinto',
+      cargo: 'Experta temática',
+      centro: 'Centro de servicio empresariales y turísticos',
+      regional: 'Regional Santander',
     },
-    contenidoInstruccional: [
-      {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: 'Astrid Lili Puerta',
-        cargo: 'Experta temática',
-        centro: 'Centro Agropecuario de Buga',
-        regional: 'Regional valle',
-      },
-      {
-        nombre: 'Javier Enrique Santana',
-        cargo: 'Experto temático',
-        centro: 'Centro de Gestión Industrial',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'Michael Andrés Cortés Caro',
-        cargo: 'Experto temático',
-        centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-      },
-      {
-        nombre: 'Mauricio Jiménez Fajardo',
-        cargo: 'Experto temático',
-        centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-      },
-      {
-        nombre: 'Manuel Alejandro Garzón Cárdenas',
-        cargo: 'Experto temático',
-        centro: 'Deutsche Gesellschaft für',
-        regional: 'Internationale Zusammenarbeit (GIZ)',
-      },
-      {
-        nombre: 'Liliana Victoria Morales Gualdrón',
-        cargo: 'Diseñador instruccional',
-        centro: 'Centro para la Industria y la Comunicación Gráfica',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'Carlos Andrés Rodríguez',
-        cargo: 'Evaluador instruccional',
-        centro: 'Centro de Diseño y Metrología',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'Julieth Paola Vital López',
-        cargo: 'Revisora de estilo',
-        centro: 'Centro para la Industria de la Comunicación Gráfica',
-        regional: 'Regional Distrito Capital',
-      },
-    ],
+    contenidoInstruccional: [{}],
     desarrolloProducto: [
       {
-        nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro: 'Centro para la Industria de la Comunicación Gráfica ',
+        regional: 'Regional Distrito Capital',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-      },
-      {
-        nombre: ['Adriana Rincón Avendaño', 'Eulises Orduz Amezquita'],
-        cargo: 'Diseño web y Producción Audiovisual',
-      },
-      {
-        nombre: 'Edward Leonardo Pico Cabra',
-        cargo: 'Desarrollo Front-End',
-      },
-      {
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
+        nombre: 'Alix Cecilia Chinchilla Rueda',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Gestión Industrial',
       },
     ],
     gestoresRepositorio: [
@@ -234,124 +174,281 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'Best, R. (2007). Marketing estratégico. 4a. Ed. Pearson Prentice Hall. ',
+      link: '',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Escrivá, J. (2005). Marketing en el punto de venta. McGraw-Hill.',
+      link: '',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Estrella, A. y Segovia, C. (2018). Comunicación integrada de marketing. ESIC Editorial.',
+      link: '',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'Gianella, A. (2013). Visual merchandising o el amor a primera vista. Ediciones de la U. Coedición Editorial Nobuko.',
+      link: '',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
+        'Hoyos, R. (2016). Branding el arte de marcar corazones. Ecoe Ediciones.',
+      link: '',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'Kerin, R. y Harley, S. (2018). 13a. Ed. Marketing. McGraw-Hill Interamericana.',
+      link: '',
     },
     {
       referencia:
-        'Sociedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Kotler, P. y Amstrong, G. (2017). 16a. Ed. Marketing. Pearson.',
+      link: '',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Manzano, R. y Gavilán, D. (2012). Marketing sensorial. Pearson Educación.',
+      link: '',
+    },
+    {
+      referencia: 'Martínez, H. (2018). El arte de seducir. Ecoe Ediciones.',
+      link: '',
+    },
+    {
+      referencia:
+        'Morgan, T. (2016). Visual merchandising. 3a. Ed. Editorial Gustavo Gili.',
+      link: '',
+    },
+    {
+      referencia:
+        'O´Guinn, T. (2013). Publicidad y promoción integral de marca. 6a. Ed. Cengage Learning.',
+      link: '',
+    },
+    {
+      referencia:
+        'Palomares, R. (2012). Marketing en el punto de venta. ESIC Editorial.',
+      link: '',
+    },
+    {
+      referencia:
+        'Prettel, G. (2016). Marketing, una herramienta para el crecimiento. Ediciones de la U.',
+      link: '',
+    },
+    {
+      referencia:
+        'Prieto, J. (2009). Merchandising. La seducción en el punto de venta. Ecoe Ediciones.',
+      link: '',
+    },
+    {
+      referencia:
+        'Prieto, J. (2018). Merchandising. La seducción en el punto de venta. 3a. Ed. Ecoe Ediciones.',
+      link: '',
+    },
+    {
+      referencia: 'Yate, A. (2012). Material POP. Ecoe Ediciones.',
+      link: '',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'AIDA',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Técnica de amplio uso en merchandising, utilizada para producir un efecto en los clientes, cuya sigla significa atención, interés, deseo y acción.',
     },
     {
-      termino: 'Suftware',
+      termino: 'BTL marketing',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Mercadeo bajo la línea, es cualquier forma creativa, que es pagada para llegar al consumidor, que se enfoca en medios directos de comunicación: correo directo, e-mail y cualquier otra que utiliza listas bien segmentadas y escogidas de nombres para maximizar la respuesta. Es el nuevo nombre para "mercadeo directo"; en marketing, se refiere a otros gastos que no corresponden a la publicidad en medios, ni a la producción de la misma (correo directo, exposiciones, demostraciones, material del punto de venta).',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Campaña publicitaria',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Conjunto de mensajes publicitarios organizados para determinados medios publicitarios (prensa, radio, televisión, etc.) planificados en el tiempo para alcanzar unos objetivos determinados.',
     },
     {
-      termino: 'Vectores',
+      termino: 'Diagramación',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Es un oficio del diseño editorial que se encarga de organizar en un espacio contenidos escritos, visuales y en algunos casos audiovisuales (multimedia) en medios impresos y electrónicos, como libros, diarios y revistas.',
     },
     {
-      termino: 'Moda',
+      termino: 'Layout',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Es utilizado en el marketing para aludir al diseño o disposición de ciertos productos y servicios en sectores o posiciones en los puntos de venta, corresponde a un croquis, esquema, o bosquejo de distribución de las piezas o elementos que se encuentran dentro de un diseño en particular, con el fin de presentarle dicho esquema a un cliente para venderle la idea.',
     },
     {
-      termino: 'Diseño',
+      termino: 'Medios publicitarios',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Son los diferentes canales impersonales de comunicación, a través de los cuales pueden transmitirse los mensajes publicitarios.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Mensaje publicitario',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Conjunto de ideas que la empresa anunciante desea hacer llegar al público para conseguir sus objetivos.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Merchandising',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Técnicas utilizadas en el punto de venta para ganar rentabilidad y hacer atractivos los productos y el lugar de compra para los clientes, de tal forma que lo prefieran. Punto de encuentro entre el comercio y el marketing, que incluye toda actividad desarrollada en un punto de venta, que pretende reafirmar o cambiar la conducta de compra a favor de los artículos más rentables para el establecimiento. Los objetivos básicos del merchandising son: llamar la atención, dirigir al cliente hacia el producto y facilitar la acción de compra.',
     },
     {
-      termino: 'Software',
+      termino: 'Outlet',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Formatos o establecimientos dedicados a vender productos que son remanentes de inventarios de reconocidas marcas a precios inferiores a los que generalmente se ofrecen.',
+    },
+    {
+      termino: 'Planimetría',
+      significado:
+        'Técnica que permite la distribución proporcional de los productos en el punto de venta y las góndolas.',
+    },
+    {
+      termino: 'Promoción',
+      significado:
+        'Técnica cuyo objetivo es acercar el producto al consumidor.',
+    },
+    {
+      termino: 'Publicidad',
+      significado:
+        'Es una de las subfunciones o actividades del marketing, que puede definirse como “un proceso de comunicación de carácter impersonal y controlado que, a través de medios masivos, pretende dar a conocer un producto, servicio, idea o institución, con objeto de informar e influir en su compra o aceptación”.',
+    },
+    {
+      termino: 'Puntos calientes',
+      significado:
+        'Zonas o áreas del punto de venta con gran acogida o donde los productos expuestos son superiores.',
+    },
+    {
+      termino: 'Puntos fríos',
+      significado:
+        'Espacios dentro del punto de venta con baja rotación de productos.',
+    },
+    {
+      termino: 'Stand',
+      significado:
+        'Es el espacio dentro de una feria o salón en el que una empresa expone y presenta sus productos o servicios. El stand es un espacio identificador de cada empresa en el que se acoge a los visitantes y se realizan negociaciones comerciales. La cantidad de superficie escogida en el recinto ferial depende en gran medida del presupuesto asignado, así como del tipo de producto o servicio que se quiere exponer y de los objetivos marcados para el evento. El stand debe constituir el espacio en que la empresa se presenta ante sus clientes y ante su competencia, por lo que debe reflejar fielmente su filosofía e imagen corporativa, constituyendo a su vez un entorno ameno y atractivo.',
+    },
+    {
+      termino: 'Superficie de venta',
+      significado:
+        'Denominación que se utiliza para designar aquella parte de un establecimiento en la que las clientelas pueden moverse libremente para observar o tomar los productos que deseen adquirir. La superficie de venta comprende los escaparates, las vitrinas, las estanterías y los pasillos de circulación dentro del establecimiento.',
+    },
+    {
+      termino: 'Tienda espectáculo',
+      significado:
+        'Es un lugar o punto de compra donde se le brindan a los consumidores o clientes diversas experiencias o sensaciones, (olores, colores, sonidos, etc.) y tiene relación directa o indirecta con la compra. Algunos autores la comparan con un teatro: la ambientación de la tienda es la escenografía, los empleados son los actores y la clientela son los espectadores.',
+    },
+    {
+      termino: 'Visual merchandising',
+      significado:
+        'Es la disciplina que estudia la relación existente entre el objeto, el contexto en que este se inserta y su imagen. Se aplica principalmente a los sectores de la moda y del diseño y, representa un punto de contacto interdisciplinar entre el comercio, los principios de la percepción visual y la psicología cognitiva. ',
+    },
+    {
+      termino: 'Vitrina',
+      significado:
+        'Parte de la fachada de un establecimiento de venta al público, que está cubierta con cristales para permitir ver los productos que se exponen en su interior. El escaparate es al mismo tiempo un lugar importante para la colocación de displays y otras formas publicitarias, influyendo de manera importante en la imagen del establecimiento.',
+    },
+    {
+      termino: 'Vitrinas al exterior del almacén',
+      significado:
+        'Son espacios que se encuentran en la fachada del almacén y que se pueden observar desde la vía pública.',
     },
   ],
   complementario: [
     {
-      texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto: 'Best, R. (2007). Marketing estratégico. Pearson Prentice Hall.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=3408&pg=1 ',
+    },
+    {
+      texto: 'Escrivá, J. (2005). Marketing en el punto de venta. McGraw-Hill.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=4859&pg=1 ',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Estrella, A. y Segovia, C. (2018). Comunicación integrada de marketing. ESIC Editorial.',
+      tipo: 'Libro',
+      link:
+        'https://www-alfaomegacloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alfaomegacloud-com.bdigital.sena.edu.co/reader/comunicacion-integrada-de-marketing?location=1 ',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        'Gianella, A. (2013). Visual merchandising o el amor a primera vista. Ediciones de la U. coedición Editorial Nobuko.',
+      tipo: 'Libro',
+      link:
+        'http://www.digitaliapublishing.com.bdigital.sena.edu.co/visor/39597 ',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+      texto:
+        'Hoyos, R. (2016). Branding el arte de marcar corazones. Ecoe Ediciones.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=2769&pg=1 ',
     },
     {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto:
+        'Kerin, R. y Harley, S. (2018). Marketing. McGraw-Hill Interamericana.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=6261&pg=1 ',
+    },
+    {
+      texto: 'Kotler, P. y Amstrong, G. (2017). Marketing. Pearson.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=4426&pg=1 ',
+    },
+    {
+      texto:
+        'Manzano, R. y Gavilán, D. (2012). Marketing sensorial. Pearson Educación.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=4530&pg=1',
+    },
+    {
+      texto: 'Martínez, H. (2018). El arte de seducir. Ecoe Ediciones.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=5955&pg=1 ',
+    },
+    {
+      texto: 'Morgan, T. (2016). Visual merchandising. Editorial Gustavo Gili.',
+      tipo: 'Libro',
+      link:
+        'https://ebookcentral-proquest-com.bdigital.sena.edu.co/lib/senavirtualsp/reader.action?docID=4536138&ppg=1 ',
+    },
+    {
+      texto:
+        'O´Guinn, T. (2013). Publicidad y promoción integral de marca. Cengage Learning.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=835&pg=1 ',
+    },
+    {
+      texto:
+        'Palomares, R. (2012). Marketing en el punto de venta. ESIC Editorial.',
+      tipo: 'Libro',
+      link:
+        'https://ebookcentral-proquest-com.bdigital.sena.edu.co/lib/senavirtualsp/reader.action?docID=5885856&ppg=1',
+    },
+    {
+      texto:
+        'Prettel, G. (2016). Marketing, una herramienta para el crecimiento. Ediciones de la U.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=5684&pg=1 ',
+    },
+    {
+      texto:
+        'Prieto, J. (2009). Merchandising. La seducción en el punto de venta. Ecoe Ediciones.',
+      tipo: 'Libro',
+      link:
+        'https://ebookcentral-proquest-com.bdigital.sena.edu.co/lib/senavirtualsp/reader.action?docID=3193614&ppg=1 ',
+    },
+    {
+      texto:
+        'Prieto, J. (2018). Merchandising. La seducción en el punto de venta. 3a. Ed. Ecoe Ediciones.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=6439&pg=1 ',
+    },
+    {
+      texto: 'Yate, A. (2012). Material POP. Ecoe Ediciones.',
+      tipo: 'Libro',
+      link:
+        'http://www.digitaliapublishing.com.bdigital.sena.edu.co/visor/29998 ',
     },
   ],
 }

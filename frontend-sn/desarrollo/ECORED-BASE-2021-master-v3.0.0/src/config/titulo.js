@@ -1,2 +1,1 @@
-module.exports =
-  'Plan de merchandising'
+module.exports = 'Plan de merchandising'
