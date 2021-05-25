@@ -1,10 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'Plan de merchandising',
+    componenteFormativo: 'Plan de comunicación integral',
     descripcionCurso:
-      'A través de este componente formativo el aprendiz debe apropiar los elementos de entrada requeridos para la elaboración del plan de merchandising para su idea de negocio o proyecto productivo.',
+      'A través del componente, el aprendiz debe apropiar los elementos de entrada requeridos para la elaboración del plan de acción de endomarketing y el plan de comunicación integral para su idea de negocio o proyecto productivo.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -23,86 +23,53 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Endomarketing',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Evaluación y control.',
+            titulo: 'Talento humano',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Layout',
+            titulo: 'Manual corporativo',
             hash: 't_1_2',
           },
+        ],
+      },
+      {
+        nombreRuta: 'tema1',
+        icono: 'far fa-file-alt',
+        numero: '2',
+        titulo: 'Comunicación integral',
+        desarrolloContenidos: true,
+        subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Planogramas y planimetría',
-            hash: 't_1_3',
+            numero: '2.1',
+            titulo: 'Plan de comunicación integral',
+            hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Mobiliario comercial',
-            hash: 't_1_4',
+            numero: '2.2',
+            titulo: 'Verbatim',
+            hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Estrategias de exhibición',
-            hash: 't_1_5',
+            numero: '2.3',
+            titulo: 'Insight',
+            hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Visual merchandising',
-            hash: 't_1_6',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Vitrinismo',
-            hash: 't_1_7',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Punto de venta',
-            hash: 't_1_8',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Marketing sensorial',
-            hash: 't_1_9',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Teoría del color',
-            hash: 't_1_10',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Comunicación comercial. Recursos de apoyo',
-            hash: 't_1_11',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Software de gestión en el punto de venta',
-            hash: 't_1_12',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Plan de exhibición',
-            hash: 't_1_13',
+            numero: '2.4',
+            titulo: 'Percepción',
+            hash: 't_2_4',
           },
         ],
       },
@@ -188,7 +155,8 @@ export default {
     {
       referencia:
         'Alard, J. y Monfort, A. (2018). Plan de comunicación on y off en la práctica. ESIC.',
-      link: 'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/plan-de-comunicacion-on-y-off-en-la-practica-1?location=293',
+      link:
+        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/plan-de-comunicacion-on-y-off-en-la-practica-1?location=293',
     },
     {
       referencia:
@@ -198,12 +166,14 @@ export default {
     {
       referencia:
         'Bedoya, E. (2018). Guía práctica del sistema de gestión de la seguridad y salud en el trabajo. Alfaomega. ',
-      link: 'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/guia-practica-del-sistema-de-gestion-de-la-seguridad-y-salud-en-el-trabajo?location=9',
+      link:
+        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/guia-practica-del-sistema-de-gestion-de-la-seguridad-y-salud-en-el-trabajo?location=9',
     },
     {
       referencia:
         'Beltrán, A., Melchor, M. y Álvarez, A. (2014). Percepción de los usuarios sobre la imagen corporativa y su relación con la identidad institucional. Universidad Autónoma de Occidente.',
-      link: 'https://www-digitaliapublishing-com.bdigital.sena.edu.co/visor/50977',
+      link:
+        'https://www-digitaliapublishing-com.bdigital.sena.edu.co/visor/50977',
     },
     {
       referencia:
@@ -223,12 +193,14 @@ export default {
     {
       referencia:
         'Estrella, A., y Segovia, C. (2016). Comunicación integrada de marketing. ESIC.',
-      link: 'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/comunicacion-integrada-de-marketing?location=16',
+      link:
+        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/comunicacion-integrada-de-marketing?location=16',
     },
     {
       referencia:
         'García, J. (2016). Técnicas de diseño gráfico corporativo. CCEP.',
-      link: 'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/51090?page=1',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/51090?page=1',
     },
     {
       referencia:
@@ -243,27 +215,32 @@ export default {
     {
       referencia:
         'Ocampo, M. (2014) Comunicación Empresarial (2ª ed.). ECOE Ediciones.',
-      link: 'https://www-digitaliapublishing-com.bdigital.sena.edu.co/visor/36923',
+      link:
+        'https://www-digitaliapublishing-com.bdigital.sena.edu.co/visor/36923',
     },
     {
       referencia:
         'O’Guinn, T., Allen, C. y Semenik, R. (2013). Publicidad y promoción integral de marca (6ª ed.). Cengage Learning.',
-      link: 'https://www.academia.edu/36447090/Publicidad_y_Promoci%C3%B3n_Integral_de_Marca_Publicidad_y_Promoci%C3%B3n_Integral_de_Marca',
+      link:
+        'https://www.academia.edu/36447090/Publicidad_y_Promoci%C3%B3n_Integral_de_Marca_Publicidad_y_Promoci%C3%B3n_Integral_de_Marca',
     },
     {
       referencia:
         'Pintado, M. (2013). Imagen corporativa: influencia en la gestión empresarial (2ª ed.). ESIC.',
-      link: 'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/imagen-corporativa?location=311',
+      link:
+        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/imagen-corporativa?location=311',
     },
     {
       referencia:
         'Resolución 0312 de 2019. [Ministerio del Trabajo]. Por la cual se definen los Estándares Mínimos del Sistema de Gestión de la Seguridad y Salud en el Trabajo SG-SST. Febrero 13 de 2019',
-      link: 'https://www.arlsura.com/files/Resolucion_0312_de_2019_Estandares_Minimos.pdf',
+      link:
+        'https://www.arlsura.com/files/Resolucion_0312_de_2019_Estandares_Minimos.pdf',
     },
     {
       referencia:
         'Rueda, M. y Zambrano, M. (2018). Manual de ergonomía y seguridad (2ª ed.). Alfaomega.',
-      link: 'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/manual-de-ergonomia-y-seguridad-segunda-edicion-1?location=172',
+      link:
+        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/manual-de-ergonomia-y-seguridad-segunda-edicion-1?location=172',
     },
     {
       referencia:
@@ -273,7 +250,8 @@ export default {
     {
       referencia:
         'Wells, W., Burnett, J., & Moriarty, S. (2007). Publicidad. Principios y práctica (7ª ed.). Pearson Educación.',
-      link: 'https://www.academia.edu/32127935/Publicidad_PRINCIPIOS_Y_PR%C3%81CTICA',
+      link:
+        'https://www.academia.edu/32127935/Publicidad_PRINCIPIOS_Y_PR%C3%81CTICA',
     },
   ],
   glosario: [
@@ -365,59 +343,77 @@ export default {
   ],
   complementario: [
     {
-      texto: 'Bedoya, E. (2018). Guía práctica del sistema de gestión de la seguridad y salud en el trabajo. Alfaomega.',
+      texto:
+        'Bedoya, E. (2018). Guía práctica del sistema de gestión de la seguridad y salud en el trabajo. Alfaomega.',
       tipo: 'Libro',
-      link: 'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/guia-practica-del-sistema-de-gestion-de-la-seguridad-y-salud-en-el-trabajo?location=9',
+      link:
+        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/guia-practica-del-sistema-de-gestion-de-la-seguridad-y-salud-en-el-trabajo?location=9',
     },
     {
-      texto: 'Beltrán, A., Melchor, M. y Álvarez, A. (2014). Percepción de los usuarios sobre la imagen corporativa y su relación con la identidad institucional. Universidad Autónoma de Occidente.',
+      texto:
+        'Beltrán, A., Melchor, M. y Álvarez, A. (2014). Percepción de los usuarios sobre la imagen corporativa y su relación con la identidad institucional. Universidad Autónoma de Occidente.',
       tipo: 'Articulo ',
-      link: 'https://www-digitaliapublishing-com.bdigital.sena.edu.co/visor/50977 ',
+      link:
+        'https://www-digitaliapublishing-com.bdigital.sena.edu.co/visor/50977 ',
     },
     {
-      texto: 'Chiavenato, I. (2020). Gestión del talento humano (5ª ed.). McGraw-Hill.',
+      texto:
+        'Chiavenato, I. (2020). Gestión del talento humano (5ª ed.). McGraw-Hill.',
       tipo: 'Libro',
       link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=9350&pg=1 ',
     },
     {
-      texto: 'Estrella, A., y Segovia, C. (2016). Comunicación integrada de marketing. ESIC.',
+      texto:
+        'Estrella, A., y Segovia, C. (2016). Comunicación integrada de marketing. ESIC.',
       tipo: 'Libro',
-      link: 'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/comunicacion-integrada-de-marketing?location=16',
+      link:
+        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/comunicacion-integrada-de-marketing?location=16',
     },
     {
       texto: 'García, J. (2016). Técnicas de diseño gráfico corporativo. CCEP.',
       tipo: 'Libro',
-      link: 'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/51090?page=1 ',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/51090?page=1 ',
     },
     {
-      texto: 'Kotler, P. y Armstrong, G. (2017). Marketing (16ª ed.). Pearson Educación.',
+      texto:
+        'Kotler, P. y Armstrong, G. (2017). Marketing (16ª ed.). Pearson Educación.',
       tipo: 'Libro',
       link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=4426&pg=1 ',
     },
     {
-      texto: 'Martínez, R. (2016). Servicio al cliente interno. Todos somos clientes y todos tenemos clientes. Ediciones de la U.',
+      texto:
+        'Martínez, R. (2016). Servicio al cliente interno. Todos somos clientes y todos tenemos clientes. Ediciones de la U.',
       tipo: 'Libro',
       link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=5746&pg=1 ',
     },
     {
-      texto: 'Ocampo, M. (2014) Comunicación Empresarial (2ª ed.). ECOE Ediciones.',
+      texto:
+        'Ocampo, M. (2014) Comunicación Empresarial (2ª ed.). ECOE Ediciones.',
       tipo: 'Libro',
-      link: 'https://www-digitaliapublishing-com.bdigital.sena.edu.co/visor/36923 ',
+      link:
+        'https://www-digitaliapublishing-com.bdigital.sena.edu.co/visor/36923 ',
     },
     {
-      texto: 'O’Guinn, T., Allen, C. y Semenik, R. (2013). Publicidad y promoción integral de marca (6ª ed.). Cengage Learning.',
+      texto:
+        'O’Guinn, T., Allen, C. y Semenik, R. (2013). Publicidad y promoción integral de marca (6ª ed.). Cengage Learning.',
       tipo: 'Libro',
-      link: 'https://www.academia.edu/36447090/Publicidad_y_Promoci%C3%B3n_Integral_de_Marca_Publicidad_y_Promoci%C3%B3n_Integral_de_Marca',
+      link:
+        'https://www.academia.edu/36447090/Publicidad_y_Promoci%C3%B3n_Integral_de_Marca_Publicidad_y_Promoci%C3%B3n_Integral_de_Marca',
     },
     {
-      texto: 'Pintado, M. (2013). Imagen corporativa : influencia en la gestión empresarial (2ª ed.). ESIC.',
+      texto:
+        'Pintado, M. (2013). Imagen corporativa : influencia en la gestión empresarial (2ª ed.). ESIC.',
       tipo: 'Libro',
-      link: 'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/imagen-corporativa?location=311',
+      link:
+        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/imagen-corporativa?location=311',
     },
     {
-      texto: 'Rueda, M. y Zambrano, M. (2018). Manual De Ergonomía Y Seguridad (2ª ed.). Alfaomega.',
+      texto:
+        'Rueda, M. y Zambrano, M. (2018). Manual De Ergonomía Y Seguridad (2ª ed.). Alfaomega.',
       tipo: 'Libro',
-      link: 'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/manual-de-ergonomia-y-seguridad-segunda-edicion-1?location=172',
+      link:
+        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/manual-de-ergonomia-y-seguridad-segunda-edicion-1?location=172',
     },
   ],
 }
