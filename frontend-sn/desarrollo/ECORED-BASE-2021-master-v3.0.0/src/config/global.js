@@ -41,7 +41,7 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema1',
+        nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Comunicación integral',
