@@ -1,10 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'Plan de comunicación integral',
+    componenteFormativo: 'Plan de merchandising',
     descripcionCurso:
-      'A través del componente, el aprendiz debe apropiar los elementos de entrada requeridos para la elaboración del plan de acción de endomarketing y el plan de comunicación integral para su idea de negocio o proyecto productivo.',
+      'A través de este componente formativo el aprendiz debe apropiar los elementos de entrada requeridos para la elaboración del plan de merchandising para su idea de negocio o proyecto productivo.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
     menu: [
@@ -23,53 +23,86 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Endomarketing',
+        titulo: 'Componentes',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Talento humano',
+            titulo: 'Evaluación y control.',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Manual corporativo',
+            titulo: 'Layout',
             hash: 't_1_2',
           },
-        ],
-      },
-      {
-        nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
-        numero: '2',
-        titulo: 'Comunicación integral',
-        desarrolloContenidos: true,
-        subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Plan de comunicación integral',
-            hash: 't_2_1',
+            numero: '1.3',
+            titulo: 'Planogramas y planimetría',
+            hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Verbatim',
-            hash: 't_2_2',
+            numero: '1.4',
+            titulo: 'Mobiliario comercial',
+            hash: 't_1_4',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Insight',
-            hash: 't_2_3',
+            numero: '1.5',
+            titulo: 'Estrategias de exhibición',
+            hash: 't_1_5',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Percepción',
-            hash: 't_2_4',
+            numero: '1.6',
+            titulo: 'Visual merchandising',
+            hash: 't_1_6',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.7',
+            titulo: 'Vitrinismo',
+            hash: 't_1_7',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.8',
+            titulo: 'Punto de venta',
+            hash: 't_1_8',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.9',
+            titulo: 'Marketing sensorial',
+            hash: 't_1_9',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.10',
+            titulo: 'Teoría del color',
+            hash: 't_1_10',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.11',
+            titulo: 'Comunicación comercial. Recursos de apoyo',
+            hash: 't_1_11',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.12',
+            titulo: 'Software de gestión en el punto de venta',
+            hash: 't_1_12',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.13',
+            titulo: 'Plan de exhibición',
+            hash: 't_1_13',
           },
         ],
       },
@@ -115,31 +148,18 @@ export default {
       centro: 'Centro de servicio empresariales y turísticos',
       regional: 'Regional Santander',
     },
-    contenidoInstruccional: [
-      {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor Pedagógico',
-        centro: 'Centro Industrial del Diseño y la Manufactura.',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: 'Uriel Darío González Montoya',
-        cargo: 'Acompañamiento pedagógico',
-        centro: 'Centro Agropecuario La Granja.',
-        regional: 'Regional Tolima',
-      },
-    ],
+    contenidoInstruccional: [{}],
     desarrolloProducto: [
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro: 'Centro para la Industria de la Comunicación Gráfica ',
+        regional: 'Regional Distrito Capital',
+      },
       {
         nombre: 'Alix Cecilia Chinchilla Rueda',
         cargo: 'Diseñadora instruccional',
         centro: 'Centro de Gestión Industrial',
-      },
-      {
-        nombre: 'Fabián Leonardo Correa Díaz',
-        cargo: 'Diseñador Instruccional',
-        centro: 'Centro agropecuario La Granja',
-        regional: 'Regional Tolima',
       },
     ],
     gestoresRepositorio: [
@@ -154,266 +174,281 @@ export default {
   referencias: [
     {
       referencia:
-        'Alard, J. y Monfort, A. (2018). Plan de comunicación on y off en la práctica. ESIC.',
-      link:
-        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/plan-de-comunicacion-on-y-off-en-la-practica-1?location=293',
-    },
-    {
-      referencia:
-        'Ayestarán, R., Rangel, C., & Morillas, A. (2012). Planificación estratégica y gestión de la publicidad: conectando con el consumidor. ESIC.',
+        'Best, R. (2007). Marketing estratégico. 4a. Ed. Pearson Prentice Hall. ',
       link: '',
     },
     {
       referencia:
-        'Bedoya, E. (2018). Guía práctica del sistema de gestión de la seguridad y salud en el trabajo. Alfaomega. ',
-      link:
-        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/guia-practica-del-sistema-de-gestion-de-la-seguridad-y-salud-en-el-trabajo?location=9',
-    },
-    {
-      referencia:
-        'Beltrán, A., Melchor, M. y Álvarez, A. (2014). Percepción de los usuarios sobre la imagen corporativa y su relación con la identidad institucional. Universidad Autónoma de Occidente.',
-      link:
-        'https://www-digitaliapublishing-com.bdigital.sena.edu.co/visor/50977',
-    },
-    {
-      referencia:
-        'Capriotti, P. (2009). Branding corporativo. Reed Business Education.',
-      link: 'http://www.analisisdemedios.com/branding/BrandingCorporativo.pdf',
-    },
-    {
-      referencia:
-        'Chiavenato, I. (2020). Gestión del talento humano (5ª ed.). McGraw-Hill.',
-      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=9350&pg=1',
-    },
-    {
-      referencia:
-        'Clow, K. y Baack, D. (2010). Publicidad, Promoción y Comunicación Integral en Marketing (4ª ed.). Pearson Educación.',
-      link: 'https://www.miconexionweb.com.mx/publicidad.pdf',
-    },
-    {
-      referencia:
-        'Estrella, A., y Segovia, C. (2016). Comunicación integrada de marketing. ESIC.',
-      link:
-        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/comunicacion-integrada-de-marketing?location=16',
-    },
-    {
-      referencia:
-        'García, J. (2016). Técnicas de diseño gráfico corporativo. CCEP.',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/51090?page=1',
-    },
-    {
-      referencia:
-        'Kotler, P. y Armstrong, G. (2017). Marketing (16ª ed.). Pearson Educación.',
-      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=4426&pg=1',
-    },
-    {
-      referencia:
-        'Martínez, R. (2016). Servicio al cliente interno. Todos somos clientes y todos tenemos clientes. Ediciones de la U',
-      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=5746&pg=1',
-    },
-    {
-      referencia:
-        'Ocampo, M. (2014) Comunicación Empresarial (2ª ed.). ECOE Ediciones.',
-      link:
-        'https://www-digitaliapublishing-com.bdigital.sena.edu.co/visor/36923',
-    },
-    {
-      referencia:
-        'O’Guinn, T., Allen, C. y Semenik, R. (2013). Publicidad y promoción integral de marca (6ª ed.). Cengage Learning.',
-      link:
-        'https://www.academia.edu/36447090/Publicidad_y_Promoci%C3%B3n_Integral_de_Marca_Publicidad_y_Promoci%C3%B3n_Integral_de_Marca',
-    },
-    {
-      referencia:
-        'Pintado, M. (2013). Imagen corporativa: influencia en la gestión empresarial (2ª ed.). ESIC.',
-      link:
-        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/imagen-corporativa?location=311',
-    },
-    {
-      referencia:
-        'Resolución 0312 de 2019. [Ministerio del Trabajo]. Por la cual se definen los Estándares Mínimos del Sistema de Gestión de la Seguridad y Salud en el Trabajo SG-SST. Febrero 13 de 2019',
-      link:
-        'https://www.arlsura.com/files/Resolucion_0312_de_2019_Estandares_Minimos.pdf',
-    },
-    {
-      referencia:
-        'Rueda, M. y Zambrano, M. (2018). Manual de ergonomía y seguridad (2ª ed.). Alfaomega.',
-      link:
-        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/manual-de-ergonomia-y-seguridad-segunda-edicion-1?location=172',
-    },
-    {
-      referencia:
-        'Schein, E. (1985). Organizational Culture and Leadership. Jossey-Bass Publishers.',
+        'Escrivá, J. (2005). Marketing en el punto de venta. McGraw-Hill.',
       link: '',
     },
     {
       referencia:
-        'Wells, W., Burnett, J., & Moriarty, S. (2007). Publicidad. Principios y práctica (7ª ed.). Pearson Educación.',
-      link:
-        'https://www.academia.edu/32127935/Publicidad_PRINCIPIOS_Y_PR%C3%81CTICA',
+        'Estrella, A. y Segovia, C. (2018). Comunicación integrada de marketing. ESIC Editorial.',
+      link: '',
+    },
+    {
+      referencia:
+        'Gianella, A. (2013). Visual merchandising o el amor a primera vista. Ediciones de la U. Coedición Editorial Nobuko.',
+      link: '',
+    },
+    {
+      referencia:
+        'Hoyos, R. (2016). Branding el arte de marcar corazones. Ecoe Ediciones.',
+      link: '',
+    },
+    {
+      referencia:
+        'Kerin, R. y Harley, S. (2018). 13a. Ed. Marketing. McGraw-Hill Interamericana.',
+      link: '',
+    },
+    {
+      referencia:
+        'Kotler, P. y Amstrong, G. (2017). 16a. Ed. Marketing. Pearson.',
+      link: '',
+    },
+    {
+      referencia:
+        'Manzano, R. y Gavilán, D. (2012). Marketing sensorial. Pearson Educación.',
+      link: '',
+    },
+    {
+      referencia: 'Martínez, H. (2018). El arte de seducir. Ecoe Ediciones.',
+      link: '',
+    },
+    {
+      referencia:
+        'Morgan, T. (2016). Visual merchandising. 3a. Ed. Editorial Gustavo Gili.',
+      link: '',
+    },
+    {
+      referencia:
+        'O´Guinn, T. (2013). Publicidad y promoción integral de marca. 6a. Ed. Cengage Learning.',
+      link: '',
+    },
+    {
+      referencia:
+        'Palomares, R. (2012). Marketing en el punto de venta. ESIC Editorial.',
+      link: '',
+    },
+    {
+      referencia:
+        'Prettel, G. (2016). Marketing, una herramienta para el crecimiento. Ediciones de la U.',
+      link: '',
+    },
+    {
+      referencia:
+        'Prieto, J. (2009). Merchandising. La seducción en el punto de venta. Ecoe Ediciones.',
+      link: '',
+    },
+    {
+      referencia:
+        'Prieto, J. (2018). Merchandising. La seducción en el punto de venta. 3a. Ed. Ecoe Ediciones.',
+      link: '',
+    },
+    {
+      referencia: 'Yate, A. (2012). Material POP. Ecoe Ediciones.',
+      link: '',
     },
   ],
   glosario: [
     {
-      termino: 'Agencia de publicidad/ advertising agency',
+      termino: 'AIDA',
       significado:
-        'Es una empresa especializada en prestar servicios publicitarios a los anunciantes. Los servicios básicos que presta una agencia, para ser reconocida como tal por las asociaciones y entidades calificadoras en la mayoría de los países, son: estrategia de comunicación, creatividad y planificación y compra de medios. Las agencias ofrecen, asimismo, servicios de producción gráfica y audiovisual, es decir, la realización de piezas publicitarias para todos los medios: televisión, cine, diarios, revistas, radio, vía pública, material de punto de venta y promocional, impresos, folletos, papelería, etc. Otros servicios habituales son: asesoramiento y/o realización en investigación de mercado, promoción, relaciones públicas e institucionales, marketing directo y de relación.',
+        'Técnica de amplio uso en merchandising, utilizada para producir un efecto en los clientes, cuya sigla significa atención, interés, deseo y acción.',
     },
     {
-      termino: 'Alcance / reach',
+      termino: 'BTL marketing',
       significado:
-        'El número total de hogares con TV o radio que reciben una o más transmisiones durante un período determinado, generalmente 4 semanas. Es sinónimo de audiencia acumulada o audiencia no duplicada. La recepción de una transmisión en un hogar, por ejemplo, dice de un número de hogares "reached" o alcanzados.',
+        'Mercadeo bajo la línea, es cualquier forma creativa, que es pagada para llegar al consumidor, que se enfoca en medios directos de comunicación: correo directo, e-mail y cualquier otra que utiliza listas bien segmentadas y escogidas de nombres para maximizar la respuesta. Es el nuevo nombre para "mercadeo directo"; en marketing, se refiere a otros gastos que no corresponden a la publicidad en medios, ni a la producción de la misma (correo directo, exposiciones, demostraciones, material del punto de venta).',
     },
     {
-      termino: 'Ambiente laboral',
+      termino: 'Campaña publicitaria',
       significado:
-        'Se refiere a las políticas de recursos humanos que afectan directamente a los empleados, tales como compensaciones y beneficios, proyección profesional, diversidad, balance trabajo-tiempo libre, horarios flexibles, programas de salud y bienestar, seguridad laboral, planes y beneficios para sus familias y dependientes.',
+        'Conjunto de mensajes publicitarios organizados para determinados medios publicitarios (prensa, radio, televisión, etc.) planificados en el tiempo para alcanzar unos objetivos determinados.',
     },
     {
-      termino: 'Anunciante',
+      termino: 'Diagramación',
       significado:
-        'Persona o empresa que desea colocar sus promociones en los soportes publicitarios.',
+        'Es un oficio del diseño editorial que se encarga de organizar en un espacio contenidos escritos, visuales y en algunos casos audiovisuales (multimedia) en medios impresos y electrónicos, como libros, diarios y revistas.',
     },
     {
-      termino: 'Asertividad',
+      termino: 'Layout',
       significado:
-        'Es aquella habilidad personal que nos permite expresar de forma adecuada nuestras emociones frente a otra persona, y lo hacemos sin hostilidad ni agresividad. Una persona asertiva sabe expresar directa y adecuadamente sus opiniones y sentimientos (tanto positivos como negativos) en cualquier situación social.',
+        'Es utilizado en el marketing para aludir al diseño o disposición de ciertos productos y servicios en sectores o posiciones en los puntos de venta, corresponde a un croquis, esquema, o bosquejo de distribución de las piezas o elementos que se encuentran dentro de un diseño en particular, con el fin de presentarle dicho esquema a un cliente para venderle la idea.',
     },
     {
-      termino: 'Bienestar laboral',
+      termino: 'Medios publicitarios',
       significado:
-        'Se define como el estado deseado por el grupo de personas que laboran en una organización. Este se logra por medio de planes, programas y proyectos que, a partir de la gestión, involucran elementos dinámicos que buscan mejorar la cotidianidad laboral y, a su vez, la condición personal, familiar y social.',
+        'Son los diferentes canales impersonales de comunicación, a través de los cuales pueden transmitirse los mensajes publicitarios.',
     },
     {
-      termino: 'Branding',
+      termino: 'Mensaje publicitario',
       significado:
-        'La práctica de crear prestigio y gran valor a un producto con apoyo de marketing; dicha marca puede estar asociada o no al nombre de la empresa. Generar y potenciar la imagen de marca. Cuando se coloca un banner en una página no solo se consiguen clics y ventas, sino que el anunciante está potenciando también su imagen de marca.',
+        'Conjunto de ideas que la empresa anunciante desea hacer llegar al público para conseguir sus objetivos.',
     },
     {
-      termino: 'Capacitación',
+      termino: 'Merchandising',
       significado:
-        'Es la adquisición de conocimientos técnicos, teóricos y prácticos que van a contribuir al desarrollo del individuo en el desempeño de una actividad. Se puede señalar, entonces, que el concepto capacitación es mucho más abarcador.',
+        'Técnicas utilizadas en el punto de venta para ganar rentabilidad y hacer atractivos los productos y el lugar de compra para los clientes, de tal forma que lo prefieran. Punto de encuentro entre el comercio y el marketing, que incluye toda actividad desarrollada en un punto de venta, que pretende reafirmar o cambiar la conducta de compra a favor de los artículos más rentables para el establecimiento. Los objetivos básicos del merchandising son: llamar la atención, dirigir al cliente hacia el producto y facilitar la acción de compra.',
     },
     {
-      termino: 'Cargo',
+      termino: 'Outlet',
       significado:
-        'Constituye el vínculo entre los individuos y la organización. En este escenario ingresa el departamento de Recursos Humanos, quienes ayudan a la organización a obtener y mantener una fuerza de trabajo idónea. Quienes trabajan en el departamento de Recursos Humanos deben poseer una comprensión profunda de los diseños de puestos para alcanzar los objetivos propuestos.',
+        'Formatos o establecimientos dedicados a vender productos que son remanentes de inventarios de reconocidas marcas a precios inferiores a los que generalmente se ofrecen.',
     },
     {
-      termino: 'Capital humano',
+      termino: 'Planimetría',
       significado:
-        'Es el valor resultante de la aportación de las personas a las organizaciones.',
+        'Técnica que permite la distribución proporcional de los productos en el punto de venta y las góndolas.',
     },
     {
-      termino: 'Clima organizacional',
+      termino: 'Promoción',
       significado:
-        'Se refiere al conjunto de propiedades medibles de un ambiente de trabajo, según son percibidas por quienes trabajan en él. Para las empresas, resulta importante medir y conocer el clima organizacional, ya que este puede impactar significativamente los resultados. Numerosos estudios han indicado que el clima organizacional puede hacer la diferencia entre una empresa de buen desempeño y otra de bajo desempeño.',
+        'Técnica cuyo objetivo es acercar el producto al consumidor.',
     },
     {
-      termino: 'Comunicación externa',
+      termino: 'Publicidad',
       significado:
-        'Transmisión de mensajes de la organización a públicos externos para mantener con estos una interacción con intenciones operativas, estratégicas, de difusión y de promoción de una buena imagen.',
+        'Es una de las subfunciones o actividades del marketing, que puede definirse como “un proceso de comunicación de carácter impersonal y controlado que, a través de medios masivos, pretende dar a conocer un producto, servicio, idea o institución, con objeto de informar e influir en su compra o aceptación”.',
     },
     {
-      termino: 'Comunicación interna',
+      termino: 'Puntos calientes',
       significado:
-        'Acciones comunicativas entre la organización y sus miembros, y entre ellos mismos, a favor de las buenas relaciones (interacciones rentables para la organización), a través de medios específicos para ello.',
+        'Zonas o áreas del punto de venta con gran acogida o donde los productos expuestos son superiores.',
     },
     {
-      termino: 'Formación',
+      termino: 'Puntos fríos',
       significado:
-        'El conjunto de reglas establecidas y exigidas, el trato que se da a los empleados, las entrevistas que con ellos se tenga, el ejemplo de sus jefes, etc., tienden siempre, del modo más sistemático que sea posible, a formar en aquellos hábitos de limpieza, de estabilidad emocional, de compañerismo, de aprecio por la negociación que los ha recibido, de atención, de iniciativa, de asiduidad y de cuidado.',
+        'Espacios dentro del punto de venta con baja rotación de productos.',
     },
     {
-      termino: 'Identidad corporativa',
+      termino: 'Stand',
       significado:
-        'Es la manifestación física de la marca. Hace referencia a los aspectos visuales de la identidad de una organización.',
+        'Es el espacio dentro de una feria o salón en el que una empresa expone y presenta sus productos o servicios. El stand es un espacio identificador de cada empresa en el que se acoge a los visitantes y se realizan negociaciones comerciales. La cantidad de superficie escogida en el recinto ferial depende en gran medida del presupuesto asignado, así como del tipo de producto o servicio que se quiere exponer y de los objetivos marcados para el evento. El stand debe constituir el espacio en que la empresa se presenta ante sus clientes y ante su competencia, por lo que debe reflejar fielmente su filosofía e imagen corporativa, constituyendo a su vez un entorno ameno y atractivo.',
     },
     {
-      termino: 'Reclutamiento de personal',
+      termino: 'Superficie de venta',
       significado:
-        'Es un conjunto de procedimientos orientado a atraer candidatos potencialmente calificados y capaces de ocupar cargos dentro de la empresa. Es, en esencia, un sistema de información, mediante el cual la empresa divulga y ofrece al mercado de recursos humanos las oportunidades de empleo que pretende llenar. Para ser eficaz, el reclutamiento debe atraer una cantidad de candidatos suficiente para abastecer de modo adecuado el proceso de selección.',
+        'Denominación que se utiliza para designar aquella parte de un establecimiento en la que las clientelas pueden moverse libremente para observar o tomar los productos que deseen adquirir. La superficie de venta comprende los escaparates, las vitrinas, las estanterías y los pasillos de circulación dentro del establecimiento.',
     },
     {
-      termino: 'Storyboard',
+      termino: 'Tienda espectáculo',
       significado:
-        'Presentación gráfica de las secuencias principales del spot y la locución que les acompañan. Se utiliza para materializar las ideas del departamento creativo y como material de presentación al cliente.',
+        'Es un lugar o punto de compra donde se le brindan a los consumidores o clientes diversas experiencias o sensaciones, (olores, colores, sonidos, etc.) y tiene relación directa o indirecta con la compra. Algunos autores la comparan con un teatro: la ambientación de la tienda es la escenografía, los empleados son los actores y la clientela son los espectadores.',
+    },
+    {
+      termino: 'Visual merchandising',
+      significado:
+        'Es la disciplina que estudia la relación existente entre el objeto, el contexto en que este se inserta y su imagen. Se aplica principalmente a los sectores de la moda y del diseño y, representa un punto de contacto interdisciplinar entre el comercio, los principios de la percepción visual y la psicología cognitiva. ',
+    },
+    {
+      termino: 'Vitrina',
+      significado:
+        'Parte de la fachada de un establecimiento de venta al público, que está cubierta con cristales para permitir ver los productos que se exponen en su interior. El escaparate es al mismo tiempo un lugar importante para la colocación de displays y otras formas publicitarias, influyendo de manera importante en la imagen del establecimiento.',
+    },
+    {
+      termino: 'Vitrinas al exterior del almacén',
+      significado:
+        'Son espacios que se encuentran en la fachada del almacén y que se pueden observar desde la vía pública.',
     },
   ],
   complementario: [
     {
+      texto: 'Best, R. (2007). Marketing estratégico. Pearson Prentice Hall.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=3408&pg=1 ',
+    },
+    {
+      texto: 'Escrivá, J. (2005). Marketing en el punto de venta. McGraw-Hill.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=4859&pg=1 ',
+    },
+    {
       texto:
-        'Bedoya, E. (2018). Guía práctica del sistema de gestión de la seguridad y salud en el trabajo. Alfaomega.',
+        'Estrella, A. y Segovia, C. (2018). Comunicación integrada de marketing. ESIC Editorial.',
       tipo: 'Libro',
       link:
-        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/guia-practica-del-sistema-de-gestion-de-la-seguridad-y-salud-en-el-trabajo?location=9',
+        'https://www-alfaomegacloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alfaomegacloud-com.bdigital.sena.edu.co/reader/comunicacion-integrada-de-marketing?location=1 ',
     },
     {
       texto:
-        'Beltrán, A., Melchor, M. y Álvarez, A. (2014). Percepción de los usuarios sobre la imagen corporativa y su relación con la identidad institucional. Universidad Autónoma de Occidente.',
-      tipo: 'Articulo ',
-      link:
-        'https://www-digitaliapublishing-com.bdigital.sena.edu.co/visor/50977 ',
-    },
-    {
-      texto:
-        'Chiavenato, I. (2020). Gestión del talento humano (5ª ed.). McGraw-Hill.',
-      tipo: 'Libro',
-      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=9350&pg=1 ',
-    },
-    {
-      texto:
-        'Estrella, A., y Segovia, C. (2016). Comunicación integrada de marketing. ESIC.',
+        'Gianella, A. (2013). Visual merchandising o el amor a primera vista. Ediciones de la U. coedición Editorial Nobuko.',
       tipo: 'Libro',
       link:
-        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/comunicacion-integrada-de-marketing?location=16',
-    },
-    {
-      texto: 'García, J. (2016). Técnicas de diseño gráfico corporativo. CCEP.',
-      tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/51090?page=1 ',
+        'http://www.digitaliapublishing.com.bdigital.sena.edu.co/visor/39597 ',
     },
     {
       texto:
-        'Kotler, P. y Armstrong, G. (2017). Marketing (16ª ed.). Pearson Educación.',
+        'Hoyos, R. (2016). Branding el arte de marcar corazones. Ecoe Ediciones.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=2769&pg=1 ',
+    },
+    {
+      texto:
+        'Kerin, R. y Harley, S. (2018). Marketing. McGraw-Hill Interamericana.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=6261&pg=1 ',
+    },
+    {
+      texto: 'Kotler, P. y Amstrong, G. (2017). Marketing. Pearson.',
       tipo: 'Libro',
       link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=4426&pg=1 ',
     },
     {
       texto:
-        'Martínez, R. (2016). Servicio al cliente interno. Todos somos clientes y todos tenemos clientes. Ediciones de la U.',
+        'Manzano, R. y Gavilán, D. (2012). Marketing sensorial. Pearson Educación.',
       tipo: 'Libro',
-      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=5746&pg=1 ',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=4530&pg=1',
+    },
+    {
+      texto: 'Martínez, H. (2018). El arte de seducir. Ecoe Ediciones.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=5955&pg=1 ',
+    },
+    {
+      texto: 'Morgan, T. (2016). Visual merchandising. Editorial Gustavo Gili.',
+      tipo: 'Libro',
+      link:
+        'https://ebookcentral-proquest-com.bdigital.sena.edu.co/lib/senavirtualsp/reader.action?docID=4536138&ppg=1 ',
     },
     {
       texto:
-        'Ocampo, M. (2014) Comunicación Empresarial (2ª ed.). ECOE Ediciones.',
+        'O´Guinn, T. (2013). Publicidad y promoción integral de marca. Cengage Learning.',
       tipo: 'Libro',
-      link:
-        'https://www-digitaliapublishing-com.bdigital.sena.edu.co/visor/36923 ',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=835&pg=1 ',
     },
     {
       texto:
-        'O’Guinn, T., Allen, C. y Semenik, R. (2013). Publicidad y promoción integral de marca (6ª ed.). Cengage Learning.',
+        'Palomares, R. (2012). Marketing en el punto de venta. ESIC Editorial.',
       tipo: 'Libro',
       link:
-        'https://www.academia.edu/36447090/Publicidad_y_Promoci%C3%B3n_Integral_de_Marca_Publicidad_y_Promoci%C3%B3n_Integral_de_Marca',
+        'https://ebookcentral-proquest-com.bdigital.sena.edu.co/lib/senavirtualsp/reader.action?docID=5885856&ppg=1',
     },
     {
       texto:
-        'Pintado, M. (2013). Imagen corporativa : influencia en la gestión empresarial (2ª ed.). ESIC.',
+        'Prettel, G. (2016). Marketing, una herramienta para el crecimiento. Ediciones de la U.',
       tipo: 'Libro',
-      link:
-        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/imagen-corporativa?location=311',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=5684&pg=1 ',
     },
     {
       texto:
-        'Rueda, M. y Zambrano, M. (2018). Manual De Ergonomía Y Seguridad (2ª ed.). Alfaomega.',
+        'Prieto, J. (2009). Merchandising. La seducción en el punto de venta. Ecoe Ediciones.',
       tipo: 'Libro',
       link:
-        'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/auth/ip?intended_url=https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/manual-de-ergonomia-y-seguridad-segunda-edicion-1?location=172',
+        'https://ebookcentral-proquest-com.bdigital.sena.edu.co/lib/senavirtualsp/reader.action?docID=3193614&ppg=1 ',
+    },
+    {
+      texto:
+        'Prieto, J. (2018). Merchandising. La seducción en el punto de venta. 3a. Ed. Ecoe Ediciones.',
+      tipo: 'Libro',
+      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=6439&pg=1 ',
+    },
+    {
+      texto: 'Yate, A. (2012). Material POP. Ecoe Ediciones.',
+      tipo: 'Libro',
+      link:
+        'http://www.digitaliapublishing.com.bdigital.sena.edu.co/visor/29998 ',
     },
   ],
 }

@@ -1,1 +1,1 @@
-module.exports = 'Plan de comunicación integral'
+module.exports = 'Plan de merchandising'
