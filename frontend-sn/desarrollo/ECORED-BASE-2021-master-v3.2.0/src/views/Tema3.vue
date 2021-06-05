@@ -167,19 +167,132 @@
       div(titulo="Presentaciones digitales")
         figure.mb-4
           img(src="@/assets/template/tema-3-5.png", alt="Texto que describa la imagen")
+        p.mb-4 Las presentaciones digitales son productos multimedia, realizados en computador, que contienen diapositivas (slide) con información relevante de un tema en particular.
+        p.mb-4 Casi siempre una presentación es un documento en el cual se debe incluir mucha información; por este motivo, es preciso definir la información más relevante a presentar, la cual debe ser clara y concisa, utilizando la menor cantidad de textos, e integrando otros recursos como imágenes, fotografías, esquemas, videos, entre otros.
+        p.mb-4 La presentación se ayuda de una guía o índice para seguir un orden estipulado, el cual requiere de un trabajo previo de investigación, en donde todos los datos deben ser concretos, claros y verídicos, ya que por lo general su desarrollo se enmarca especialmente en el área laboral y académica. Un ejemplo son las presentaciones que se realizan para una exposición, utilizando el programa PowerPoint. 
+        p.mb-4 Un elemento clave en el desarrollo de las presentaciones es la parte visual, fotografías, imágenes y videos que permiten complementar el contenido y motivan al espectador frente al tema que se está desarrollando; la comunicación multimedia ayuda a la organización de todos los componentes que conforman la presentación para facilitar su navegación y posterior divulgación, la integración de sonido conecta al participante con el contexto general de la misma. 
       div(titulo="Catálogos")
         figure.mb-4
           img(src="@/assets/template/tema-3-6.png", alt="Texto que describa la imagen")
+        p.mb-4 El catálogo es una pieza netamente comercial que utilizan las empresas para dar a conocer sus productos, bienes o servicios y con ello generar ventas. Esta pieza depende de la calidad de la imagen ya que los productos mostrados no se pueden medir, probar o tocar, solo se pueden mirar.  Los catálogos de ventas electrónicos son elementos de marketing directo muy utilizados, pues ahorran a las empresas millones de pesos en publicidad y ayudan con el cuidado del medio ambiente.
+        p.mb-3 Las características principales para que esta pieza gráfica funcione de manera eficaz y adecuada son:
+        .row
+          .col-sm.mb-5.mb-sm-0
+            ul.lista-ul
+              li.mb-0.d-block
+                .row
+                  .col-1.text-align-right.p-0
+                    i.fas.fa-angle-right.color-c.text-center
+                  .col-11
+                    p.mb-2 La practicidad: un catálogo debe ser práctico, con poco texto y muchas imágenes de alta calidad que sean llamativas para que el usuario pueda observar, comparar y decidir su compra.
+              li.mb-0.d-block
+                .row
+                  .col-1.text-align-right.p-0
+                    i.fas.fa-angle-right.color-c.text-center
+                  .col-11
+                    p.mb-2 Debe incluir una breve descripción de los productos, bienes o servicios que se ofertan, tiempos de entrega, promociones, cambios, devoluciones y garantías. 
+              li.mb-0.d-block
+                .row
+                  .col-1.text-align-right.p-0
+                    i.fas.fa-angle-right.color-c.text-center
+                  .col-11
+                    p.mb-2 El catálogo debe tener un diferencial, ya que hoy en día existen muchas empresas que compiten por este mercado. 
+              li.mb-0.d-block
+                .row
+                  .col-1.text-align-right.p-0
+                    i.fas.fa-angle-right.color-c.text-center
+                  .col-11
+                    p.mb-2 El catálogo digital puede tener una extensión mayor a la versión física, debido a las ventajas que ofrecen los dispositivos de salida. 
+              li.mb-0.d-block
+                .row
+                  .col-1.text-align-right.p-0
+                    i.fas.fa-angle-right.color-c.text-center
+                  .col-11
+                    p.mb-2 Este tipo de formatos pueden incrementar el tráfico de cualquier sitio web, por sus facilidades de conexión, interactividad, pago y experiencia.
       div(titulo="E-card") 
         figure.mb-4
           img(src="@/assets/template/tema-3-7.png", alt="Texto que describa la imagen")
+        p.mb-4 Ecard, o tarjeta virtual, hace referencia a una pieza gráfica principalmente utilizada hoy en día por grandes empresas de redes sociales dentro de sus contenidos; es un formato actual, estructurado y llamativo para el usuario, que se distribuye y consume de manera rápida.
+        p.mb-3 La eficiencia de los diseños en la web, incluyen las siguientes características:
+        .row
+          .col-sm.mb-5.mb-sm-0
+            ul.lista-ul
+              li.mb-0.d-block
+                .row
+                  .col-1.text-align-right.p-0
+                    i.fas.fa-angle-right.color-c.text-center
+                  .col-11
+                    p.mb-2 Las tarjetas se pueden dar la vuelta para mostrar aún más contenido.
+              li.mb-0.d-block
+                .row
+                  .col-1.text-align-right.p-0
+                    i.fas.fa-angle-right.color-c.text-center
+                  .col-11
+                    p.mb-2 Se pueden doblar para resumir y desdoblar para desarrollar la información.
+              li.mb-0.d-block
+                .row
+                  .col-1.text-align-right.p-0
+                    i.fas.fa-angle-right.color-c.text-center
+                  .col-11
+                    p.mb-2 Al apilarlas se ahorra espacio; se pueden agrupar y/o desplegar para ser utilizadas en el momento en el que sean requeridas.
+    p.mb-4 La funcionalidad de este tipo de diseño es limitada. Por tanto, no es una buena idea para la promoción y/o venta de un amplio catálogo de productos, por ejemplo. Sin embargo, representa una forma actualizada a las necesidades del usuario en línea y su tendencia al uso de dispositivos móviles. 
+    p.mb-4 Se puede aprovechar su uso, si el contenido a promocionar cuenta con alguna(s) de las siguientes características:
+    .row.mb-4
+      .col-sm.mb-5.mb-sm-0
+        ul.lista-ul
+          li.mb-0.d-block
+            .row
+              .col-1.text-align-right.p-0
+                i.fas.fa-angle-right.color-c.text-center
+              .col-11
+                p.mb-2 Si es una especie de colección que cuenta con diversos contenidos multimedia.
+          li.mb-0.d-block
+            .row
+              .col-1.text-align-right.p-0
+                i.fas.fa-angle-right.color-c.text-center
+              .col-11
+                p.mb-2 Si soporta contenido de amplitud variable e interacción en línea, como una sección de comentarios o botones de enlace hacia redes sociales.
+          li.mb-0.d-block
+            .row
+              .col-1.text-align-right.p-0
+                i.fas.fa-angle-right.color-c.text-center
+              .col-11
+                p.mb-2 Si el contenido condensa información clave junto con imágenes de alta resolución para hacer la navegación más dinámica y fluida.
+    p.mb-4 Al igual que el consumidor promedio, el usuario de un sitio web no pretende únicamente encontrarse con opciones de productos, sino que, de manera inconsciente, busca involucrarse emocionalmente con estos. Entonces, englobando esto, en un concepto simple y de gran utilidad en la web, se puede decir que las emociones se comparten para que los productos sean consumidos.
+    p.mb-5 Siendo así, las tarjetas representan un excelente vínculo de interacción entre el usuario y el sitio web; desde su práctico diseño rectangular, hasta su portabilidad y fácil distribución, el diseño web de tarjetas es sin duda un estilo vanguardista y de gran utilidad informativa #[strong (Puente, 2015).]
+    .h4.mb-4 Formatos
+    p.mb-5 Existen diversos formatos en el uso y compresión de imágenes, estos son los más utilizados en la industria: 
+    SlyderB.mb-5(:datos="datosSlyder")
+
+
+
+
 </template>
 
 <script>
 export default {
   name: 'Tema3',
   data: () => ({
-    // variables de vue
+    datosSlyder: [
+      {
+        titulo: 'JPG',
+        texto:
+          'Es el formato más conocido y utilizado para la compresión de imágenes de alta calidad, como imágenes captadas por fotógrafos. Las imágenes que son constantemente editadas en su tamaño, van a tener una pérdida de calidad acumulativa. ',
+        imagen: require('@/assets/template/tema-3-8.png'),
+      },
+      {
+        titulo: 'GIF',
+        texto:
+          'Este tipo de formato es muy utilizado en animaciones de poco peso. Son empleados por sus características principalmente en redes sociales, ya que comunican de manera rápida y asertiva diversos tipos de sentimientos. ',
+        imagen: require('@/assets/template/tema-3-9.png'),
+      },
+      {
+        titulo: 'PNG',
+        texto:
+          'Este tipo de formato permite el uso y manejo de transparencias, por lo cual es muy utilizado en internet.',
+        imagen: require('@/assets/template/tema-3-10.svg'),
+      },
+    ],
   }),
 }
 </script>
