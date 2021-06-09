@@ -80,7 +80,8 @@
       figure.mt-3.mb-2
         img(src="@/assets/template/tema-2-9.png", alt="Texto que describa la imagen")
     figcaption Referencia SENA
-
+    p.mt-4 Otros formatos que puede encontrar son: mobi, oeb, opf, prc, rtf. Sobre los cuales se recomienda su consulta; en el material complementario, encontrará información adicional para profundizar en el tema. 
+    
 
 </template>
 
