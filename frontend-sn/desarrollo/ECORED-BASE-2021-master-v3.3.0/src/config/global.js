@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Bocetado y modelado digital',
+    componenteFormativo: 'Conceptos generales de bases de datos',
     descripcionCurso:
-      'Este módulo tiene como objetivo guiar al estudiante en el desarrollo de habilidades y destrezas para la creación de gemelos digitales mediante el conocimiento y la aplicación del sistema CAD NX. ',
+      'En la sociedad de la información es imprescindible el empleo de tecnología, técnicas y procedimientos que, a lo largo de las últimas décadas, han consolidado un marco conceptual importante y necesario en todo proceso de administración de datos, por eso, este componente acerca estos conceptos de manera estructurada para avanzar en los procesos de gestión de la información.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
