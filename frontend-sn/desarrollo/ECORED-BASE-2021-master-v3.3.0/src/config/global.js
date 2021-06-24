@@ -23,26 +23,32 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Conceptos básicos del sistema',
+        titulo: 'Conceptos generales de bases de datos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Interfaz',
+            titulo: 'Tipos de datos y restricción de no nulidad',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Capas',
+            titulo: 'Tipos de bases de datos',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Sistemas de coordenadas',
+            titulo: 'Clasificación de bases de datos',
             hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Sistema de gestión de bases de datos',
+            hash: 't_1_4',
           },
         ],
       },
@@ -50,15 +56,74 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Croquizado en 2D',
+        titulo: 'Modelo entidad relación',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Relaciones entre entidades',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Relaciones de uno a muchos',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Relaciones de un uno a muchos',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Relaciones de uno a uno',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Modelado en 3D',
+        titulo: 'Normalización',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Dependencias funcionales',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Diseño relacional',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Reglas de integridad',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo:
+              'Lenguajes de los sistemas administradores de bases de datos',
+            hash: 't_3_4',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Sistema gestor de base de datos',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -99,175 +164,67 @@ export default {
   },
   referencias: [
     {
-      referencia: 'Alcrudo. J. (s.f). Formación NX CAD básico. Academia.edu. ',
-      link: 'https://www.academia.edu/29809639/FORMACION_NX_CAD_BASICO',
+      referencia: 'Asale y RAE. (2021). Diccionario de la lengua española. ',
+      link: 'https://dle.rae.es/base#CiiosqO ',
     },
     {
       referencia:
-        'd3plus, (2018, julio 16). Tutorial básico introductorio a modelado CAD NX 10. [Video]. YouTube.',
-      link: 'https://youtu.be/iGTENoC7ryg ',
+        'Kyocera. (2021). Conceptos sobre base de datos orientada a objetos. Kyocera.',
+      link: 'https://rb.gy/5deqdh ',
     },
     {
       referencia:
-        'Dep Fab Mecanica Marianao, (2019, noviembre 20). NX Curso drawing y acotado FMC0 M01. [Video]. YouTube',
-      link: 'https://youtu.be/pFcMlBL5Ps0 ',
+        'López, J. C. (2009). Algoritmos y programación (guía para docentes). Eduteka  ',
+      link: 'http://eduteka.icesi.edu.co/articulos/GuiaAlgoritmos ',
     },
     {
       referencia:
-        'Domínguez. J. (2018). Siemens NX 12.0 for Designers (11a ed.) Sham tickoo. ',
-      link: '',
-    },
-    {
-      referencia:
-        'Inge Lui, (2020, mayo 11). Unidad 2 ensambles utilizando NX. [Video]. YouTube. ',
-      link: 'https://youtu.be/J5h38RBj_hI',
-    },
-    {
-      referencia:
-        'Leu. M., Tao. W., Ghazanfari. A. y Kolan. K., (s.f). NX12 for Engineering Desing. Missouri University of Science and Technology',
+        'Silberschatz, A., Korth, H. F., Sudarshan, S., Pérez, F. S., Santiago, A. I., y Sánchez, A. V. (2006). Fundamentos de bases de datos. McGrawHill',
       link:
-        'https://me5763.github.io/lab/assets/books/NX-12-for-Engineering-Design.pdf',
+        'http://ceneval.isi.uson.mx/CENEVAL/4Implantacion%20de%20infraestructura/Fundamentos%20de%20base%20de%20datos.pdf',
     },
     {
       referencia:
-        'Mundo tutorial, (2017, octubre 10). Siemens NX. Pieza 3D. Tutorial. [Video]. YouTube. ',
-      link: 'https://youtu.be/UeJ1Yegal9E ',
+        'Resnick, M. (2007). Sembrando las semillas para una sociedad más creativa. Laboratorio de medios de MIT, Massachussets. Eduteka.',
+      link: 'http://www.eduteka.org/ScratchResnickCreatividad.php',
     },
     {
-      referencia: 'Siemens. (2020). Documentación didáctica.',
+      referencia:
+        'Microsoft. (2021). Descripción de normalización de base de datos. Microsoft.',
       link:
-        'https://new.siemens.com/es/es/productos/automatizacion/sce/documentacion-didactica.html',
-    },
-    {
-      referencia: 'Tao, W. (s.f). NX 12 for Engineering Design. Academia.edu',
-      link: 'https://www.academia.edu/37546347/NX_12_for_Engineering_Design',
+        'https://docs.microsoft.com/es-es/office/troubleshoot/access/database-normalization-description ',
     },
   ],
   glosario: [
     {
-      termino: 'Agujero',
+      termino: 'Base datos',
       significado:
-        'Crea una cavidad a uno o más cuerpos sólidos en una pieza o ensamble, con opciones de abocardado, avellanado o roscado.  ',
+        'Conjunto ordenado y finito de operaciones que permite hallar la solución de un problema.',
     },
     {
-      termino: 'CAD',
+      termino: 'Metadatos',
       significado:
-        'El diseño asistido por ordenador (CAD) consiste en el uso de programas de ordenador para crear, modificar, analizar y documentar representaciones gráficas en 2D o 3D de objetos físicos.',
+        'Conjunto unitario de instrucciones que permite a una computadora realizar funciones diversas, como el tratamiento de textos, el diseño de gráficos, la resolución de problemas matemáticos, el manejo de bancos de datos.',
     },
     {
-      termino: 'CAD CAM',
+      termino: 'Diccionario de datos',
       significado:
-        'CAD CAM es la integración del diseño asistido por ordenador y el software de fabricación asistido por ordenador, con el objetivo de obtener una gestión de los cambios del diseño sencillo, una concepción del diseño simultánea y una configuración del proceso de fabricación flexible, especialmente para el diseño y la fabricación de prototipos y de piezas acabadas.',
-    },
-    {
-      termino: 'Cascara ',
-      significado:
-        'Creación de un vaciado, especificando un espesor de pared, para crear una cavidad.',
-    },
-    {
-      termino: 'Chaflán ',
-      significado: 'Bisel generado en las aristas de un sólido.',
-    },
-    {
-      termino: 'Croquis',
-      significado:
-        'El croquis es un conjunto definido de curvas bidimensionales y puntos que se encuentra en un plano o ruta específico.',
-    },
-    {
-      termino: 'Desmoldeo ',
-      significado:
-        'Creación de un ángulo de salida sobre la cara de un sólido.',
-    },
-    {
-      termino: 'Extrusión ',
-      significado:
-        'Operación que crea un cuerpo sólido o laminar al seleccionar una sección de curvas, bordes, caras, croquis o figuras de curvas.',
-    },
-    {
-      termino: 'Figura de simetría',
-      significado:
-        'Creación de una copia simétrica de una operación tomado un plano de referencia.',
-    },
-    {
-      termino: 'Gemelo Digital',
-      significado:
-        'Un gemelo digital es una representación virtual de un producto o proceso físico que se utiliza para comprender y predecir las características de rendimiento de su equivalente físico. Los gemelos digitales se utilizan a lo largo de todo el ciclo de vida del producto para simular, predecir y optimizar el producto y el sistema de producción antes de invertir en prototipos y activos físicos.',
-    },
-    {
-      termino: 'NX',
-      significado:
-        'El software NX es una solución integrada de diseño, ingeniería y fabricación de productos que le ayuda a ofrecer productos innovadores de forma más rápida y eficiente.',
-    },
-    {
-      termino: 'Patrón de figura',
-      significado:
-        'Creación de una copia de una o más operaciones en forma de matriz lineal, circular o poligonal.',
-    },
-    {
-      termino: 'Redondeo',
-      significado:
-        'Creación de un filete curvo entre caras aristas de un sólido. ',
-    },
-    {
-      termino: 'Revolución ',
-      significado:
-        'Operación que crea un sólido a partir de la rotación de una curva o croquis alrededor de un eje.',
+        'Conjunto de programas, instrucciones y reglas informáticas para ejecutar ciertas tareas en una computadora.',
     },
   ],
   complementario: [
     {
-      texto: 'Alcrudo. J. (s.f). Formación NX CAD básico. Academia.edu.',
-      tipo: 'Capítulo de libro',
-      link: 'https://www.academia.edu/29809639/FORMACION_NX_CAD_BASICO ',
-    },
-    {
-      texto: 'Tao, W. (s.f). NX 12 for Engineering Design. Academia.edu.',
-      tipo: 'Libro',
-      link: 'https://www.academia.edu/37546347/NX_12_for_Engineering_Design ',
+      texto:
+        'Espinosa, A. P. (16 de noviembre de 2014). L6 1 Nociones y modelos de bases de datos. [Video] YouTube.',
+      tipo: 'Vídeo',
+      link: 'https://www.youtube.com/watch?v=pPATLxijDfw',
     },
     {
       texto:
-        'Dep Fab Mecanica Marianao, (2019, noviembre 20). NX Curso drawing y acotado FMC0 M01. [Video]. YouTube.',
-      tipo: 'Video',
-      link: 'https://youtu.be/pFcMlBL5Ps0 ',
-    },
-    {
-      texto:
-        'Domínguez. J., (2018). Siemens NX 12.0 para diseñadores (11a edición) Sham tickoo. Academia.edu.',
-      tipo: 'Presentación',
+        'Silberschatz, A., Korth, H. F., Sudarshan, S., Pérez, F. S., Santiago, A. I., y Sánchez, A. V. (2006). Fundamentos de bases de datos. McGrawHill.',
+      tipo: 'PDF',
       link:
-        'https://www.academia.edu/44135303/Siemens_NX_12_0_for_Designers_11th_Edition_Sham_tickoo ',
-    },
-    {
-      texto:
-        'Inge Lui, (2020, mayo 11). Unidad 2 ensambles utilizando NX. [Video]. YouTube',
-      tipo: 'Video',
-      link: 'https://youtu.be/J5h38RBj_hI ',
-    },
-    {
-      texto:
-        'Leu. M., Tao. W., Ghazanfari. A. y Kolan. K., (s.f). NX12 for Engineering Desing. Missouri University of Science and Technology.',
-      tipo: 'Capítulo de libro',
-      link:
-        'https://me5763.github.io/lab/assets/books/NX-12-for-Engineering-Design.pdf',
-    },
-    {
-      texto:
-        'Mundo tutorial, (2017, octubre 10). Siemens NX. Pieza 3D. Tutorial. [Video]. YouTube.',
-      tipo: 'Video',
-      link: 'https://youtu.be/UeJ1Yegal9E ',
-    },
-    {
-      texto: 'Siemens. (2020). Documentación didáctica. ',
-      tipo: 'Página web',
-      link:
-        'https://new.siemens.com/es/es/productos/automatizacion/sce/documentacion-didactica.html ',
-    },
-    {
-      texto:
-        'd3plus, (2018, julio 16). Tutorial básico introductorio a modelado CAD NX 10. [Video]. YouTube.',
-      tipo: 'Video',
-      link: 'https://youtu.be/iGTENoC7ryg ',
+        'http://ceneval.isi.uson.mx/CENEVAL/4Implantacion%20de%20infraestructura/Fundamentos%20de%20base%20de%20datos.pdf ',
     },
   ],
   creditos: {
@@ -279,32 +236,28 @@ export default {
     },
     contenidoInstruccional: [
       {
-        nombre: 'Oscar Riveros',
+        nombre: 'Henry Eduardo Bastidas Paruma',
         cargo: 'Experto Temático',
-        centro: 'Centro Diseño y Metrología',
+        centro: 'Centro de teleinformática y producción industrial',
+        regional: 'Regional Cauca',
       },
       {
-        nombre: 'José Eduardo Chaves Peña',
+        nombre: 'Peter Emerson Pinchao Solís',
         cargo: 'Experto Temático',
-        centro: 'Centro de Diseño Tecnológico Industrial',
-      },
-      {
-        nombre: 'Carlos Andrés Ossa Jiménez',
-        cargo: 'Experto Temático',
-        centro: 'Centro de Diseño Tecnológico Industrial',
+        centro: 'Centro de teleinformática y producción industrial',
+        regional: 'Regional Cauca',
       },
     ],
     desarrolloProducto: [
       {
-        nombre: 'Miroslava González Hernández',
-        cargo: 'Diseñador y evaluador instruccional',
+        nombre: 'Oscar Absalón Guevara',
+        cargo: 'Diseñador instruccional',
         centro: 'Centro Gestión Industrial.',
-        regional: 'Regional Distrito Capital. ',
       },
       {
-        nombre: 'Carolina Coca Salazar',
-        cargo: 'Diseñadora Instruccional',
-        centro: 'Centro de Diseño y Metrología',
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro: 'Centro de la Industria de la Comunicación Gráfica',
         regional: 'Regional Distrito Capital.',
       },
     ],
