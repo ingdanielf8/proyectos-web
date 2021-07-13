@@ -5,13 +5,13 @@
   
     .titulo-principal
       .titulo-principal__numero
-        .h3
+        span
           i.fas.fa-info
-      .h3 Introducción
+      h1 Introducción
     
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/uwnwcwmo26I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 </template>
 
 <script>
@@ -24,8 +24,5 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.bg-amarillo-claro
-  background-color: #FFFBEF
-.rounded
-  border-radius: 18px
+.introduccion
 </style>

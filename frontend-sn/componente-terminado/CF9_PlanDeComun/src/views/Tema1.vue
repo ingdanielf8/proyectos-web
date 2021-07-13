@@ -4,9 +4,8 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal
       .titulo-principal__numero
-        .h3
-          i.title-num 1
-      .h3 Endomarketing
+        span 1
+      h1 Endomarketing
     figure
       img(src="@/assets/template/tema-1-1.svg", alt="Texto que describa la imagen")
     p.mt-5 El ambiente interno de la empresa es donde suelen suceder, antes que en otros escenarios, las propias estrategias de marketing. 
@@ -15,19 +14,11 @@
         .row
           .col-md-6.mb-4.mb-md-0
             .h4 Planes de mercadeo
-            p En la formulación de planes de mercadeo, se tienen en cuenta los diferentes grupos presentes en la compañía, como la alta dirección, finanzas, investigación y desarrollo, compras, operaciones, recursos humanos y contabilidad. Todos estos grupos interrelacionados conforman el ambiente interno. Por ejemplo, la alta dirección establece la misión, los objetivos, las estrategias generales y las políticas de la empresa, y el área de marketing toma decisiones de acuerdo con las estrategias y los planes diseñados, trabajando en conjunto para la comprensión de las necesidades de los clientes y la creación de valor #[strong (Kotler y Armstrong, 2017).]
+            p En la formulación de planes de mercadeo, se tienen en cuenta los diferentes grupos presentes en la compañía, como la alta dirección, finanzas, investigación y desarrollo, compras, operaciones, recursos humanos y contabilidad. Todos estos grupos interrelacionados conforman el ambiente interno. Por ejemplo, la alta dirección establece la misión, los objetivos, las estrategias generales y las políticas de la empresa, y el área de marketing toma decisiones de acuerdo con las estrategias y los planes diseñados, trabajando en conjunto para la comprensión de las necesidades de los clientes y la creación de valor. #[strong (Kotler y Armstrong, 2017).]
           .col-md-6.justify-content-center.align-self-center
             figure
               img(src='@/assets/template/tema-1-5.png', alt='Texto que describa la imagen') 
       .py-4.py-md-5(titulo="El endomarketing, o marketing interno" :icono="require('@/assets/template/tema-1-3.svg')")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            .h4 El endomarketing y las ventas
-            p El endomarketing para el área de las ventas se representa en la fuerza de venta externa e interna. Los vendedores externos se desplazan para visitar a los clientes, mientras que los vendedores internos realizan negocios desde su oficina por medio del teléfono, mediante interacciones en línea en social media o, bien, reciben visitas de compradores potenciales. Las ventas internas se han incrementado por el auge de las tecnologías en línea, móviles y de social media. Algunos vendedores internos apoyan a la fuerza de ventas externa, lo que permite a esta última dedicar más tiempo a fomentar las labores de ventas con cuentas grandes y a encontrar nuevos clientes. El vendedor interno proporciona acceso y apoyo cotidiano, mientras que el externo ofrece colaboración cara a cara y entabla relaciones #[strong (Kotler y Armstrong, 2017).]
-          .col-md-6.justify-content-center.align-self-center
-            figure
-              img(src='@/assets/template/tema-1-6.png', alt='Texto que describa la imagen')
-      .py-4.py-md-5(titulo="El endomarketing, o marketing interno" :icono="require('@/assets/template/tema-1-4.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             .h4 El endomarketing, o marketing interno
@@ -35,6 +26,14 @@
           .col-md-6.justify-content-center.align-self-center
             figure
               img(src='@/assets/template/tema-1-7.png', alt='Texto que describa la imagen')
+      .py-4.py-md-5(titulo="El endomarketing y las ventas" :icono="require('@/assets/template/tema-1-4.svg')")
+        .row
+          .col-md-6.mb-4.mb-md-0
+            .h4 El endomarketing y las ventas
+            p El endomarketing para el área de las ventas se representa en la fuerza de venta externa e interna. Los vendedores externos se desplazan para visitar a los clientes, mientras que los vendedores internos realizan negocios desde su oficina por medio del teléfono, mediante interacciones en línea en social media o, bien, reciben visitas de compradores potenciales. Las ventas internas se han incrementado por el auge de las tecnologías en línea, móviles y de social media. Algunos vendedores internos apoyan a la fuerza de ventas externa, lo que permite a esta última dedicar más tiempo a fomentar las labores de ventas con cuentas grandes y a encontrar nuevos clientes. El vendedor interno proporciona acceso y apoyo cotidiano, mientras que el externo ofrece colaboración cara a cara y entabla relaciones. #[strong (Kotler y Armstrong, 2017).]
+          .col-md-6.justify-content-center.align-self-center
+            figure
+              img(src='@/assets/template/tema-1-6.png', alt='Texto que describa la imagen')
 
     .titulo-segundo.mt-5
       #t_1_1.h4 1.1  Talento humano
@@ -48,7 +47,7 @@
     .row
       .col-12.bg-gris.p-5.text-align-center
         figure
-          img(src='@/assets/template/tema-1-9.png', alt='Texto que describa la imagen').w-75
+          img(src='@/assets/template/tema-1-9.svg', alt='Texto que describa la imagen').w-75
       figcaption Referencia SENA
     p.mt-5 #[strong Chiavenato (2020)] menciona los aspectos fundamentales en la administración moderna para la gestión del talento humano.    
     AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
@@ -70,7 +69,7 @@
             img(src="@/assets/template/tema-1-12.png", alt="Texto que describa la imagen")
         .col-12.col-md-8
           p Capaces de conducirla a la excelencia y al éxito. Como asociadas, las personas hacen inversiones en la organización (esfuerzo, dedicación, responsabilidad, compromiso, riesgos, etc.), con la esperanza de obtener rendimientos de esas inversiones, por medio de salarios, incentivos económicos, crecimiento profesional, satisfacción, desarrollo de carrera, etc. Toda inversión solo se justifica si produce un rendimiento razonable. En la medida en que el rendimiento sea bueno y sustentable, la tendencia ciertamente será hacia mantener o aumentar la inversión. De ahí el carácter de reciprocidad en la interacción entre las personas y las organizaciones. También es el carácter de la acción y la autonomía de las personas, y ya no de su pasividad e inercia.
-      .row(titulo="Las personas como talentos proveedores de competencias")
+      .row(titulo="Las personas como talentos proveedores de competencias:")
         .col-3.d-none.d-md-block
           figure.mb-2
             img(src="@/assets/template/tema-1-13.png", alt="Texto que describa la imagen")
@@ -118,17 +117,18 @@
                   .lista-ol--cuadro__vineta
                     span.text-white 8
                   | Construir la mejor empresa y el mejor equipo.
-    .h5.mt-5 1.1.1 Clientes internos.
+    .h5.mt-5 Clientes internos
     .row.mt-5
       .col
-        .cajon.color-acento-botones.p-4.mb-4.bg-amarillo-claro
+        .cajon.color-acento-botones.p-4.mb-4(style='background-color: rgba(255, 217, 71, 0.25) ;')
+        
           .row
             .col-md-4
               figure
                 img(src='@/assets/template/tema-1-15.png', alt='Texto que describa la imagen')
             .col-md-8
               p Tradicionalmente, se escucha la palabra “cliente” para referirse a las personas naturales o jurídicas que adquieren ciertos bienes o servicios. Dentro de las denominaciones más conocidas se destacan: consumidor, comprador, paciente, usuario, estudiante, pasajero, entre otras. Estos, por quienes las empresas invierten recursos para la satisfacción de sus necesidades y expectativas, son conocidos como “clientes externos” de las empresas, en ocasiones, con detrimento de la satisfacción del capital humano –cliente interno–, considerado a través de la historia como el activo número uno de la organización. 
-    p.mt-5 Todas las personas dentro de la compañía que intervienen en procesos generadores de resultados, como productos o servicios entregados a los clientes externos, conforman los “clientes internos”. Son las personas que laboran en la organización, que tienen necesidades y expectativas por satisfacer en el interior de la compañía, a través de productos o de servicios que se proveen mediante diferentes medios y procesos #[strong (Martínez, 2016).] 
+    p.mt-5 Todas las personas dentro de la compañía que intervienen en procesos generadores de resultados, como productos o servicios entregados a los clientes externos, conforman los #[strong “clientes internos”]. Son las personas que laboran en la organización, que tienen necesidades y expectativas por satisfacer en el interior de la compañía, a través de productos o de servicios que se proveen mediante diferentes medios y procesos. #[strong (Martínez, 2016).] 
     p.mt-5 #[strong Martínez (2016)] menciona las #[strong características principales que deben tener los clientes internos:] 
     .row.mt-5
       .col-sm.mb-5.mb-sm-0.mt-3
@@ -187,13 +187,11 @@
                 i.fas.fa-brain
               .col-11.borde-bot-gris
                 p #[strong Ética], principios y valores que implican vocación y orientación al servicio, honradez, buena fe, confianza mutua, solidaridad, corresponsabilidad en el trabajo, transparencia, dedicación al trabajo, respeto a las personas y escrupulosidad en el manejo de la información.
-    .h5.mt-5 1.1.2 Cliente interno satisfecho.
+    .h5.mt-5 Cliente interno satisfecho
     p.mt-5 Cliente interno y la satisfacción de sus necesidades son un elemento clave en el desarrollo y éxito de la organización.
     figure.mt-5
       img(src='@/assets/template/tema-1-16.png', alt='Texto que describa la imagen')
     .row.mt-5
-      .col-12
-        p #[strong Para Prettel (2016)] , los elementos de la comunicación se definen de la siguiente manera:
       .col-12.mt-4
         TabsA.mb-5
           .tarjeta.tarjeta--amarilla--borde.p-4(titulo="“Lo primero, es lo primero”")
@@ -204,36 +202,36 @@
             p.mt-4 Favorece los procesos de fortalecimiento del liderazgo, el sentido de pertenencia, el incremento de la productividad y la creatividad, la motivación y la focalización de los esfuerzos hacia el logro de los resultados. Por ende, ocuparse activamente de la atención al cliente interno es una de las acciones de supervivencia más importantes de cualquier organización, sea pública o privada. 
           .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Servicio “fuera de serie”")
             h4 Servicio “fuera de serie”
-            p.mt-4 Las empresas que valoran la necesidad de brindar un servicio fuera de serie a sus clientes internos tienen bien claro que “la ley entra por casa” y, para ello, invierten esfuerzos importantes en la definición y ejecución de políticas y estrategias de atención a su público interno, para lograr la motivación y compromiso necesarios hacia su trabajo, su organización y sus colegas #[strong (Martínez, 2016).]          
+            p.mt-4 Las empresas que valoran la necesidad de brindar un servicio fuera de serie a sus clientes internos tienen bien claro que “la ley entra por casa” y, para ello, invierten esfuerzos importantes en la definición y ejecución de políticas y estrategias de atención a su #[strong público interno], para lograr la motivación y compromiso necesarios hacia su trabajo, su organización y sus colegas. #[strong (Martínez, 2016).]          
     p.mt-5 En el siguiente gráfico se explican los beneficios de la calidad del servicio en una organización y los beneficios de tener un cliente interno satisfecho.
     .row.mt-5 
       .col-12.bg-gris.p-5.text-align-center
         figure
-          img(src='@/assets/template/tema-1-17.png', alt='Texto que describa la imagen').w-75
+          img(src='@/assets/template/tema-1-17.svg', alt='Texto que describa la imagen').w-75
       figcaption Referencia SENA
     .titulo-segundo.mt-5
       #t_1_2.h4 1.2  Manual corporativo
     .row.mt-5
       .col-md-6
-        p Si se analiza el término “identidad corporativa” con más profundidad, se observa que es el “ser” de la empresa, su esencia. Cuando se estudia un ser humano, este tiene una serie de atributos y genes que le hacen diferente. Ocurre lo mismo con las empresas. Las empresas no tienen genes, pero sí tienen imagen corporativa, una serie de atributos identificadores y diferenciadores. #[strong (Pintado, 2013)]
+        p Si se analiza el término “identidad corporativa” con más profundidad, se observa que es el “ser” de la empresa, su esencia. Cuando se estudia un ser humano, este tiene una serie de atributos y genes que le hacen diferente. Ocurre lo mismo con las empresas. Las empresas no tienen genes, pero sí tienen imagen corporativa, una serie de atributos identificadores y diferenciadores. #[strong (Pintado, 2013)].
       .col-md-6.text-align-center
         figure
           img(src='@/assets/template/tema-1-18.png', alt='Texto que describa la imagen').w-75
     p.mt-5  Conozca, desde la definición de #[strong Pintado (2013)], los factores que, habitualmente, se tienen en cuenta de la identidad corporativa para la realización de un manual corporativo:
     TabsB.mt-5
-      .py-4.py-md-5(titulo="Historia de la compañía." :icono="require('@/assets/template/tema-1-19.svg')")
+      .py-4.py-md-5(titulo="Historia de la compañía" :icono="require('@/assets/template/tema-1-19.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
-            .h4 Historia de la compañía. 
+            .h4 Historia de la compañía
             p Desde su fundación hasta el presente, tanto los momentos positivos como los negativos que la han podido afectar de una u otra forma. Para comprender la situación actual de la empresa y su identidad, es obligado conocer su historia, que es de carácter permanente, inmodificable. Se incluyen asociaciones con productos o servicios pioneros, patentes o prototipos, transformaciones introducidas en el mercado, entre otras; también perfil de los clientes, proveedores, y éxitos y fracasos de las personas que han trabajado en la empresa.
 
           .col-md-6.justify-content-center.align-self-center
             figure
               img(src='@/assets/template/tema-1-24.png', alt='Texto que describa la imagen') 
-      .py-4.py-md-5(titulo="El proyecto empresarial." :icono="require('@/assets/template/tema-1-20.svg')")
+      .py-4.py-md-5(titulo="El proyecto empresarial" :icono="require('@/assets/template/tema-1-20.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
-            .h4 El proyecto empresarial.
+            .h4 El proyecto empresarial
             p Relacionado con el momento presente de la compañía. Este factor debe ir cambiando con el fin de adaptarse a las nuevas circunstancias del entorno. El proyecto de la empresa debe hacer referencia a:
             .row.mt-5
               .col-10
@@ -253,23 +251,23 @@
                   li
                     .lista-ol--cuadro__vineta
                       span.text-white 4
-                    | La cultura corporativa, que está formada por los comportamientos o formas de hacer las cosas, los valores compartidos en la empresa, así como las convicciones existentes. La cultura, por tanto, puede hacer referencia tanto al presente como al pasado
+                    | La cultura corporativa, que está formada por los comportamientos o formas de hacer las cosas, los valores compartidos en la empresa, así como las convicciones existentes. La cultura, por tanto, puede hacer referencia tanto al presente como al pasado.
           .col-md-6.justify-content-center.align-self-center
             figure
               img(src='@/assets/template/tema-1-25.png', alt='Texto que describa la imagen')
-      .py-4.py-md-5(titulo="Identidad de la organización." :icono="require('@/assets/template/tema-1-21.svg')")
+      .py-4.py-md-5(titulo="Identidad de la organización" :icono="require('@/assets/template/tema-1-21.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
-            .h4 Identidad de la organización.
-            p Cuando la identidad de la organización es clara y bien definida, es el momento de intentar proyectarla hacia los públicos, con el fin de que estos tengan una imagen positiva. Una de las propiedades más importantes de la imagen corporativa es su naturaleza intangible. Está claro que debe ser positiva y que es fundamental para conseguir el éxito empresarial. #[strong (Pintado, 2013)]
+            .h4 Identidad de la organización
+            p Cuando la identidad de la organización es clara y bien definida, es el momento de intentar proyectarla hacia los públicos, con el fin de que estos tengan una imagen positiva. Una de las propiedades más importantes de la imagen corporativa es su naturaleza intangible. Está claro que debe ser positiva y que es fundamental para conseguir el éxito empresarial. #[strong (Pintado, 2013).]
             p.mt-4 #[strong García (2016)] determina dos manuales que deben tener las organizaciones, #[strong el manual de comunicación] y el #[strong manual de identidad corporativa], que sirven para configurar la personalidad corporativa logrando identificar y diferenciar la visibilidad pública en el desarrollo de la estrategia de imagen corporativa.
           .col-md-6.justify-content-center.align-self-center
             figure
               img(src='@/assets/template/tema-1-26.png', alt='Texto que describa la imagen')
-      .py-4.py-md-5(titulo="Manual de comunicación." :icono="require('@/assets/template/tema-1-22.svg')")
+      .py-4.py-md-5(titulo="Manual de comunicación" :icono="require('@/assets/template/tema-1-22.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
-            .h4 Manual de comunicación.
+            .h4 Manual de comunicación
             p Se ocupa globalmente de la política comunicativa. Es un aparato normativo que regula en la práctica la comunicación de la empresa, desde el punto de vista conceptual, formal y funcional, para transmitir una imagen homogénea a través de su comunicación. El manual cumple con las siguientes funciones: 
             .row.mt-5
               .col-10
@@ -293,10 +291,10 @@
           .col-md-6.justify-content-center.align-self-center
             figure
               img(src='@/assets/template/tema-1-27.png', alt='Texto que describa la imagen')
-      .py-4.py-md-5(titulo="Manual de identidad corporativa." :icono="require('@/assets/template/tema-1-23.svg')")
+      .py-4.py-md-5(titulo="Manual de identidad corporativa" :icono="require('@/assets/template/tema-1-23.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
-            .h4 Manual de identidad corporativa.
+            .h4 Manual de identidad corporativa
             p Concreta las estrategias de identidad visual de la organización. Es un instrumento que presenta contenidos fijos y contenidos variables.
             .row
               .col-12.bg-rojo-claro.p-4.mt-3
@@ -308,7 +306,7 @@
           .col-md-6.justify-content-center.align-self-center
             figure
               img(src='@/assets/template/tema-1-28.png', alt='Texto que describa la imagen')
-    .h5.mt-5 1.2.1  Imagen corporativa
+    .h5.mt-5 Imagen corporativa
     .row.mt-5
       .col-10.offset-1
         .row.borde-gris.p-3
@@ -324,7 +322,7 @@
           figure.mb-2
             img(src="@/assets/template/tema-1-30.png", alt="Texto que describa la imagen")
         .col-12.col-md-8
-          p Es la imagen que una persona tenga de una empresa. Por ejemplo, la imagen de Coca-Cola puede ser totalmente diferente. Es posible que un adulto crea que Coca-Cola es una marca clásica, de toda la vida, y la asocie a su refresco habitual; sin embargo, una persona de menor edad la asociará con una marca joven, ligada a la felicidad, la diversión, y que permite el contacto con otros jóvenes a través de su plataforma web. #[strong (Pintado, 2013)]
+          p Es la imagen que una persona tenga de una empresa. Por ejemplo, la imagen de Coca-Cola puede ser totalmente diferente. Es posible que un adulto crea que Coca-Cola es una marca clásica, de toda la vida, y la asocie a su refresco habitual; sin embargo, una persona de menor edad la asociará con una marca joven, ligada a la felicidad, la diversión, y que permite el contacto con otros jóvenes a través de su plataforma web. #[strong (Pintado, 2013).]
       .row(titulo="Sensibilidades y percepciones: ")
         .col-3.d-none.d-md-block
           figure.mb-2
@@ -336,7 +334,7 @@
           figure.mb-2
             img(src="@/assets/template/tema-1-32.png", alt="Texto que describa la imagen")
         .col-12.col-md-8
-          p una marca fuerte crea una importante ventaja para cualquier producto o servicio. Cuando la imagen de una organización o alguna de sus marcas se empaña por alguna razón, los ingresos de las ventas y las utilidades pueden desplomarse. Reconstruir o revitalizar una imagen es una tarea difícil #[strong (Clow y Baack, 2010).]
+          p una marca fuerte crea una importante ventaja para cualquier producto o servicio. Cuando la imagen de una organización o alguna de sus marcas se empaña por alguna razón, los ingresos de las ventas y las utilidades pueden desplomarse. Reconstruir o revitalizar una imagen es una tarea difícil. #[strong (Clow y Baack, 2010).]
       .row(titulo="El marketing:")
         .col-3.d-none.d-md-block
           figure.mb-2
@@ -361,13 +359,13 @@
                 .col-1.text-align-right
                   i.fas.fa-angle-right.color-c.text-center
                 .col-11
-                  p Aunque la versión específica de la imagen varía de un consumidor a otro, o de un comprador empresarial a otro, la imagen global de la empresa queda determinada por los puntos de vista combinados de todos los públicos, los que a su vez pueden tener influencia positiva o negativa en los consumidores #[strong (Clow y Baack, 2010).]
+                  p Aunque la versión específica de la imagen varía de un consumidor a otro, o de un comprador empresarial a otro, la imagen global de la empresa queda determinada por los puntos de vista combinados de todos los públicos, los que a su vez pueden tener influencia positiva o negativa en los consumidores. #[strong (Clow y Baack, 2010).]
       .row(titulo="Identidad sólida: ")
         .col-3.d-none.d-md-block
           figure.mb-2
             img(src="@/assets/template/tema-1-34.png", alt="Texto que describa la imagen")
         .col-12.col-md-8
-          p Se puede construir desde el interior de la empresa a partir de una sólida identidad, tanto cultural y filosófica como visual, y se refleja en cualidades y atributos tanto cognitivos como emocionales. Estos aspectos son comunicados a sus diferentes públicos con el propósito de crear esta imagen deseada en la mente del consumidor. Por lo tanto, se asevera que el fortalecimiento de la imagen corporativa es externo a la organización y será un éxito si la asociación que hacen los públicos entre la imagen deseada por la empresa y la imagen real es positiva (Beltrán et al. 2014).
+          p Se puede construir desde el interior de la empresa a partir de una sólida identidad, tanto cultural y filosófica como visual, y se refleja en cualidades y atributos tanto cognitivos como emocionales. Estos aspectos son comunicados a sus diferentes públicos con el propósito de crear esta imagen deseada en la mente del consumidor. Por lo tanto, se asevera que el fortalecimiento de la imagen corporativa es externo a la organización y será un éxito si la asociación que hacen los públicos entre la imagen deseada por la empresa y la imagen real es positiva. (Beltrán et al. 2014).
     p.mt-5 Cabe aún señalar los componentes de la imagen corporativa. Según #[strong Beltrán et al. (2014)], los dos componentes fundamentales que conforman la identidad corporativa son la identidad conceptual y la identidad visual. Se pueden apreciar en el gráfico a continuación.
     .h5.mt-5 Identidad conceptual
     figure.mt-4
@@ -377,7 +375,7 @@
     figure.mt-4
       img(src="@/assets/template/tema-1-38.png", alt="Texto que describa la imagen")
     SlyderB.mb-5(:datos="datosSlyder2").mt-5
-    .h5.mt-5 1.2.2  Elementos de la imagen corporativa.
+    .h5.mt-5 Elementos de la imagen corporativa
     p.mt-5 En la siguiente tabla, se muestran los elementos de la imagen corporativa, tangibles e intangibles.
     p.mt-5 Elementos tangibles e intangibles
     .row
@@ -411,7 +409,7 @@
                 td Empleados
                 td.borde-izq  
           figcaption Referencia tomada de  Clow y Baack (2010).
-    p.mt-5 Una empresa con una imagen bien establecida facilita la decisión de los clientes empresariales que tratan de reducir el tiempo de búsqueda. El refuerzo psicológico y la aceptación social también pueden estar presentes. Una imagen de empresa o nombre de marca fuerte puede establecer la diferencia en la selección entre competidores #[strong (Clow y Baack, 2010).]
+    p.mt-5 Una empresa con una imagen bien establecida facilita la decisión de los clientes empresariales que tratan de reducir el tiempo de búsqueda. El refuerzo psicológico y la aceptación social también pueden estar presentes. Una imagen de empresa o nombre de marca fuerte puede establecer la diferencia en la selección entre competidores. #[strong (Clow y Baack, 2010).]
     p.mt-5 Desde el punto de vista de la organización, una imagen de renombre genera los siguientes beneficios:
     .row.mt-3
       .col-10
@@ -419,7 +417,7 @@
           li
             .lista-ol--cuadro__vineta
               span.text-white 1
-            | Extensión de los sentimientos positivos del consumidor hacia los productos nuevos
+            | Extensión de los sentimientos positivos del consumidor hacia los productos nuevos.
           li
             .lista-ol--cuadro__vineta
               span.text-white 2
@@ -431,7 +429,7 @@
           li
             .lista-ol--cuadro__vineta
               span.text-white 4
-            | Nivel más alto de poder del canal
+            | Nivel más alto de poder del canal.
           li
             .lista-ol--cuadro__vineta
               span.text-white 5
@@ -440,9 +438,8 @@
             .lista-ol--cuadro__vineta
               span.text-white 6
             | Calificaciones más favorables de observadores y analistas financieros.
-    p.mt-5 Para #[strong Pintado (2013)], la imagen corporativa se puede manifestar en multitud de elementos relacionados con la empresa y con las marcas o productos concretos, ya que están íntimamente ligados a las percepciones de la empresa en general. A continuación, se detallan los elementos que habitualmente son asociados con la imagen:
-    p.mt-5 Para #[strong Prettel (2016)], los elementos de la comunicación se definen de la siguiente manera:
-    TabsA.mt-4
+    p.mt-5.mb-5 Para #[strong Pintado (2013)], la imagen corporativa se puede manifestar en multitud de elementos relacionados con la empresa y con las marcas o productos concretos, ya que están íntimamente ligados a las percepciones de la empresa en general. A continuación, se detallan los elementos que habitualmente son asociados con la imagen:
+    TabsA.mt-5
       .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Edificios o entornos: ")
         h4 Edificios o entornos: 
         p.mt-4 Los edificios corporativos son fundamentales desde el punto de vista de la imagen, ya que su aspecto externo puede asociarse con la tradición, modernidad o prestigio. También es importante la zona donde estén ubicados.
@@ -469,7 +466,8 @@
               figure
                 img(src='@/assets/template/tema-1-43.png', alt='Texto que describa la imagen')
             .col-md-8
-              p Es difícil cambiar por completo la imagen que la gente tiene de una organización. Sin embargo, es necesario cambiar la imagen cuando los mercados captados comienzan a reducirse o a desaparecer, o cuando la imagen de la empresa ya no coincide con las tendencias de la industria y las expectativas de los consumidores. #[strong (Clow y Baack, 2010)]
+              h5 Cambio de una imagen
+              p Es difícil cambiar por completo la imagen que la gente tiene de una organización. Sin embargo, es necesario cambiar la imagen cuando los mercados captados comienzan a reducirse o a desaparecer, o cuando la imagen de la empresa ya no coincide con las tendencias de la industria y las expectativas de los consumidores. #[strong (Clow y Baack, 2010).]
     .row.mt-5
       .col-10.offset-1.borde-top-gris
         .row.py-4
@@ -481,31 +479,32 @@
             p.mt-3 En la siguiente tabla, se puede apreciar la forma en que el nombre corporativo “es, en realidad, la piedra angular de la relación de la empresa con sus clientes. Establece la actitud y el tono, y constituye el primer paso para establecer una personalidad”.
     .row
       .col-12
+        p.mt-5 Nombres corporativos, tipos, representación y ejemplos
         .tabla-b.mb-5.mt-3
           table(style="table-layout: fixed;").text-center
             thead
               tr.bg-rojo.text-white
                 th Nombres
                 th Denotan
-                th Utilidades del planograma
+                th Ejemplos
             tbody
               tr
                 td Nombres explícitos
-                td.borde-izq Revelan lo que la empresa hace.
+                td.borde-izq Revelan lo que la empresa hace
                 td.borde-izq Servientrega, empresa de entrega de paquetería
               tr
                 td Nombres implícitos
-                td.borde-izq Contienen palabras, o partes de palabras, reconocibles, que transmiten lo que la empresa hace.
+                td.borde-izq Contienen palabras, o partes de palabras, reconocibles, que transmiten lo que la empresa hace
                 td.borde-izq SENA, Servicio Nacional de Aprendizaje
               tr
                 td Nombres conceptuales
-                td.borde-izq Captan la esencia de lo que la empresa ofrece.
+                td.borde-izq Captan la esencia de lo que la empresa ofrece
                 td.borde-izq Google, evoca la visión de un lugar donde es posible encontrar un sinfín de artículos
               tr
                 td Nombres iconoclastas
-                td.borde-izq Representan algo único, diferente y memorable.
+                td.borde-izq Representan algo único, diferente y memorable
                 td.borde-izq Chanel, representa exclusividad
-          figcaption Referencia Tabla - Tomadas de David Placek, presidente y fundador de Lexicon, Inc.
+          figcaption Referencia Tabla - Tomado de David Placek, presidente y fundador de Lexicon, Inc.
     .h5.mt-5 Logotipos corporativos
     .row.mt-5
       .col-3.d-none.d-md-block
@@ -524,11 +523,11 @@
           .col-12
             .cajon.color-primario.py-4.px-5.mb-4(style='background-color: rgba(214, 70, 38, 0.2) ;')
               .h6 Recordación
-              p.mt-4 El reconocimiento de logotipos ocurre cuando el consumidor logra recordar haber visto el logotipo anteriormente. Este se almacena en la memoria y, cuando el consumidor lo ve en la tienda, se estimula la memoria
+              p.mt-4 El reconocimiento de logotipos ocurre cuando el consumidor logra recordar haber visto el logotipo anteriormente. Este se almacena en la memoria y, cuando el consumidor lo ve en la tienda, se estimula la memoria.
           .col-12
             .cajon.color-primario.py-4.px-5.mb-4(style='background-color: rgba(214, 70, 38, 0.1) ;')
               .h6 Sentimientos positivos por la marca
-              p.mt-4 Este recordatorio puede suscitar sentimientos positivos relativos a la corporación o al producto de marca. Ejemplo: Apple, creado por Rob Janoff, de Regis McKenna Advertising, en 1977. Algunas personas creen que la mordida representa la manzana de Adán y Eva, pero en realidad se incluyó para que la gente no confundiera la manzana con un tomate. #[strong (Clow y Baack, 2010)] 
+              p.mt-4 Este recordatorio puede suscitar sentimientos positivos relativos a la corporación o al producto de marca. Ejemplo: Apple, creado por Rob Janoff, de Regis McKenna Advertising, en 1977. Algunas personas creen que la mordida representa la manzana de Adán y Eva, pero en realidad se incluyó para que la gente no confundiera la manzana con un tomate. #[strong (Clow y Baack, 2010)]. 
     .h6.mt-5 Nombre de marca fuerte
     p.mt-5 Una de las principales características que debe tener una marca fuerte es que contiene algo que resulta sobresaliente para los clientes. 
     .row.mt-4
@@ -545,7 +544,7 @@
               .col-1.text-align-right
                 i.fas.fa-angle-right.color-c.text-center
               .col-11
-                p Los consumidores recomiendan las marcas a sus familiares y amigos debido a una o más propiedades sobresalientes #[strong (Clow y Baack, 2010).]
+                p Los consumidores recomiendan las marcas a sus familiares y amigos debido a una o más propiedades sobresalientes. #[strong (Clow y Baack, 2010).]
           li.mb-0.mt-2 
             .row
               .col-1.text-align-right
@@ -555,7 +554,7 @@
       .col-3.d-none.d-md-block
         figure
           img(src='@/assets/template/tema-1-46.svg', alt='Texto que describa la imagen')
-    .h6.mt-5 Nombre de marca fuerte
+    .h6.mt-5 Publicidad corporativa
     p.mt-5 #[strong O´Guinn et al. (2013)] explican que la publicidad corporativa no está diseñada para promover los beneficios de una marca específica. Tiene la intención de establecer una actitud favorable hacia una empresa como un todo. Varias empresas consideradas exitosas y de alto nivel utilizan la publicidad corporativa para mejorar la imagen de la empresa y afectar las actitudes de los consumidores. Los objetivos de la publicidad corporativa son los siguientes:
     .row.mt-5
       .col-12.col-lg-6
@@ -583,41 +582,42 @@
       .col-6.d-none.d-lg-block.align-self-center
         figure
           img(src='@/assets/template/tema-1-47.png', alt='Texto que describa la imagen')
-    .h5.mt-5 1.2.3  Normativa: salud y seguridad en el trabajo
+    .h5.mt-5 Normativa: salud y seguridad en el trabajo
     .row.mt-5
       .col-5.d-none.d-lg-block.align-self-center
         figure
           img(src='@/assets/template/tema-1-48.png', alt='Texto que describa la imagen')
       .col-12.col-lg-7
         p OIT es la sigla de la Organización Internacional del Trabajo, que funciona bajo las directrices de la Organización de las Naciones Unidas (ONU). La OIT nació en Ginebra, Suiza, en 1919 y, una vez al año, se reúne la Conferencia Internacional del Trabajo, donde se evalúa el estado de la OIT a nivel mundial, se sacan conclusiones y se dictan normas para el crecimiento mundial de la organización y para legislar en cada país suscrito. En Colombia, la normativa sobre seguridad y salud en el trabajo está regida bajo la Resolución 0312 de 2019, que modifica las fases de implementación del SG-SST.
-        p.mt-4 #[strong Rueda y Zambrano (2018)] mencionan que la ergonomía ha profundizado en tres áreas del conocimiento o especialidades en los ámbitos físico, mental y social: la ergonomía física, la ergonomía cognitiva y la ergonomía organizacional.
-    .h6.mt-5 1.2.3.1  Ergonomía
+    .h6.mt-5 Ergonomía
+    p.mt-4 Un trabajo diseñado o abordado según criterios ergonómicos se humaniza, pues prioriza el bienestar, la salud y el crecimiento del trabajador en su rol laboral, blindándolo al máximo de posibles accidentes y enfermedades, al optimizar las condiciones del sistema de trabajo, y paralelamente asegura su calidad y productividad, haciéndolo más eficiente. #[strong (Rueda y Zambrano, 2018)]. 
+    p.mt-4 #[strong Rueda y Zambrano (2018)] mencionan que la ergonomía ha profundizado en tres áreas del conocimiento o especialidades en los ámbitos físico, mental y social: la ergonomía física, la ergonomía cognitiva y la ergonomía organizacional.
     TabsB.mt-5
-      .py-4.py-md-5(titulo="Ergonomía física: " :icono="require('@/assets/template/tema-1-49.svg')")
+      .py-4.py-md-5(titulo="Ergonomía física" :icono="require('@/assets/template/tema-1-49.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
-            .h4 Ergonomía física:  
+            .h6 Ergonomía física  
             p Esta rama se basa en el reconocimiento de las capacidades y limitaciones humanas desde los componentes anatómico, antropométrico, fisiológico y biomecánico en su relación con el trabajo. 
             p #[strong En el contexto de prevención] de riesgos o salud laboral, la aplicación de la ergonomía física predominará sobre las otras dos especialidades, debido, entre otras cosas, a la alta presentación de enfermedades osteomusculares en las industrias. 
             p #[strong Dentro de la ergonomía física], se establecen lineamientos para regular la exposición a actividades con manipulación manual de cargas, posturas de trabajo, movimientos de alta frecuencia o movimientos repetitivos y sobreesfuerzos. 
-            p #[strong Patrones del diseño del entorno laboral]. También incluye patrones relacionados con el diseño y las dimensiones de los puestos, espacios y elementos de trabajo, vestuario y elementos de protección personal; así como las condiciones ambientales de temperatura, ruido, iluminación, vibración, humedad, radiación, y, en general, todos aquellos aspectos que en el trabajo puedan afectar físicamente al trabajador.
+            p #[strong Patrones del diseño del entorno laboral.] También incluye patrones relacionados con el diseño y las dimensiones de los puestos, espacios y elementos de trabajo, vestuario y elementos de protección personal; así como las condiciones ambientales de temperatura, ruido, iluminación, vibración, humedad, radiación, y, en general, todos aquellos aspectos que en el trabajo puedan afectar físicamente al trabajador.
           .col-md-4.justify-content-center.align-self-center
             figure
               img(src='@/assets/template/tema-1-52.svg', alt='Texto que describa la imagen') 
-      .py-4.py-md-5(titulo="Ergonomía cognitiva: " :icono="require('@/assets/template/tema-1-50.svg')")
+      .py-4.py-md-5(titulo="Ergonomía cognitiva" :icono="require('@/assets/template/tema-1-50.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
-            .h4 Ergonomía cognitiva: 
+            .h6 Ergonomía cognitiva 
             p Según lo define la Asociación Internacional de Ergonomía (IEA), con esta especialidad se hace seguimiento a los procesos mentales que exigen las tareas, tales como la percepción, la memoria, el razonamiento y la respuesta motora, que afectan las interacciones entre los seres humanos y los otros elementos de un sistema. 
-            p #[strong Carga mental] Todas las actividades laborales y extra laborales incluyen requerimientos variables de carga mental. Para controlar una posible sobrexposición y, con ello, consecuencias indeseadas con efecto en la persona o en el proceso productivo. 
-            p #[strong Aportes de la ergonomía cognitiva]. La ergonomía cognitiva aporta información para no exceder las capacidades individuales en acciones que incluyan, por ejemplo, la toma de decisiones, el uso de interfaces y controles para la interacción con equipos o máquinas, el uso de volúmenes significativos de información para situaciones particulares del trabajo, la manipulación de información compleja con inclusión de cálculos matemáticos o ambigüedad, entre otras.
+            p #[strong Carga mental.] Todas las actividades laborales y extra laborales incluyen requerimientos variables de carga mental. Para controlar una posible sobrexposición y, con ello, consecuencias indeseadas con efecto en la persona o en el proceso productivo. 
+            p #[strong Aportes de la ergonomía cognitiva.] La ergonomía cognitiva aporta información para no exceder las capacidades individuales en acciones que incluyan, por ejemplo, la toma de decisiones, el uso de interfaces y controles para la interacción con equipos o máquinas, el uso de volúmenes significativos de información para situaciones particulares del trabajo, la manipulación de información compleja con inclusión de cálculos matemáticos o ambigüedad, entre otras.
           .col-md-4.justify-content-center.align-self-center
             figure
               img(src='@/assets/template/tema-1-53.svg', alt='Texto que describa la imagen')
-      .py-4.py-md-5(titulo="Ergonomía organizacional:" :icono="require('@/assets/template/tema-1-51.svg')")
+      .py-4.py-md-5(titulo="Ergonomía organizacional" :icono="require('@/assets/template/tema-1-51.svg')")
         .row
           .col-md-8.mb-4.mb-md-0
-            .h4 Ergonomía organizacional:
+            .h6 Ergonomía organizacional
             p Para la IEA, esta rama de la ergonomía se orienta al diseño y la optimización de sistemas sociotécnicos (interacciones entre la tecnología, métodos de producción y las personas), incluyendo la estructura organizacional, políticas y procesos. Con la ergonomía organizacional se desarrollan requerimientos para que la organización y administración del trabajo se construyan teniendo en cuenta la mayor productividad posible, pero considerando que las exigencias al trabajador estén dentro de los límites establecidos por la ergonomía física y la cognitiva.
           .col-md-4.justify-content-center.align-self-center
             figure
@@ -632,7 +632,7 @@
             p.mt-3 A continuación, se aprecian los tipos de intervención ergonómica para las organizaciones, según planteamientos de #[strong Rueda y Zambrano (2018).]
     .row.mt-5
       .col-8.offset-2.py-4.px-5.bg-amarillo-claro.borde-izq-amarillo
-        .h6 Intervención preventiva: 
+        .h6 Intervención preventiva
         p.mt-4 Conocida como ergonomía preventiva o de concepción, se utiliza en las etapas de diseño, planeación y maduración de proyectos, o para la modernización de equipos y sistemas existentes. 
     .row.mt-4
       .col-8.offset-2.py-4.px-5.bg-amarillo-claro.borde-der-amarillo
@@ -644,17 +644,17 @@
         p.mt-4 Son la concepción de espacios en la planeación de nuevas instalaciones o áreas de trabajo, el diseño, la modificación o los ajustes de elementos de trabajo y la concepción de procesos o rutinas de trabajo. 
     .row.mt-4
       .col-8.offset-2.py-4.px-5.bg-amarillo-claro.borde-der-amarillo
-        .h6 Intervención correctiva o de perfeccionamiento: 
+        .h6 Intervención correctiva o de perfeccionamiento 
         p.mt-4 Consiste en un conjunto de procedimientos que se aplican para la corrección puntual de errores heredados del proceso de diseño en las tareas o en la infraestructura que está en operación.
     .row.mt-5
       .col-8.offset-2.py-4.px-5.bg-amarillo-claro.borde-izq-amarillo
-        .h6 Razones de la intervención correctiva:  
+        .h6 Razones de la intervención correctiva
         p.mt-4 Ocurre debido a que se presentan errores o fallas en la productividad por aumentos de tiempos muertos, reprocesos, o porque han causado algún accidente, enfermedad o reporte de incomodidad en los trabajadores.  
     .row.mt-4
       .col-8.offset-2.py-4.px-5.bg-amarillo-claro.borde-der-amarillo
-        .h6 Restricciones de la intervención correctiva:  
+        .h6 Restricciones de la intervención correctiva 
         p.mt-4 Al intentar modificar lo existente, este tipo de intervención casi siempre resulta costosa y presenta restricciones para hacer cambios completamente efectivos.
-    .h6.mt-5 1.2.3.2 Carga física de trabajo
+    .h6.mt-5 Carga física de trabajo
     .row.mt-5
       .col-12.col-lg-6
         p La carga física, definida como la cantidad o carga de energía que demanda la ejecución de una labor o trabajo, depende no solo de la exigencia por sí misma de la labor y de su condición ambiental, sino de la capacidad física de cada individuo.
@@ -667,13 +667,13 @@
           figure.mb-2
             img(src="@/assets/template/tema-1-57.png", alt="Texto que describa la imagen")
         .col-12.col-md-8
-          p Se presenta especialmente cuando se tiene que mover el cuerpo o alguno de sus segmentos: al caminar, al mover los miembros superiores para alcanzar un objeto; cuando se transporta o se hace movilización de cargas o cuando se mantiene una postura: al adoptar postura de cuclillas en la reparación de una máquina, por citar apenas un caso
+          p Se presenta especialmente cuando se tiene que mover el cuerpo o alguno de sus segmentos: al caminar, al mover los miembros superiores para alcanzar un objeto; cuando se transporta o se hace movilización de cargas o cuando se mantiene una postura: al adoptar postura de cuclillas en la reparación de una máquina, por citar apenas un caso.
       .row(titulo="Superación de las capacidades de la persona")
         .col-3.d-none.d-md-block
           figure.mb-2
             img(src="@/assets/template/tema-1-58.png", alt="Texto que describa la imagen")
         .col-12.col-md-8
-          p En la industria se desarrollan procesos que requieren la presencia de los trabajadores para cumplir con tareas donde priman el trabajo manual, la aplicación de fuerza y otras exigencias físicas. Cuando dichas exigencias superan las capacidades individuales, pueden acarrear molestia, fatiga y, en casos crónicos, afecciones en el cuerpo denominadas lesiones de trauma acumulativo (LTA), o desórdenes o trastornos músculo esqueléticos (DME o TME), que comprenden un grupo heterogéneo de diagnósticos que abarcan alteraciones de músculos, tendones, vainas tendinosas, síndromes de atrapamientos nerviosos, discopatías o alteraciones en el disco intervertebral, alteraciones articulares y neurovasculares #[strong (Rueda y Zambrano, 2018).]
+          p En la industria se desarrollan procesos que requieren la presencia de los trabajadores para cumplir con tareas donde priman el trabajo manual, la aplicación de fuerza y otras exigencias físicas. Cuando dichas exigencias superan las capacidades individuales, pueden acarrear molestia, fatiga y, en casos crónicos, afecciones en el cuerpo denominadas lesiones de trauma acumulativo (LTA), o desórdenes o trastornos músculo esqueléticos (DME o TME), que comprenden un grupo heterogéneo de diagnósticos que abarcan alteraciones de músculos, tendones, vainas tendinosas, síndromes de atrapamientos nerviosos, discopatías o alteraciones en el disco intervertebral, alteraciones articulares y neurovasculares. #[strong (Rueda y Zambrano, 2018).]
       .row(titulo="La legislación y normatividad")
         .col-3.d-none.d-md-block
           figure.mb-2
@@ -685,18 +685,18 @@
           figure.mb-2
             img(src="@/assets/template/tema-1-60.png", alt="Texto que describa la imagen")
         .col-12.col-md-8
-          p La ergonomía actúa en dos momentos: sobre la persona y sobre el proceso productivo, a través de líneas de acción preventivas, al igual que en la concepción y el diseño de procesos y productos: en sus tareas, ambientes o elementos de trabajo; o de manera correctiva, para cambiar o mejorar situaciones ya implementadas que presentan fallas en su concepción o desarrollo. #[strong (Rueda y Zambrano, 2018)]
-    .h6.mt-5 1.2.3.3  Seguridad y salud en el trabajo
+          p La ergonomía actúa en dos momentos: sobre la persona y sobre el proceso productivo, a través de líneas de acción preventivas, al igual que en la concepción y el diseño de procesos y productos: en sus tareas, ambientes o elementos de trabajo; o de manera correctiva, para cambiar o mejorar situaciones ya implementadas que presentan fallas en su concepción o desarrollo. #[strong (Rueda y Zambrano, 2018).]
+    .h6.mt-5 Seguridad y salud en el trabajo
     .row.mt-5
       .col-lg-8.align-self-center
-        p La seguridad y la salud en el trabajo se entienden como el conjunto de actividades multidisciplinarias que tienen como objetivo promover, recuperar y rehabilitar la salud de la población trabajadora para protegerla de los riesgos de su ocupación y ubicarla en un ambiente de trabajo, de acuerdo con sus condiciones fisiológicas y psicológicas #[strong (Bedoya, 2018).]
+        p La seguridad y la salud en el trabajo se entienden como el conjunto de actividades multidisciplinarias que tienen como objetivo promover, recuperar y rehabilitar la salud de la población trabajadora para protegerla de los riesgos de su ocupación y ubicarla en un ambiente de trabajo, de acuerdo con sus condiciones fisiológicas y psicológicas. #[strong (Bedoya, 2018).]
         p.mt-4 #[strong Áreas de la seguridad y salud en el trabajo:] los escenarios donde se realiza actividad laboral ofrecen distintas condiciones para los trabajadores; son identificados como áreas de trabajo, y pueden ser favorables o adversas, dependiendo de la condición ofrecida al trabajador. Un área de trabajo puede ser concebida como el espacio destinado a la realización de actividades laborales donde el trabajador debe desempeñar su rol y ejecutar actividades integrantes de un determinado proceso. Se destacan áreas como: administrativas y operativas.
       .col-lg-4
         figure.mb-2
           img(src="@/assets/template/tema-1-61.svg", alt="Texto que describa la imagen")
     TabsA.mt-4
-      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Seguridad industrial: ")
-        h4 Seguridad industrial: 
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Seguridad industrial ")
+        h6 Seguridad industrial 
         p.mt-4 Conjunto de normas técnicas encaminadas a identificar, evaluar y controlar aquellos factores de riesgo ambientales presentes en el medio de trabajo, causantes de los accidentes de trabajo.
         ul.lista-ul.mt-3
           li.mb-0 
@@ -729,15 +729,15 @@
                 i.fas.fa-angle-right.color-c.text-center
               .col-11
                 p Vigilancia y control del cumplimiento de normas y procedimientos de seguridad.
-      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Higiene industrial: ")
-        h4 Higiene industrial:  
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Higiene industrial")
+        h6 Higiene industrial  
         p.mt-4 Rama de la ingeniería sanitaria dedicada a identificar, evaluar y controlar aquellos factores de riesgo ambientales presentes en el medio de trabajo, causantes de las enfermedades profesionales. La higiene tiene en cuenta distintas actividades esenciales como: medir y cuantificar los factores de riesgos físicos, químicos, ergonómicos y biológicos, identificar riesgos que puedan producir enfermedades profesionales en cada puesto de trabajo, establecer las medidas de control requeridas en orden de importancia, así: fuente, medio y trabajador, y supervisar y verificar la aplicación de los sistemas de control de los riesgos ocupacionales en la fuente y en el medio ambiente.
-      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Medicina preventiva y del trabajo: ")
-        h4 Medicina preventiva y del trabajo:   
+      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Medicina preventiva y del trabajo")
+        h6 Medicina preventiva y del trabajo   
         p.mt-4 Conjunto de actividades médicas y paramédicas destinadas a promover y mejorar la salud del trabajador, evaluar su capacidad laboral y ubicarlo en un lugar de trabajo, de acuerdo con sus condiciones psicobiológicas. Dentro de las operaciones necesarias para que la medicina preventiva y del trabajo tenga un accionar acorde con las necesidades de los trabajadores, se pueden tener en cuenta: prevención de enfermedades profesionales y educación en salud, exámenes médicos, clínicos y paraclínicos para selección y ubicación de personal, campañas de medicina preventiva, vigilancia epidemiológica de enfermedades profesionales y patologías relacionadas con el trabajo y ausentismo por tales causas, servicio oportuno de primeros auxilios y espacios para descanso, capacitación y recreación.
     .h6.mt-5 Peligros
     figure.mt-4
-      img(src="@/assets/template/tema-1-62.png", alt="Texto que describa la imagen")  
+      img(src="@/assets/template/tema-1-62.svg", alt="Texto que describa la imagen")  
     figcaption Referencia SENA
     .row.mt-5
       .col
@@ -749,18 +749,24 @@
             .col-md-8
               .h6 Sistema de seguridad y salud en el trabajo
               p.mt-4 El sistema de gestión como el desarrollo de un proceso lógico y por etapas, basado en la mejora continua y que incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora, con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y la salud en el trabajo dentro de la organización objeto de las medidas de intervención. 
+ 
+    
+
+
+
+
+
+
+
 
 
 
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
     datosSlyder1: [
       {
@@ -790,7 +796,7 @@ export default {
       {
         titulo: 'Color',
         texto: '',
-        imagen: require('@/assets/template/tema-1-41.png'),
+        imagen: require('@/assets/template/tema-1-41.svg'),
       },
       {
         titulo: 'Otros',
@@ -800,6 +806,14 @@ export default {
       },
     ],
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

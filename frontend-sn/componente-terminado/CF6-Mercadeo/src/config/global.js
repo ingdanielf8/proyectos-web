@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'A través de este componente formativo el aprendiz debe apropiar los elementos de entrada requeridos para la elaboración del plan de merchandising para su idea de negocio o proyecto productivo.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -23,13 +23,13 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Merchandising',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Evaluación y control.',
+            titulo: 'Establecimiento comercial',
             hash: 't_1_1',
           },
           {
@@ -108,12 +108,12 @@ export default {
       },
     ],
     subMenu: [
-      {
+      /* {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
-      },
+      }, */
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -138,36 +138,6 @@ export default {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
-      },
-    ],
-  },
-  creditos: {
-    liderEquipo: {
-      nombre: 'Claudia Juliana León Pinto',
-      cargo: 'Experta temática',
-      centro: 'Centro de servicio empresariales y turísticos',
-      regional: 'Regional Santander',
-    },
-    contenidoInstruccional: [{}],
-    desarrolloProducto: [
-      {
-        nombre: 'Julia Isabel Roberto',
-        cargo: 'Diseñadora y evaluadora instruccional',
-        centro: 'Centro para la Industria de la Comunicación Gráfica ',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'Alix Cecilia Chinchilla Rueda',
-        cargo: 'Diseñadora instruccional',
-        centro: 'Centro de Gestión Industrial',
-      },
-    ],
-    gestoresRepositorio: [
-      {
-        nombre: 'Brayan Stiven Pinto Diaz',
-        cargo: ['Desarrollo front-end', 'Validación de recursos'],
-        centro: 'Centro de comercio y servicios',
-        regional: 'Regional Tolima',
       },
     ],
   },
@@ -451,4 +421,80 @@ export default {
         'http://www.digitaliapublishing.com.bdigital.sena.edu.co/visor/29998 ',
     },
   ],
+  creditos: {
+    liderEquipo: {
+      nombre: 'Maria Camila Garcia Santamaria',
+      cargo: 'Líder del equipo',
+    },
+    contenidoInstruccional: [
+      {
+        nombre: 'Rafael Nelftalí Lizcano Reyes',
+        cargo: 'Asesor pedagógico',
+        centro: 'Centro Industrial Del Diseño Y La Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'Claudia Juliana León Pinto',
+        cargo: 'Experta tematica ',
+        centro: 'Centro de Servicios Empresariales y Turísticos',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'Alix Cecilia Chinchilla Rueda',
+        cargo: 'Diseñadora Instruccional ',
+        centro: 'Centro de Gestión Industrial',
+        regional: 'Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro: 'Centro para la Industria y la Comunicación Gráfica.',
+        regional: 'Regional Distrito Capital.',
+      },
+    ],
+    desarrolloProducto: [
+      {
+        nombre: 'Francisco José Lizcano Reyes',
+        cargo: 'Responsable del equipo',
+      },
+      {
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+      },
+      {
+        nombre: ['Luis Fernando Sarmiento Betancourth'],
+        cargo: 'Diseño web',
+      },
+      {
+        nombre: [
+          'Zuleidy Maria Ruiz Torres',
+          'Wilson Andrés Arenales Caceres',
+          'Gilberto Junior Rodriguez Rodriguez',
+          'Daniela Muñoz Bedoya ',
+          'Maria Carolina Tamayo',
+          'Angela Maldonado Jaime',
+          'John Jairo Archiniegas Gonzalez',
+        ],
+        cargo: 'Producción audiovisual',
+      },
+      {
+        nombre: 'Lizeth Karina Manchego Suárez',
+        cargo: 'Desarrollo Front-End',
+      },
+      {
+        nombre: 'Yuli Marcela Gómez Tarazona',
+        cargo: 'Validación de diseño y contenido',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+    ],
+    gestoresRepositorio: [
+      {
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: ['Validación y vinculación en plataforma LMS'],
+        centro: 'Centro de comercio y servicios',
+        regional: 'Regional Tolima',
+      },
+    ],
+  },
 }

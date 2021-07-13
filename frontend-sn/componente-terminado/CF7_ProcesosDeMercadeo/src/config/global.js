@@ -129,30 +129,6 @@ export default {
       },
     ],
   },
-  creditos: {
-    liderEquipo: {},
-    contenidoInstruccional: [
-      {
-        nombre: 'Claudia Juliana León Pinto',
-        cargo: 'Experta temática',
-        centro: 'Centro de servicio empresariales y turísticos ',
-        regional: 'Regional Santander',
-      },
-    ],
-    desarrolloProducto: [
-      {
-        nombre: 'Alix Cecilia Chinchilla Rueda',
-        cargo: 'Diseñadora instruccional',
-        centro: 'Centro de Gestión Industrial.',
-        regional: 'Regional Bogotá',
-      },
-      {
-        nombre: 'José Gabriel Ortiz Abella',
-        cargo: 'Corrector de estilo',
-      },
-    ],
-    gestoresRepositorio: [{}],
-  },
   referencias: [
     {
       referencia: 'Best, R. (2007). Marketing estratégico. Prentice Hall. ',
@@ -424,4 +400,81 @@ export default {
         'http://www.digitaliapublishing.com.bdigital.sena.edu.co/visor/29998 ',
     },
   ],
+  creditos: {
+    liderEquipo: {
+      nombre: 'Maria Camila Garcia Santamaria',
+      cargo: 'Líder del equipo',
+    },
+    contenidoInstruccional: [
+      {
+        nombre: 'Rafael Nelftalí Lizcano Reyes',
+        cargo: 'Asesor pedagógico',
+        centro: 'Centro Industrial Del Diseño Y La Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'Claudia Juliana León Pinto',
+        cargo: 'Experta tematica ',
+        centro: 'Centro de Servicios Empresariales y Turísticos',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'Alix Cecilia Chinchilla Rueda',
+        cargo: 'Diseñadora Instruccional ',
+        centro: 'Centro de Gestión Industrial',
+        regional: 'Regional Distrito Capital',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro: 'Centro para la Industria y la Comunicación Gráfica.',
+        regional: 'Regional Distrito Capital.',
+      },
+    ],
+    desarrolloProducto: [
+      {
+        nombre: 'Francisco José Lizcano Reyes',
+        cargo: 'Responsable del equipo',
+      },
+      {
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+      },
+      {
+        nombre: ['Luis Fernando Sarmiento Betancourth'],
+        cargo: 'Diseño web',
+      },
+      {
+        nombre: [
+          'Zuleidy Maria Ruiz Torres',
+          'Wilson Andrés Arenales Caceres',
+          'Gilberto Junior Rodriguez Rodriguez',
+          'Daniela Muñoz Bedoya ',
+          'Maria Carolina Tamayo',
+          'Nelson Vera Briceño',
+          'Angela Maldonado Jaime',
+          'Victor Cardenas',
+        ],
+        cargo: 'Producción audiovisual',
+      },
+      {
+        nombre: 'Lizeth Karina Manchego Suárez',
+        cargo: 'Desarrollo Front-End',
+      },
+      {
+        nombre: 'Yuli Marcela Gómez Tarazona',
+        cargo: 'Validación de diseño y contenido',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+    ],
+    gestoresRepositorio: [
+      {
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: ['Validación y vinculación en plataforma LMS'],
+        centro: 'Centro de comercio y servicios',
+        regional: 'Regional Tolima',
+      },
+    ],
+  },
 }
