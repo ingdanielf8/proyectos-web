@@ -1,8 +1,8 @@
 # vue-web-components
 
-# base-2021 v4.0.0**
+## base-2021 v4.0.0**
 
-# 
+
 
 ## **Configuración del proyecto**
 
@@ -56,6 +56,3 @@ npm run lint
 
 #### 6. Hacer clik "Run workflow
 
-![instrucciones despues del primer push](src/assets/template/pasos.jpg 'Title')
-
-#
