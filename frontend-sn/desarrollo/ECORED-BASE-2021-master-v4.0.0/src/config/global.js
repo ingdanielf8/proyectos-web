@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'A través del componente, el aprendiz debe apropiar los elementos de entrada requeridos para la elaboración del plan de acción de endomarketing y el plan de comunicación integral para su idea de negocio o proyecto productivo.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
     menu: [
