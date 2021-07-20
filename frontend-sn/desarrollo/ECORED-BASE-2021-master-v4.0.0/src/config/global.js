@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'Bases de datos NoSQL',
+    componenteFormativo:
+      'Cálculo y medición de magnitudes eléctricas y electrónicas',
     descripcionCurso:
-      'En este componente se abordarán elementos claves del Big Data, administración masiva de datos, consulta de datos de las organizaciones y tipos de respuesta más cortos. El aprendiz conocerá cómo se plantean nuevas técnicas y tecnologías para atender esas nuevas necesidades: las Bases de datos NoSQL, orientadas a resolver problemas de escalabilidad y rendimiento, mediante nuevos entornos de manejo de datos.',
+      'Comprender las magnitudes eléctricas permite tener un acercamiento al mundo de la electrónica; tal como un electrón cruza a través de los conductores, encontrando resistencia y transportando la corriente eléctrica, alimentándose del voltaje, y permitiendo la energía para que el circuito eléctrico tenga la potencia de trabajo. ',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },

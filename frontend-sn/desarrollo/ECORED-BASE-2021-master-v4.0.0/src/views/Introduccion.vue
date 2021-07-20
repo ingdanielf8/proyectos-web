@@ -8,15 +8,25 @@
         span
           i.fas.fa-info
       h1 Introducción
-    figure
-      img(src="@/assets/template/tema-0-1.png", alt="Texto que describa la imagen")
+    p.mt-4 #[strong Antes de ingresar en materia de contenidos], es importante conocer el porqué de la importancia de la electrónica y su nacimiento. El siguiente video es un repaso de la historia y evolución de la misma.
+    figure.mt-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.mt-4
-      .col-12.col-lg-9
-        p El almacenamiento de información es importante en las empresas ya integradas en la era digital, debido a que se dispone de una cantidad significativa de datos. Los especialistas en análisis de datos elaboran estrategias que pueden ayudar a identificar mejor las necesidades de clientes y prever riesgos o el comportamiento del mercado. Es por esto que las empresas saben de la importancia de administrar tanta información de sus clientes y del mercado. Por tanto, aparecen nuevas necesidades para las cuales el Big Data, que hace referencia a la administración de enormes volúmenes de datos, enfoca sus esfuerzos en procesar información con características de gran volumen, dejando de lado otros aspectos de los datos que, en el caso de las bases de datos tradicionales, se concentran más en la integridad o la no repetición de los datos.
-        p.mt-3 Para la elaboración de este componente, se abordaron varios autores conocidos en bases de datos NoSQL, de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido que el conocimiento es social y, por lo tanto, es para usarlo por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos de la programación de aplicaciones y servicios para la nube.
-      .col-4.col-lg-3.offset-4.offset-lg-0.align-self-center
+      .col-4.col-lg-4.offset-4.offset-lg-0
         figure
-          img(src="@/assets/template/tema-0-2.svg", alt="Texto que describa la imagen")
+          img(src="@/assets/template/tema-0-1.png", alt="Texto que describa la imagen")
+      .col-12.col-lg-8
+        p Un circuito eléctrico se puede entender como una colección de dispositivos eléctricos en la que se pueden encontrar, entre otros, fuentes de voltaje y de corriente, resistencias, inductores, capacitores, transistores, amplificadores y transformadores, interconectados de varias maneras. 
+        p.mt-3 El diagnóstico de circuitos electrónicos se realiza mediante el cálculo y la medición de las magnitudes eléctricas y electrónicas, revisando las características físicas de los componentes.
+        p.mt-3 Las magnitudes son propiedades que pueden ser medidas; entre ellas, la longitud es la medida básica, luego están el tiempo y la velocidad. En los circuitos eléctricos y electrónicos, básicamente se miden la corriente, el voltaje y la resistencia, a partir de cuya interacción se conforma el triángulo de Ohm. También se pueden medir otras magnitudes, como son la potencia o la conductancia.
+    .row.mt-5 
+      .col-10.offset-1
+        .cajon.color-primario.p-4.mb-4.bg-azul-claro
+          .row
+            .col-12
+              .h4 En este componente formativo, se aborda el estudio del cálculo y la medición de magnitudes eléctricas y electrónicas.
+              p Para la elaboración de este componente, se abordaron varios autores conocidos en cálculo y medición de magnitudes eléctricas y electrónicas, de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos del desarrollo de productos electrónicos.
 </template>
 
 <script>

@@ -1,11 +1,11 @@
 // Titulos ------------------------------- 
 
 .titulo-principal__numero
-  background-color: #FECA2E
+  background-color: $color-acento-contenido
 .titulo-principal__numero span
-  color: $color-sistema-texto
+  color: $white
 .titulo-segundo:after
-  border-left-color: #FECA2E
+  border-left-color: $color-acento-contenido
 
 // Cajon Texto -------------------------------
 
@@ -25,6 +25,8 @@
   border-radius: 10px
 .rounded-25
   border-radius: 25px
+.borde-primario
+  border: solid 3px $color-primario
 .borde-gris
   border: solid 4px #F6F6F6
 .borde-azul
@@ -36,7 +38,7 @@
 // Background Colors ------------------------------
 
 .bg-amarillo
-  background-color: #F4CD58
+  background-color: #FFF0B5
 .bg-amarillo-claro
   background-color: #F4CD5833 !important
 .bg-gris
@@ -46,7 +48,7 @@
 .bg-azul
   background-color: #70D2DF
 .bg-azul-claro
-  background-color: #70D2DF40 !important
+  background-color: #00CCA726 !important
 .bg-azul-gradient
   background-color: linear-gradient(#4DD0E1, #0050A0)
 .tarjeta.color-primario
@@ -69,3 +71,53 @@ table tr td
 .tarjeta-avatar-b > img
   min-width: 0
   width: 17%
+
+// Posicion
+.centrar-hijo-vertical
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+// Citas
+.bloque-texto-d
+  border-top: 1px solid $color-primario !important
+.bloque-texto-d.color-acento-botones:before
+  background-color: #FFD94726
+.bloque-texto-d i
+  color: $color-primario
+
+
+// Imagen encerrada en circulo blanco 
+// .epocas
+//   display: flex
+//   height: 100%
+//   word-break: break-word
+
+// .epocas > div
+//   width: 33.33%
+//   height: 100%
+//   word-break: break-word
+
+// .circulo-blanco
+//   content: " "
+//   background-color: $white
+//   border-radius: 50%
+//   width: 200px
+//   height: 200px
+//   position: relative
+
+// .circulo-blanco::before
+//   content: "asd "
+//   position: absolute
+//   background: blue
+//   width: 100%
+//   height: 10px
+//   top: 50%
+//   transform: translate(-50%)
+  
+
+// .bg-amarillo-claro
+//   position: relative
+
+// .bg-azul-claro
+//   position: relative

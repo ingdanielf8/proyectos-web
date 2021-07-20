@@ -1,1 +1,1 @@
-module.exports = 'Bases de datos NoSQL'
+module.exports = 'Cálculo y medición de magnitudes eléctricas y electrónicas'
