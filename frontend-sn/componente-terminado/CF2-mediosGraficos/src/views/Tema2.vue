@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal.mb-5
+    .titulo-principal
       .titulo-principal__numero
         span 2
       h1 Tipología epub
@@ -25,7 +25,7 @@
       .col-8.col-lg-5.offset-2.offset-lg-0.align-self-center
         figure.mb-5
           img(src="@/assets/template/tema-2-3.png", alt="Texto que describa la imagen")
-    .h4.mb-5 Tipos de epub y características
+    .h4.mb-3.mt-5 Tipos de epub y características
     p.mb-5 Existen dos tipos principales de epub, ajustable y fijo, las cuales se describen a continuación:
     .row.mb-4 
       .col-10.offset-1
@@ -78,19 +78,25 @@
       .col-md-8.col-lg-10.offset-md-2.offset-lg-1
         p Cada formato tiene una extensión distinta,  además de ciertas características como, por ejemplo, la configuración del tipo y tamaño de letra o el ajuste del texto en pantalla.
       figure.mt-3.mb-2
-        img(src="@/assets/template/tema-2-9.png", alt="Texto que describa la imagen")
+        img(src="@/assets/template/tema-2-9.svg", alt="Texto que describa la imagen")
     figcaption Referencia SENA
     p.mt-4 Otros formatos que puede encontrar son: mobi, oeb, opf, prc, rtf. Sobre los cuales se recomienda su consulta; en el material complementario, encontrará información adicional para profundizar en el tema. 
-    
 
 </template>
 
 <script>
 export default {
   name: 'Tema2',
-  data: () => ({
-    // variables de vue
-  }),
+  components: {},
+  data: () => ({}),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

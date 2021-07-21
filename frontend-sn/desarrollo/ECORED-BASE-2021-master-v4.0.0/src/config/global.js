@@ -5,7 +5,7 @@ export default {
     descripcionCurso:
       'Comprender las magnitudes eléctricas permite tener un acercamiento al mundo de la electrónica; tal como un electrón cruza a través de los conductores, encontrando resistencia y transportando la corriente eléctrica, alimentándose del voltaje, y permitiendo la energía para que el circuito eléctrico tenga la potencia de trabajo. ',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -24,32 +24,21 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Introducción a NoSQL',
+        titulo:
+          'Mediciones de acuerdo con procedimientos técnicos y especificaciones del fabricante',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Definición de NoSQL',
+            titulo: 'Mediciones e instrumentos de medición',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Cómo diferenciar NoSQL de SQL',
+            titulo: 'Magnitudes eléctricas y electrónicas',
             hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Tipos de bases de datos NoSQL',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Sistemas de Gestión de Bases de Datos (SGBD) NoSQL',
-            hash: 't_1_4',
           },
         ],
       },
@@ -57,65 +46,110 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'NoSQL con MongoDB',
+        titulo: 'Protocolos de pruebas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Conceptos básicos',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Instalación de MongoDB',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Consola interactiva',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Crear primer documento',
-            hash: 't_2_4',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Manipulación de datos con MongoDB',
+        titulo: 'Ebooks, e-magazine, presentaciones, catálogos, e-card',
+        desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Preproducción',
+        desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Arquitectura de información, Card sorting',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Crear documentos',
-            hash: 't_3_1',
+            numero: '5.1',
+            titulo: 'Evaluación heurística o de usabilidad',
+            hash: 't_5_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Leer y consultar colecciones',
-            hash: 't_3_2',
+            numero: '5.2',
+            titulo: 'Flujogramas',
+            hash: 't_5_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Metodología en UX y UI',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.1',
+            titulo: 'Experiencia de usuario UX',
+            hash: 't_6_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Actualizar documentos',
-            hash: 't_3_3',
+            numero: '6.2',
+            titulo: 'Diseño UI',
+            hash: 't_6_2',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Borrar documentos.',
-            hash: 't_3_4',
+            numero: '6.3',
+            titulo: 'Investigación ',
+            hash: 't_6_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.4',
+            titulo: 'Organización y planificación de la información',
+            hash: 't_6_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.5',
+            titulo: 'Gestión de contenidos ',
+            hash: 't_6_5',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema7',
+        icono: 'far fa-file-alt',
+        numero: '7',
+        titulo: 'Diagramación de la arquitectura de información ',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '7.1',
+            titulo: 'Diseño, guion y storyboard',
+            hash: 't_7_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '7.2',
+            titulo: 'Pruebas',
+            hash: 't_7_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '7.3',
+            titulo: 'Validación de prototipo',
+            hash: 't_7_3',
           },
         ],
       },
@@ -157,148 +191,209 @@ export default {
   referencias: [
     {
       referencia:
-        'Altarade, M. (2017, 20 abril). Bases de datos NoSQL : Guía definitiva. Pandorafms.',
-      link: 'https://pandorafms.com/blog/es/bases-de-datos-nosql',
-    },
-    {
-      referencia: 'Graterol, Y. (2014). Mongo DB en español. GITHUB.',
-      link: 'https://github.com/yograterol/ebook-mongodb-basico',
-    },
-    {
-      referencia:
-        'Junta de Andalucía. (s. f.). Conceptos sobre la escalabilidad. Marco de Desarrollo de la Junta de Andalucía.',
+        'Díaz. M. (2017, abril 21). UX y UI: Diferencias entre la experiencia y la interfaz de usuario. [Web log post]. FuegoYamana.',
       link:
-        'http://www.juntadeandalucia.es/servicios/madeja/contenido/recurso/220',
+        'https://www.fuegoyamana.com/blog/ux-y-ui-experiencia-interfaz-de-usuario/#:~:text=UX%20y%20UI%3A%20Diferencias%20entre%20la%20experiencia%20y%20la%20interfaz%20de%20usuario&text=Mientras%20que%20la%20interfaz%20de,sienten%20cuando%20miran%20dicho%20sitio.',
     },
     {
       referencia:
-        'Macarrón, P. (2021, 8 marzo). Tipos de bases de datos no relacionales. Consultoría Certia.',
-      link: 'https://www.certia.net/tipos-de-bases-de-datos-no-relacionales/',
-    },
-    {
-      referencia:
-        'Microsoft. (2021, 19 mayo). Descripción de normalización de la base de datos. Microsoft Docs',
+        'Estrategia digital. (2017, marzo 23). Metodologías de trabajo para proyectos digitales. [Web log post]. Ida blog.',
       link:
-        'https://docs.microsoft.com/es-es/office/troubleshoot/access/database-normalization-description',
+        'https://blog.ida.cl/estrategia-digital/metodologias-de-trabajo-proyectos-digitales/',
+    },
+    {
+      referencia: 'Glosario gráfico. (s.f.). Postprensa. Glosariografico.com.',
+      link: 'http://www.glosariografico.com/postimpresion',
+    },
+    {
+      referencia: 'Glosario gráfico. (s.f.). Prepensa. Glosariografico.com',
+      link: 'http://www.glosariografico.com/preprensa',
     },
     {
       referencia:
-        'RAE. (s. f.). base | Diccionario de la lengua española. «Diccionario de la lengua española» - Edición del Tricentenario.',
-      link: 'https://dle.rae.es/base#CiiosqO',
-    },
-    {
-      referencia:
-        'Resnick, M. (2008, 12 noviembre). Sembrando las semillas para una sociedad más creativa. Eduteka. ',
-      link: 'http://eduteka.icesi.edu.co/articulos/ScratchResnickCreatividad',
-    },
-    {
-      referencia:
-        'Sudarshan, H. (2002). Fundamentos de bases de datos. McGraw-Hill.',
-      link: '',
-    },
-    {
-      referencia: 'Wikipedia. (2021, 10 junio). Extensible Markup Language.',
+        'Ingeniovirtual. (s.f). Las extensiones de archivos para formato eBook y sus características. ',
       link:
-        'https://es.wikipedia.org/w/index.php?title=Extensible_Markup_Language&oldid=136233446',
+        'https://www.ingeniovirtual.com/extensiones-de-archivos-para-formato-ebook/',
     },
     {
-      referencia: 'Wikipedia. (2021a, enero 17). NoSQL.',
-      link: 'https://es.wikipedia.org/w/index.php?title=NoSQL&oldid=132486305',
+      referencia:
+        'López, B. (2018). Evaluación heurística, la metodología más utilizada en UX para medir la usabilidad de una interfaz. Mtp, digital business assurance.',
+      link:
+        'https://www.mtp.es/blog/experiencia-de-usuario-blog/evaluacion-heuristica-la-usabilidad-una-interfaz',
+    },
+    {
+      referencia:
+        'Puente, L. (2015). Cards: una de las últimas tendencias en diseño web. Netcommerce',
+      link:
+        'https://info.netcommerce.mx/cards-una-de-las-ultimas-tendencias-en-diseno-web',
+    },
+    {
+      referencia:
+        'Real Academia Española. (2020). Hipertexto. DEL. dle.rae.es.',
+      link: 'https://dle.rae.es/hipertexto',
+    },
+    {
+      referencia: 'Real Academia Española. (2021). Interfaz. DEL. dle.rae.es. ',
+      link: 'https://dle.rae.es/interfaz',
+    },
+    {
+      referencia:
+        'Sarraipa, J., Artíficie, A, Jiménez, H. (2019). Metodología de evaluación de prototipo innovador. ACACIA.',
+      link:
+        'https://acacia.red/wp-content/uploads/2019/07/Gu%C3%ADa-Metodologi%CC%81a-de-evaluaci%C3%B3n-de-prototipo-innovador.pdf',
+    },
+    {
+      referencia:
+        'Sepulveda, E & Quiceno, C. (2015). Ebooks interactivos diseño y producción. Fondo Editorial Luis Amigó. ',
+      link:
+        'https://www.researchgate.net/figure/Figura-1-Fase-de-preproduccion-de-material-editorial-interactivo_fig1_311193442',
+    },
+    {
+      referencia:
+        'Torresburriel. (2017). Card Sorting para mejorar la arquitectura de información de un producto digital.',
+      link:
+        'https://www.torresburriel.com/weblog/2017/12/15/card-sorting-para-mejorar-la-arquitectura-de-informacion-de-un-producto-digital/',
+    },
+    {
+      referencia:
+        'Zamora, L. (2016). La lectura hipermedial. Hacia un marco teórico. Marcoele.',
+      link:
+        'https://marcoele.com/lectura-hipermedial/#:~:text=El%20texto%20hipermedial%20se%20caracteriza,en%20definitiva%2C%20la%20comprensi%C3%B3n%20lectora.',
     },
   ],
   glosario: [
     {
-      termino: 'Base datos',
+      termino: 'Hipermedia',
       significado:
-        'Conjunto ordenado y finito de operaciones que permite hallar la solución de un problema.',
+        'hace referencia a la convergencia de diversos medios (textos, imágenes, sonidos, videos), permitiendo estructurar la información de una manera no secuencial, a través de nodos interconectados por enlaces.',
     },
     {
-      termino: 'Colección',
+      termino: 'Hipertexto',
       significado:
-        'Es un compendio de documentos que comparten una relación de estructura similar, no necesariamente igual para todos los objetos.',
+        'conjunto estructurado de textos, gráficos, etc., unidos entre sí por enlaces y conexiones lógicas (Real Academia Española, 2021, definición 1).',
     },
     {
-      termino: 'Diccionario de datos',
+      termino: 'Interfaz',
       significado:
-        'Conjunto de programas, instrucciones y reglas informáticas para ejecutar ciertas tareas en una computadora.',
+        'conexión o frontera común entre dos aparatos o sistemas independientes.Conexión, física o lógica, entre una computadora y el usuario, un dispositivo periférico o un enlace de comunicaciones (Real Academia Española, 2021, definición 1 y 2).',
     },
     {
-      termino: 'Documento',
-      significado:
-        'En bases de datos no relacionales, un documento es un objeto en formato JSON que es almacenado en binario en el motor NoSQL (BSON).',
+      termino: 'Link ',
+      significado: 'Unión, enlace, eslabón. ',
     },
     {
-      termino: 'Escalabilidad ',
+      termino: 'Look and feel',
       significado:
-        'Es la capacidad que tiene un sistema de ser configurado en software o hardware, para mejorar la respuesta a las exigencias o nuevas demandas de capacidad de procesamiento o almacenamiento (conservando las mismas funcionalidades).',
+        'Traducción de mirar y sentir, expresión utilizada en marketing.',
     },
     {
-      termino: 'Metadatos',
+      termino: 'Marketing',
       significado:
-        'Conjunto unitario de instrucciones que permite a una computadora realizar funciones diversas, como el tratamiento de textos, el diseño de gráficos, la resolución de problemas matemáticos, el manejo de bancos de datos.',
+        'Técnicas que persiguen la selección de mercados objetivos, la identificación y cuantificación de las necesidades de esos mercados, el desarrollo de productos y servicios que satisfagan a los usuarios. ',
     },
     {
-      termino: 'NoSQL',
-      significado: 'Base de datos que no usa el estándar SQL.',
+      termino: 'Navegabilidad',
+      significado:
+        'Cualidad de navegable, hace referencia a la facilidad con la que el usuario se desplaza entre las páginas que conforman contenido web. ',
     },
   ],
   complementario: [
     {
       texto:
-        'Fazt. (2019, 22 agosto). MongoDB Curso, Introducción Práctica a NoSQL [Vídeo]. YouTube.',
-      tipo: 'Vídeo',
-      link: 'https://www.youtube.com/watch?v=lWMemPN9t6Q',
-    },
-    {
-      texto:
-        'Ávila, J. (2020, 15 junio). Bases de Datos NoSQL [Vídeo]. YouTube.',
-      tipo: 'Vídeo',
-      link: 'https://www.youtube.com/watch?v=caS51djbuk4',
+        'Ingeniovirtual. (s.f). Las extensiones de archivos para formato eBook y sus características. https://www.ingeniovirtual.com/extensiones-de-archivos-para-formato-ebook/',
+      tipo: 'Sitio web',
+      link:
+        'https://www.ingeniovirtual.com/extensiones-de-archivos-para-formato-ebook/',
     },
   ],
   creditos: {
-    liderEquipo: {
-      nombre: 'Rafael Nelftalí Lizcano Reyes',
-      cargo: 'Asesor metodológico y pedagógico',
-      centro: 'Centro Industrial del Diseño y la Manufactura',
-    },
+    liderEquipo: [
+      {
+        nombre: 'Maria Camila García Santamaría',
+        cargo: 'Líder del equipo',
+        centro: 'Dirección General',
+      },
+    ],
     contenidoInstruccional: [
       {
-        nombre: 'Henry Eduardo Bastidas Paruma',
-        cargo: 'Experto temático',
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Regional Cauca, Centro de teleinformática y producción industrial',
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Peter Emerson Pinchao Solis',
-        cargo: 'Experto temático ',
+        nombre: 'Guillermo Eduardo González Tarazona',
+        cargo: 'Instructor',
         centro:
-          'Regional Cauca, Centro de teleinformática y producción industrial',
+          'Centro para la Industria de la Comunicación Gráfica – Regional Distrito Capital',
       },
       {
-        nombre: 'Oscar Absalón Guevara',
-        cargo: 'Evaluador instruccional ',
-        centro: 'Regional distrito capital – Centro de Gestión Industrial',
+        nombre: 'Dayra Maritza Paz Calderón',
+        cargo: 'Diseñadora y Evaluadora Instruccional',
+        centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor Metodológico y Pedagógico',
+        centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
+      },
+      {
+        nombre: 'Miroslava González Hernández',
+        cargo: 'Diseñador y evaluador instruccional',
+        centro: 'Centro Gestión Industrial – Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
       {
-        nombre: 'Fabián Leonardo Correa Díaz',
-        cargo: 'Diseñador Instruccional',
-        centro: 'Centro agropecuario La Granja, Regional Tolima',
+        nombre: 'Francisco José Lizcano Reyes',
+        cargo: 'Responsable del equipo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Uriel Darío González Montoya',
-        cargo: 'Revisión y corrección de estilo',
-        centro: 'Regional Tolima – Centro Agroindustrial La Granja',
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Luis Fernando Sarmiento Betancourth',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: [
+          'Zuleidy María Ruiz Torres',
+          'Wilson Andrés Arenales Cáceres',
+          'Gilberto Junior Rodriguez Rodriguez',
+          'Nelson Iván Vera Briceño',
+          'María Carolina Tamayo Lopez',
+          'Laura Gisselle Murcia Pardo',
+          'José Jaime Luis Tang Pinzón',
+        ],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Lizeth Karina Manchego Suárez',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+
+      {
+        nombre: 'Veimar Celis Mélendez',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: ['Validación y vinculación en plataforma LMS'],
-        centro: 'Centro de Comercio y Servicios',
-        regional: 'Regional Tolima',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
     ],
   },

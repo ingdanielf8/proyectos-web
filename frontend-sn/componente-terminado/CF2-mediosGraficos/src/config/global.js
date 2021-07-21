@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'Conceptualización y metodologías epub',
+    componenteFormativo:
+      'Cálculo y medición de magnitudes eléctricas y electrónicas',
     descripcionCurso:
-      'El diseño editorial no solo se enfoca en la creación de contenidos impresos, sino también digitales, que se adaptan para posibilitar la lectura en diversos dispositivos; por ello, es de gran utilidad comprender en qué consiste la diagramación, que dependerá de los diferentes tipos de productos.  El epub es uno de los formatos más utilizados para la publicación de libros electrónicos.',
+      'Comprender las magnitudes eléctricas permite tener un acercamiento al mundo de la electrónica; tal como un electrón cruza a través de los conductores, encontrando resistencia y transportando la corriente eléctrica, alimentándose del voltaje, y permitiendo la energía para que el circuito eléctrico tenga la potencia de trabajo. ',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
@@ -23,15 +24,29 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Evolución histórica del libro',
+        titulo:
+          'Mediciones de acuerdo con procedimientos técnicos y especificaciones del fabricante',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Mediciones e instrumentos de medición',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Magnitudes eléctricas y electrónicas',
+            hash: 't_1_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Tipología epub',
+        titulo: 'Protocolos de pruebas',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -140,12 +155,12 @@ export default {
       },
     ],
     subMenu: [
-      {
+      /* {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
-      },
+      }, */
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -170,44 +185,6 @@ export default {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
-      },
-    ],
-  },
-  creditos: {
-    liderEquipo: {
-      nombre: 'Guillermo Eduardo González Tarazona',
-      cargo: 'Instructor ',
-      centro: 'Centro para la Industria de la Comunicación Gráfica',
-      regional: 'Regional Distrito Capital.',
-    },
-    contenidoInstruccional: [
-      {
-        nombre: 'Dayra Maritza Paz Calderón',
-        cargo: 'Diseñadora y Evaluadora Instruccional ',
-        centro: 'Centro de Diseño y Metrología.',
-        regional: 'Regional Distrito Capital.',
-      },
-      {
-        nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Revisor Metodológico y Pedagógico ',
-        centro: 'Centro de Diseño y Metrología.',
-        regional: 'Regional Distrito Capital.',
-      },
-    ],
-    desarrolloProducto: [
-      {
-        nombre: 'Miroslava González Hernández',
-        cargo: 'Diseñador y evaluador instruccional',
-        centro: 'Centro Gestión Industrial.',
-        regional: 'Regional Distrito Capital.',
-      },
-    ],
-    gestoresRepositorio: [
-      {
-        nombre: 'Brayan Stiven Pinto Diaz',
-        cargo: ['Desarrollo front-end', 'Validación de recursos'],
-        centro: 'Centro de comercio y servicios',
-        regional: 'Regional Tolima',
       },
     ],
   },
@@ -288,17 +265,17 @@ export default {
     {
       termino: 'Hipermedia',
       significado:
-        '       Hace referencia a la convergencia de diversos medios (textos, imágenes, sonidos, videos), permitiendo estructurar la información de una manera no secuencial, a través de nodos interconectados por enlaces.',
+        'hace referencia a la convergencia de diversos medios (textos, imágenes, sonidos, videos), permitiendo estructurar la información de una manera no secuencial, a través de nodos interconectados por enlaces.',
     },
     {
       termino: 'Hipertexto',
       significado:
-        'Conjunto estructurado de textos, gráficos, etc., unidos entre sí por enlaces y conexiones lógicas (Real Academia Española, 2021, definición 1).',
+        'conjunto estructurado de textos, gráficos, etc., unidos entre sí por enlaces y conexiones lógicas (Real Academia Española, 2021, definición 1).',
     },
     {
       termino: 'Interfaz',
       significado:
-        'Conexión o frontera común entre dos aparatos o sistemas independientes.Conexión, física o lógica, entre una computadora y el usuario, un dispositivo periférico o un enlace de comunicaciones (Real Academia Española, 2021, definición 1 y 2).',
+        'conexión o frontera común entre dos aparatos o sistemas independientes.Conexión, física o lógica, entre una computadora y el usuario, un dispositivo periférico o un enlace de comunicaciones (Real Academia Española, 2021, definición 1 y 2).',
     },
     {
       termino: 'Link ',
@@ -329,4 +306,95 @@ export default {
         'https://www.ingeniovirtual.com/extensiones-de-archivos-para-formato-ebook/',
     },
   ],
+  creditos: {
+    liderEquipo: [
+      {
+        nombre: 'Maria Camila García Santamaría',
+        cargo: 'Líder del equipo',
+        centro: 'Dirección General',
+      },
+    ],
+    contenidoInstruccional: [
+      {
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Asesor metodológico y pedagógico',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Guillermo Eduardo González Tarazona',
+        cargo: 'Instructor',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica – Regional Distrito Capital',
+      },
+      {
+        nombre: 'Dayra Maritza Paz Calderón',
+        cargo: 'Diseñadora y Evaluadora Instruccional',
+        centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor Metodológico y Pedagógico',
+        centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
+      },
+      {
+        nombre: 'Miroslava González Hernández',
+        cargo: 'Diseñador y evaluador instruccional',
+        centro: 'Centro Gestión Industrial – Regional Distrito Capital',
+      },
+    ],
+    desarrolloProducto: [
+      {
+        nombre: 'Francisco José Lizcano Reyes',
+        cargo: 'Responsable del equipo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Luis Fernando Sarmiento Betancourth',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: [
+          'Zuleidy María Ruiz Torres',
+          'Wilson Andrés Arenales Cáceres',
+          'Gilberto Junior Rodriguez Rodriguez',
+          'Nelson Iván Vera Briceño',
+          'María Carolina Tamayo Lopez',
+          'Laura Gisselle Murcia Pardo',
+          'José Jaime Luis Tang Pinzón',
+        ],
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Lizeth Karina Manchego Suárez',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+
+      {
+        nombre: 'Veimar Celis Mélendez',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+    ],
+    gestoresRepositorio: [
+      {
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+    ],
+  },
 }
