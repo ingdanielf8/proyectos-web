@@ -1,53 +1,47 @@
-.text-center
-  text-align: -webkit-center !important
-.text-align-right
-  text-align: right !important
-.banner-principal__row .banner-principal__img 
-  padding-bottom: 0px !important
-  padding-right: 0px !important
-.banner-principal__componente h1
-  color: $color-primario !important 
-.banner-principal__descripcion p
-  color: $color-primario !important 
-.color-c
-  color: $color-acento-contenido
-.bg-naranja
-  background-color: #FEA829 !important
-.bg-naranja-claro
-  background-color: rgba(254, 168, 41, 0.5) !important
-.bg-secundario-op40
-  background-color: rgba(254, 217, 53, 0.4) !important
+// General ---------------------------------------
+.titulo-principal__numero > span
+  color: $color-sistema-texto 
+.pl-4
+  padding-left: 1.5rem
+
+// Bloque texto ----------------------------------
+.bloque-texto-a.color-primario
+  background-color: $color-primario
+.bloque-texto-a.color-primario:before
+  background-color: #E8E8E8
+.bloque-texto-a.color-primario-invertido, .bloque-texto-a.color-acento-contenido
+  background-color: #E8E8E8
+.bloque-texto-a.color-primario-invertido:before
+  background-color: $color-primario
+
+// Background Color ------------------------------
+.bg-primario-op25
+  background-color: #17C87840 !important 
 .bg-secundario-op25
-  background-color: rgba(254, 217, 53, 0.25) !important
-.bg-secundario-op10
-  background-color: rgba(254, 217, 53, 0.10) !important
-.bg-acento-contenido-op50
-  background-color: rgba(245, 124, 34, 0.5) !important
-.bg-acento-contenido-op35
-  background-color: rgba(245, 124, 34, 0.35) !important
-.bg-acento-contenido-op25
-  background-color: rgba(245, 124, 34, 0.25) !important
-.bg-acento-contenido-op12
-  background-color: rgba(245, 124, 34, 0.12) !important
-.bg-acento-contenido-op05
-  background-color: rgba(245, 124, 34, 0.05) !important
+  background-color: #E2F6C640 !important 
+.bg-acento-contenido
+  background-color: $color-acento-contenido
+.bg-amarillo-claro
+  background-color: #F1D54E33
 .bg-gris
-  background-color: #F6F6F6
-.bloque-texto-a.color-acento-contenido
-  background-color: #E8E8E8
-.bloque-texto-a.color-acento-botones
-  background-color: #E8E8E8
-.borde-gris
-  border: solid 4px #F6F6F6
-.borde-gris-der
-  border-right: solid 3px #AFAFAF 
-.rounded
-  border-radius: 25px !important
-.tarjeta--azul
-  background-color: transparent !important
-.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-  background-color: rgba(254, 217, 53, 0.25) !important
-.linea-tiempo-d__item--selected .tarjeta--gris
-  background-color: rgba(254, 217, 53, 0.25) !important
-.lista-ol--cuadro__vineta
-  background-color: $color-acento-botones
+  background-color: #EEF0F2
+.bg-verde-claro
+  background-color: #E2F6C6
+.bg-verde-degradado
+  background: rgb(23,200,120)
+  background: linear-gradient(180deg, rgba(23,200,120,1) 52%, rgba(21,165,100,1) 100%)
+// Borders ---------------------------------------
+.borde-acento-contenido-izq
+  border-left: 4px solid $color-acento-contenido
+.borde-verde
+  border: solid 3px #29C77B
+
+// Tablas
+.tabla-a th
+  border: solid 1px $white
+.tabla-a tr.bg-color-acento-contenido
+  background-color: $color-acento-contenido 
+
+// Listas
+.fas.fa-angle-right.verde
+  color: #17C878

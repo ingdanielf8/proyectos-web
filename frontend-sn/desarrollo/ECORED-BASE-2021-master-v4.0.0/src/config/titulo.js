@@ -1,1 +1,1 @@
-module.exports = 'Conceptualización y metodologías epub'
+module.exports = 'Procesos contables y financieros de la empresa avícola'

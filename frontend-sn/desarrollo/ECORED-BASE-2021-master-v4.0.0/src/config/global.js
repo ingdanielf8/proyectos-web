@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Cálculo y medición de magnitudes eléctricas y electrónicas',
+      'Procesos contables y financieros de la empresa avícola',
     descripcionCurso:
-      'Comprender las magnitudes eléctricas permite tener un acercamiento al mundo de la electrónica; tal como un electrón cruza a través de los conductores, encontrando resistencia y transportando la corriente eléctrica, alimentándose del voltaje, y permitiendo la energía para que el circuito eléctrico tenga la potencia de trabajo. ',
+      'Conocer el proceso productivo y aprender las metodologías necesarias para determinar los costos, permite una toma de decisiones fundamentadas en el área de producción. Elaborar informes financieros y comprender su funcionamiento, haciendo uso de herramientas como los indicadores financieros, posibilitará llevar el control de la evolución de los procesos y el planteamiento de estrategias de mejoramiento continuo. ',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
