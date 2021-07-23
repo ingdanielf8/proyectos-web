@@ -24,21 +24,38 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo:
-          'Mediciones de acuerdo con procedimientos técnicos y especificaciones del fabricante',
+        titulo: 'Costos de producción',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Mediciones e instrumentos de medición',
+            titulo: 'Elementos',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Magnitudes eléctricas y electrónicas',
+            titulo: 'Clasificación',
             hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Normativa contable',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Metodología de costos',
+            hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Cálculo',
+            hash: 't_1_5',
           },
         ],
       },
@@ -46,110 +63,44 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Protocolos de pruebas',
-        desarrolloContenidos: true,
-        subMenu: [],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Ebooks, e-magazine, presentaciones, catálogos, e-card',
-        desarrolloContenidos: true,
-        subMenu: [],
-      },
-      {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
-        titulo: 'Preproducción',
-        desarrolloContenidos: true,
-        subMenu: [],
-      },
-      {
-        nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
-        numero: '5',
-        titulo: 'Arquitectura de información, Card sorting',
+        titulo: 'Informes financieros',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '5.1',
-            titulo: 'Evaluación heurística o de usabilidad',
-            hash: 't_5_1',
+            numero: '2.1',
+            titulo: 'Estado de costos',
+            hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '5.2',
-            titulo: 'Flujogramas',
-            hash: 't_5_2',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema6',
-        icono: 'far fa-file-alt',
-        numero: '6',
-        titulo: 'Metodología en UX y UI',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.1',
-            titulo: 'Experiencia de usuario UX',
-            hash: 't_6_1',
+            numero: '2.2',
+            titulo: 'Estado de resultados',
+            hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '6.2',
-            titulo: 'Diseño UI',
-            hash: 't_6_2',
+            numero: '2.3',
+            titulo: 'Estado de situación financiera',
+            hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '6.3',
-            titulo: 'Investigación ',
-            hash: 't_6_3',
+            numero: '2.4',
+            titulo: 'Presentación de estados financieros',
+            hash: 't_2_4',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '6.4',
-            titulo: 'Organización y planificación de la información',
-            hash: 't_6_4',
+            numero: '2.5',
+            titulo: 'Indicadores financieros',
+            hash: 't_2_5',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '6.5',
-            titulo: 'Gestión de contenidos ',
-            hash: 't_6_5',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema7',
-        icono: 'far fa-file-alt',
-        numero: '7',
-        titulo: 'Diagramación de la arquitectura de información ',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '7.1',
-            titulo: 'Diseño, guion y storyboard',
-            hash: 't_7_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '7.2',
-            titulo: 'Pruebas',
-            hash: 't_7_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '7.3',
-            titulo: 'Validación de prototipo',
-            hash: 't_7_3',
+            numero: '2.6',
+            titulo: 'Acciones de mejora',
+            hash: 't_2_6',
           },
         ],
       },
@@ -191,127 +142,118 @@ export default {
   referencias: [
     {
       referencia:
-        'Díaz. M. (2017, abril 21). UX y UI: Diferencias entre la experiencia y la interfaz de usuario. [Web log post]. FuegoYamana.',
+        'Burbano A. (2006) Costos y presupuestos. Segunda edición. Ediciones Uniandes.',
       link:
-        'https://www.fuegoyamana.com/blog/ux-y-ui-experiencia-interfaz-de-usuario/#:~:text=UX%20y%20UI%3A%20Diferencias%20entre%20la%20experiencia%20y%20la%20interfaz%20de%20usuario&text=Mientras%20que%20la%20interfaz%20de,sienten%20cuando%20miran%20dicho%20sitio.',
+        'https://es.scribd.com/read/436270130/Costos-y-presupuestos-Segunda-edicion.',
     },
     {
       referencia:
-        'Estrategia digital. (2017, marzo 23). Metodologías de trabajo para proyectos digitales. [Web log post]. Ida blog.',
+        'Decreto ley 3743 de 1951. [Presidencia de la República] Por el cual se expide el Código Sustantivo del Trabajo. Diciembre 20 de 1950. ',
       link:
-        'https://blog.ida.cl/estrategia-digital/metodologias-de-trabajo-proyectos-digitales/',
-    },
-    {
-      referencia: 'Glosario gráfico. (s.f.). Postprensa. Glosariografico.com.',
-      link: 'http://www.glosariografico.com/postimpresion',
-    },
-    {
-      referencia: 'Glosario gráfico. (s.f.). Prepensa. Glosariografico.com',
-      link: 'http://www.glosariografico.com/preprensa',
+        'http://www.secretariasenado.gov.co/senado/basedoc/codigo_sustantivo_trabajo.html.',
     },
     {
       referencia:
-        'Ingeniovirtual. (s.f). Las extensiones de archivos para formato eBook y sus características. ',
+        'Decreto 2420 de 2015 [Presidencia de la República] Por el cual se expide el Decreto Único Reglamentario de las Normas de Contabilidad, de Información Financiera y de Aseguramiento de la Información y se dictan otras disposiciones. Diciembre 14 de 2015.',
       link:
-        'https://www.ingeniovirtual.com/extensiones-de-archivos-para-formato-ebook/',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76745.',
     },
     {
       referencia:
-        'López, B. (2018). Evaluación heurística, la metodología más utilizada en UX para medir la usabilidad de una interfaz. Mtp, digital business assurance.',
-      link:
-        'https://www.mtp.es/blog/experiencia-de-usuario-blog/evaluacion-heuristica-la-usabilidad-una-interfaz',
+        'Delgado F. (2020). Ejercicio de Kardex con promedio ponderado en EXCEL con plantilla GRATIS [video]. YouTube.   ',
+      link: 'https://www.youtube.com/watch?v=xYpt2IRFfgQ.',
     },
     {
       referencia:
-        'Puente, L. (2015). Cards: una de las últimas tendencias en diseño web. Netcommerce',
+        'Guarnizo, F. C. y Cárdenas, S. M. (2015). “Costos por órdenes de producción y por procesos”. La Salle ',
       link:
-        'https://info.netcommerce.mx/cards-una-de-las-ultimas-tendencias-en-diseno-web',
+        'https://es.scribd.com/book/485288049/Costos-por-ordenes-de-produccion-y-por-procesos.',
     },
     {
       referencia:
-        'Real Academia Española. (2020). Hipertexto. DEL. dle.rae.es.',
-      link: 'https://dle.rae.es/hipertexto',
-    },
-    {
-      referencia: 'Real Academia Española. (2021). Interfaz. DEL. dle.rae.es. ',
-      link: 'https://dle.rae.es/interfaz',
+        'Ministerio del trabajo (2019)  “Cotización a la Seguridad Social – Aportes” ',
+      link:
+        'https://www.mintrabajo.gov.co/empleo-y-pensiones/empleo/subdireccion-de-formalizacion-y-proteccion-del-empleo/formalizacion-laboral/cotizacion-a-la-seguridad-social-aportes.',
     },
     {
       referencia:
-        'Sarraipa, J., Artíficie, A, Jiménez, H. (2019). Metodología de evaluación de prototipo innovador. ACACIA.',
+        'Ministerio del trabajo (2019) “MiPymes representan más de 90% del sector productivo nacional y generan el 80% del empleo en Colombia: ministra Alicia Arango”',
       link:
-        'https://acacia.red/wp-content/uploads/2019/07/Gu%C3%ADa-Metodologi%CC%81a-de-evaluaci%C3%B3n-de-prototipo-innovador.pdf',
+        'https://www.mintrabajo.gov.co/prensa/comunicados/2019/septiembre/mipymes-representan-mas-de-90-del-sector-productivo-nacional-y-generan-el-80-del-empleo-en-colombia-ministra-alicia-arango.',
     },
     {
       referencia:
-        'Sepulveda, E & Quiceno, C. (2015). Ebooks interactivos diseño y producción. Fondo Editorial Luis Amigó. ',
+        'Rincón C. y Narváez J. (2017) Presupuestos bajo normas internacionales de información financiera y taxonomía XBRL. Ediciones de la U. ',
       link:
-        'https://www.researchgate.net/figure/Figura-1-Fase-de-preproduccion-de-material-editorial-interactivo_fig1_311193442',
-    },
-    {
-      referencia:
-        'Torresburriel. (2017). Card Sorting para mejorar la arquitectura de información de un producto digital.',
-      link:
-        'https://www.torresburriel.com/weblog/2017/12/15/card-sorting-para-mejorar-la-arquitectura-de-informacion-de-un-producto-digital/',
-    },
-    {
-      referencia:
-        'Zamora, L. (2016). La lectura hipermedial. Hacia un marco teórico. Marcoele.',
-      link:
-        'https://marcoele.com/lectura-hipermedial/#:~:text=El%20texto%20hipermedial%20se%20caracteriza,en%20definitiva%2C%20la%20comprensi%C3%B3n%20lectora.',
+        'https://es.scribd.com/read/436221926/Presupuestos-Bajo-normas-internacionales-de-informacion-financiera-y-taxonomia-XBRL.',
     },
   ],
   glosario: [
     {
-      termino: 'Hipermedia',
-      significado:
-        'hace referencia a la convergencia de diversos medios (textos, imágenes, sonidos, videos), permitiendo estructurar la información de una manera no secuencial, a través de nodos interconectados por enlaces.',
+      termino: 'Erogación:',
+      significado: 'Disponer o hacer uso de recursos.',
     },
     {
-      termino: 'Hipertexto',
-      significado:
-        'conjunto estructurado de textos, gráficos, etc., unidos entre sí por enlaces y conexiones lógicas (Real Academia Española, 2021, definición 1).',
+      termino: 'Partida:',
+      significado: 'Cuenta o rubro de un estado financiero.',
     },
     {
-      termino: 'Interfaz',
-      significado:
-        'conexión o frontera común entre dos aparatos o sistemas independientes.Conexión, física o lógica, entre una computadora y el usuario, un dispositivo periférico o un enlace de comunicaciones (Real Academia Española, 2021, definición 1 y 2).',
+      termino: 'Persona natural:',
+      significado: 'Individuo de la raza humana con derechos y obligaciones.',
     },
     {
-      termino: 'Link ',
-      significado: 'Unión, enlace, eslabón. ',
+      termino: 'Persona jurídica: ',
+      significado:
+        'Figura jurídica compuesta por una o más personas naturales con identidad propia, pero sin la capacidad de actuar por sí misma. Es diferente a todas las personas que la componen, y requiere de un representante legal para actuar. ',
     },
     {
-      termino: 'Look and feel',
+      termino: 'Prestación social: ',
       significado:
-        'Traducción de mirar y sentir, expresión utilizada en marketing.',
+        'Beneficios económicos en dinero o en especie para el trabajador. No es retributivo de los servicios prestados, dado que surgen por el simple hecho de existir una relación laboral.',
     },
     {
-      termino: 'Marketing',
+      termino: 'Productos en proceso:',
       significado:
-        'Técnicas que persiguen la selección de mercados objetivos, la identificación y cuantificación de las necesidades de esos mercados, el desarrollo de productos y servicios que satisfagan a los usuarios. ',
+        'Producto en estado de transformación. Es la etapa intermedia entre la materia prima y el producto terminado disponible para la venta.',
     },
     {
-      termino: 'Navegabilidad',
+      termino: 'Seguridad social:',
       significado:
-        'Cualidad de navegable, hace referencia a la facilidad con la que el usuario se desplaza entre las páginas que conforman contenido web. ',
+        'Sistema de entidades que garantizan la prevención de la salud y capacidad laboral de los empleados. Se compone por los servicios de salud, pensión y riesgos laborales.',
     },
   ],
   complementario: [
     {
       texto:
-        'Ingeniovirtual. (s.f). Las extensiones de archivos para formato eBook y sus características. https://www.ingeniovirtual.com/extensiones-de-archivos-para-formato-ebook/',
-      tipo: 'Sitio web',
-      link:
-        'https://www.ingeniovirtual.com/extensiones-de-archivos-para-formato-ebook/',
+        'Oliveros R. (2016) Ms Excel 5 Fórmulas nómina completa [video]. YouTube. ',
+      tipo: 'Video.',
+      link: 'https://www.youtube.com/watch?v=KdZLNPyLGmk',
+    },
+    {
+      texto:
+        'VideoTups Docentes (2015) Costos I - Costos indirectos de fabricación [vídeo]. YouTube.  ',
+      tipo: 'Video.',
+      link: 'https://www.youtube.com/watch?v=oGrkHeP5pY4',
+    },
+    {
+      texto:
+        'Instituto Nacional de Contadores Públicos de Colombia (2021). Guía para elaboración de estados financieros para pymes',
+      tipo: 'Guía digital.',
+      link: 'https://incp.org.co/wp-content/uploads/2021/01/guia-208.pdf',
+    },
+    {
+      texto:
+        'Instituto Nacional de Contadores Públicos de Colombia (2012) Principales indicadores financieros y de gestión',
+      tipo: 'Guía digital.',
+      link: 'https://incp.org.co/Site/2012/agenda/7-if.pdf',
     },
   ],
   creditos: {
     liderEquipo: [
       {
-        nombre: 'Maria Camila García Santamaría',
-        cargo: 'Líder del equipo',
-        centro: 'Dirección General',
+        nombre: 'Andrés Felipe Avilan Lozano',
+        cargo: 'Experto temático',
+        centro: 'Centro Agropecuario la granja. Regional Tolima',
       },
     ],
     contenidoInstruccional: [
@@ -322,71 +264,22 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Guillermo Eduardo González Tarazona',
-        cargo: 'Instructor',
-        centro:
-          'Centro para la Industria de la Comunicación Gráfica – Regional Distrito Capital',
-      },
-      {
-        nombre: 'Dayra Maritza Paz Calderón',
-        cargo: 'Diseñadora y Evaluadora Instruccional',
-        centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
-      },
-      {
-        nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Revisor Metodológico y Pedagógico',
-        centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
-      },
-      {
-        nombre: 'Miroslava González Hernández',
-        cargo: 'Diseñador y evaluador instruccional',
-        centro: 'Centro Gestión Industrial – Regional Distrito Capital',
+        nombre: 'Silvia Milena Sequeda Cárdenas',
+        cargo: 'Evaluadora Instruccional',
+        centro: 'Centro de gestión industrial. Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
       {
-        nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        nombre: 'Diana Marcela Luis Vásquez',
+        cargo: 'Diseñadora Instruccional',
+        centro: 'Centro de la Gestión industrial. Regional Distrito Capital',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Luis Fernando Sarmiento Betancourth',
-        cargo: 'Diseño web',
+        nombre: 'Jhana Johanna Bustillo Ardila',
+        cargo: 'Revisión de estilo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: [
-          'Zuleidy María Ruiz Torres',
-          'Wilson Andrés Arenales Cáceres',
-          'Gilberto Junior Rodriguez Rodriguez',
-          'Nelson Iván Vera Briceño',
-          'María Carolina Tamayo Lopez',
-          'Laura Gisselle Murcia Pardo',
-          'José Jaime Luis Tang Pinzón',
-        ],
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Lizeth Karina Manchego Suárez',
-        cargo: 'Desarrollo front-end',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-
-      {
-        nombre: 'Veimar Celis Mélendez',
-        cargo: 'Validación de diseño y contenido',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura. Regional Santander',
       },
     ],
     gestoresRepositorio: [

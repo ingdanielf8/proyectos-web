@@ -531,7 +531,7 @@
     .h4.mt-5.px-4.borde-acento-contenido-izq Tabla 6
     p.mt-4 Comparativa sistemas de valuación de inventario
     .row
-      .col-10.col-lg-8.offset-1.offset-lg-2
+      .col-8.col-lg-6.offset-2.offset-lg-3
         .tabla-a.color-acento-contenido.mt-4 
           table
             caption.mt-3 Referencia Nota. Elaboración Sena.
@@ -627,19 +627,21 @@
           .col-4.col-lg-3.offset-4.offset-lg-1
             figure
               img(src="@/assets/template/tema-1-31.svg", alt="Texto que describa la imagen")
-    .tarjeta.p-3.mt-5.bg-verde-degradado
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1.offset-1
-          img(src="@/assets/template/tema-1-32.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h3.mb-1 Código sustantivo del trabajo
-              p.text-small Para profundizar en los demás artículos contemplados en el Código Sustantivo del Trabajo se recomienda consultar la página web del Sistema Único de Información Normativa  
-            .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                span Enlace web
-                i.fas.fa-link   
+    .row
+      .col-10.offset-1
+        .tarjeta.p-3.mt-5.bg-verde-degradado
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1.offset-1
+              img(src="@/assets/template/tema-1-32.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Código sustantivo del trabajo
+                  p.text-small Para profundizar en los demás artículos contemplados en el Código Sustantivo del Trabajo se recomienda consultar la página web del Sistema Único de Información Normativa  
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Enlace web
+                    i.fas.fa-link   
     .row.mt-5 
       .col-10.col-lg-8.offset-1.offset-lg-2
         .cajon.color-secundario.p-4.mb-4.bg-secundario-op25
@@ -647,7 +649,7 @@
     .h4.mt-5.px-4.borde-acento-contenido-izq Tabla 7
     p.mt-4 Factores prestacionales
     .row
-      .col-10.col-lg-8.offset-1.offset-lg-2
+      .col-8.col-lg-6.offset-2.offset-lg-3
         .tabla-a.color-acento-contenido.mt-4 
           table
             caption.mt-3 Referencia Nota. Elaboración Sena.
@@ -739,7 +741,7 @@
     .h4.mt-5.px-4.borde-acento-contenido-izq Tabla 9
     p.mt-4 Liquidación costo mensual empleado
     .row
-      .col-10.offset-1
+      .col-10.col-lg-8.offset-1.offset-lg-2
         .tabla-a.color-acento-contenido.mt-4 
           table
             caption.mt-3 Referencia Nota. Elaboración Sena.
@@ -758,94 +760,331 @@
                 th 106.454  
                 th  106.454 
               tr
-                th.py-4  
-                th  
-                th  
+                th.py-4  Subtotal salario   
+                th 1.106.454
+                th 1.606.454
               tr.bg-gris
                 th.py-4   
                 th   
                 th
               tr
-                th.py-4  
+                th.py-4 Prestaciones
                 th  
                 th  
+              tr.bg-gris 
+                th.py-4 Vacaciones 
+                th 41.667
+                th 62.500
+              tr
+                th.py-4 Cesantías
+                th 92.205
+                th 133.871
               tr.bg-gris
-                th.py-4   
-                th   
-                th
+                th.py-4 Prima de servicios
+                th 92.205
+                th 133.871
+              tr
+                th.py-4 Intereses de la cesantías
+                th 11.065
+                th 16.065
+              tr.bg-gris
+                th.py-4 Subtotal prestaciones 
+                th 237.140
+                th 346.307
               tr
                 th.py-4  
                 th  
                 th  
-              tr.bg-gris
-                th.py-4   
+              tr.bg-gris 
+                th.py-4 Seguridad social  
                 th   
                 th
+              tr
+                th.py-4 Salud
+                th -
+                th -
+              tr.bg-gris
+                th.py-4 Pensión   
+                th 132.774
+                th 192.774
+              tr
+                th.py-4 ARL  
+                th 5.754
+                th 8.354  
+              tr.bg-gris
+                th.py-4 Subtotal seguridad social  
+                th 138.528
+                th 201.128
+              tr
+                th.py-4 
+                th  
+                th  
+              tr.bg-gris 
+                th.py-4 Aportes parafiscales
+                th   
+                th
+              tr
+                th.py-4 Caja de compensación 
+                th 44.258
+                th 64.258
+              tr.bg-gris
+                th.py-4 SENA  
+                th -
+                th -
+              tr
+                th.py-4 ICBF  
+                th -
+                th -
+              tr.bg-gris
+                th.py-4 Subtotales parafiscales   
+                th 44.258   
+                th 64.258
               tr
                 th.py-4  
                 th  
                 th  
+              tr.bg-gris 
+                th.py-4 Total costo empleado
+                th 1.343.594   
+                th 1.952.761
+    .row.mt-5
+      .col-12.col-lg-7
+        p Para precisar, la base para las prestaciones sociales incluye el salario, el auxilio de transporte, las comisiones, las horas extra, entre otros. Sin embargo, el auxilio de transporte no se incluye en la base de cálculo de las vacaciones, puesto que se supone que en ese periodo el empleado no se transportará a la empresa. 
+        p.mt-3 La tarifa para la administradora de riesgos laborales (ARL) varía según el nivel de riesgo que asume el empleado para desempeñar su labor. La tarifa para riesgo 1 es del 0,52 %.
+      .col-4.col-lg-5.offset-4.offset-lg-0
+        figure 
+          img(src="@/assets/template/tema-1-35.svg", alt="Texto que describa la imagen")
+    .row.mt-5
+      .col-10.col-lg-10.offset-1.offset-lg-1
+        .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-2.mb-4.mb-lg-0
+              figure
+                img(src="@/assets/template/tema-1-22.svg", alt="Texto que describa la imagen")
+            .col-lg-10
+              .bloque-texto-a__texto.p-4
+                p Estos cálculos pueden automatizarse haciendo uso de hojas de cálculo; en ellas pueden agregarse tantos empleados como se desee, siempre y cuando se parametrice de forma adecuada las tarifas y montos. Existen softwares gerenciales o contables que cuentan con módulos específicos de nómina, pero requieren de compra de licencias vitalicias o suscripciones periódicas, por lo que son recomendables cuando la empresa cuenta con la rentabilidad necesaria para asumir este nuevo costo.
+    .row
+      .col-10.offset-1
+        .tarjeta.p-3.mt-5.bg-verde-degradado
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1.offset-1
+              img(src="@/assets/template/tema-1-36.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Liquidación de nómina
+                  p.text-small Para profundizar sobre la forma de automatizar la liquidación de la nómina de forma gratuita se recomienda estudiar sobre tutoriales como el siguiente:  
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Enlace web
+                    i.fas.fa-link 
+    .row.mt-5 
+      .col-10.col-lg-8.offset-1.offset-lg-2
+        .cajon.color-acento-contenido.p-4.mb-4
+          p.m-0 Una vez definido el costo mensual de cada empleado, se debe calcular la proporción que le corresponde a cada unidad producida. Si cada empleado tarda una hora aportando su trabajo en el proceso de transformación, y trabaja 24 días al mes en jornadas de 8 horas, el costo de la mano de obra se calcularía así:
+    .h4.mt-5.px-4.borde-acento-contenido-izq Tabla 9
+    p.mt-4 Costo de mano de obra por hora
+    .row
+      .col-10.col-lg-8.offset-1.offset-lg-2
+        .tabla-a.color-acento-contenido.mt-4 
+          table
+            caption.mt-3 Referencia Nota. Tomado de “Cotización a la Seguridad Social – Aportes” Ministerio del Trabajo. (2019).
+            thead
+              tr.bg-color-acento-contenido
+                th 
+                th Operario 1
+                th Operario 2
+            tbody.text-center
               tr.bg-gris
-                th.py-4   
-                th   
-                th
+                th.py-4 Costo mensual:
+                th 1.343.594
+                th 1.952.761
               tr
-                th.py-4  
-                th  
-                th  
+                th.py-4 Horas diarias de trabajo:
+                th 8
+                th 8
               tr.bg-gris
-                th.py-4   
-                th   
-                th
+                th.py-4 Días trabajados al mes 
+                th 24
+                th 24
               tr
-                th.py-4  
-                th  
-                th  
+                th.py-2  
+                th 
+                th 
               tr.bg-gris
-                th.py-4   
-                th   
-                th
+                th.py-4 Horas de trabajo mensual:
+                th 192
+                th 192
               tr
-                th.py-4  
-                th  
-                th  
-              tr.bg-gris
-                th.py-4   
-                th   
+                th.py-2  
+                th 
                 th
+              tr.bg-gris
+                th.py-4 Costo por hora (salario/total horas):
+                th 6.998
+                th 10.171
+    .h4.mt-5 Costos indirectos de fabricación
+    .row.mt-4
+      .col-12.col-lg-7
+       p Asignar los costos indirectos requiere de un juicio claro para determinar, en primera medida, si efectivamente corresponden a la producción, y, en segundo lugar, a qué línea productiva. Si se fabrica varios productos en cantidades variadas, es necesario definir cuánto de cada costo indirecto corresponde a cada tipo de producto según diversos elementos de juicio, posteriormente, solo restará distribuir de manera proporcional según las unidades producidas.
+       p.mt-3 El criterio para definir cuánto de costo corresponde a una línea de producción o área funcional de la fábrica dependerá del juicio del jefe de producción. En el caso del costeo por órdenes, pueden asignarse la cantidad de materiales utilizados o las horas de trabajo destinadas en el mes, y con ello determinar las proporciones. Cuando se utiliza un modelo de costeo estándar, donde se cuenta con una programación estimada, pueden usarse dichas proyecciones en función de unidades producidas. 
+      .col-4.col-lg-5.offset-4.offset-lg-0
+        figure
+          img(src="@/assets/template/tema-1-37.png" , alt="Texto que describa la imagen")
+    p.mt-4 Para ilustrar lo anterior, se presenta el siguiente ejemplo:
+    .h4.mt-5.px-4.borde-acento-contenido-izq Tabla 10
+    p.mt-4 Costos indirectos de fabricación mensuales
+    .row
+      .col-6.col-lg-4.offset-3.offset-lg-4
+        .tabla-a.color-acento-contenido.mt-4 
+          table
+            caption.mt-3 Referencia Nota. Elaboración Sena.
+            thead
+              tr.bg-color-acento-contenido
+                th Costos indirectos 
+                th  Valor 
+            tbody.text-center
               tr
-                th.py-4  
-                th  
-                th  
+                th.py-4 Vacaciones  
+                th 1.200.000
               tr.bg-gris
-                th.py-4   
-                th   
-                th
+                th.py-4 Cesantías
+                th 250.000
               tr
-                th.py-4  
-                th  
-                th  
+                th.py-4 Prima de servicios
+                th 1.500.000
               tr.bg-gris
-                th.py-4   
-                th   
-                th
+                th.py-4 Intereses a las cesantías
+                th 2.950.000
+    p.mt-5 Las unidades producidas requirieron de diferente cantidad de tiempo de trabajo por los dos operarios que se presentaron en el caso de la mano de obra así:
+    .h4.mt-5.px-4.borde-acento-contenido-izq Tabla 11
+    p.mt-4 Hoja de producción con horas de trabajo
+    .row
+      .col-8.col-lg-6.offset-2.offset-lg-3
+        .tabla-a.color-acento-contenido.mt-4 
+          table
+            caption.mt-3 Referencia Nota. Elaboración Sena.
+            thead
+              tr.bg-color-acento-contenido
+                th  
+                th Horas de trabajo
+                th Unidades producidas
+            tbody.text-center
+              tr.bg-gris
+                th.py-4 Producto A
+                th 250
+                th 200
               tr
-                th.py-4  
-                th  
-                th  
+                th.py-4 Producto B 
+                th 134
+                th 100
               tr.bg-gris
-                th.py-4   
-                th   
-                th
+                th.py-4 Total 
+                th 384
+                th 300
+    p.mt-5 Para definir los costos indirectos de fabricación de cada línea, será necesario prorratear con base a las horas de trabajo destinadas a cada línea de producto, posteriormente, y en función de las unidades elaboradas, se podrá definir el costo indirecto de fabricación unitario para cada tipo de producto.
+    .h4.mt-5.px-4.borde-acento-contenido-izq Tabla 12
+    p.mt-4 Aportes obligatorios a seguridad social
+    .row
+      .col-10.col-lg-8.offset-1.offset-lg-2
+        .tabla-a.color-acento-contenido.mt-4 
+          table
+            caption.mt-3 Referencia Nota. Elaboración Sena.
+            thead
+              tr.bg-color-acento-contenido
+                th  
+                th Costo indirecto asignado
+                th Unidades producidas
+                th Costo indirecto unitario
+            tbody.text-center
+              tr.bg-gris
+                th.py-4 Producto A 
+                th 1.920.573
+                th 200
+                th 9.603
               tr
-                th.py-4  
-                th  
-                th  
+                th.py-4 Producto B
+                th 1.029.427
+                th 100
+                th 10.294
               tr.bg-gris
-                th.py-4   
-                th   
-                th
-
+                th.py-4 Total
+                th 2.950.000
+                th 300
+                th 
+    p.mt-5 Una vez son definidos los costos unitarios de materia prima, mano de obra y costos indirectos de fabricación solo resta consolidarlos en una orden de producción para establecer el valor total que cuesta producirlos
+    .h4.mt-5 Aplicativos informáticos
+    .row.mt-4
+      .col-12.col-lg-7
+        p Existe una amplia variedad de herramientas para llevar control sobre el cálculo y los registros de los costos de producción; aquellas microempresas que no tienen procesos productivos muy complejos pueden apoyarse con hojas de cálculo para llevar a cabo las operaciones más repetitivas o estandarizadas.
+        p.mt-3 Previamente se compartió un tutorial para liquidar la nómina de manera asistida haciendo uso de una hoja de cálculo, de esta misma forma es posible llevar a cabo los kárdex para mantener el control de los inventarios bajo los sistemas explicados.  
+      .col-4.col-lg-5
+        figure
+          img(src="@/assets/template/tema-1-38.png" , alt="Texto que describa la imagen")
+    .row
+      .col-10.offset-1
+        .tarjeta.p-3.mt-5.bg-verde-degradado
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1.offset-1
+              img(src="@/assets/template/tema-1-39.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Ejercicio de kárdex con promedio ponderado
+                  p.text-small Para profundizar sobre los kárdex se recomienda ver el siguiente video tutorial para hacer uso del modelo de promedio ponderado:
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Enlace web
+                    i.fas.fa-link 
+    .row.mt-5
+      .col-4.d-none.d-lg-block.align-self-center.p-0
+        figure
+          img(src="@/assets/template/tema-1-40.png", alt="Texto que describa la imagen")
+      .col-12.col-lg-8.p-4.borde-gris
+        p Existen programas especializados para integrar todos los sistemas de costeo, sin embargo, su costo suele incrementarse según su complejidad. Aplicativos que abordan varias funcionalidades suelen ser conocidos como sistemas integrados de gestión, funcionan bajo un modelo modular donde existen diversas interfaces o plantillas para llevar a cabo actividades variadas. Así, un módulo de cartera hace seguimiento a las cuentas por cobrar, y un módulo de caja lleva control del efectivo con sus entradas y salidas. Toda la información converge en la contabilidad, a través de la cual se pueden analizar las dinámicas entre cuentas.
+        p.mt-3 Este tipo de sistemas suelen ser costosos debido a la multitud de servicios que ofrecen bajo un mismo paquete. Alternativas más económicas implican mayor simplicidad en sus funciones, una de las más populares es la de programas contables, que permiten registrar los documentos en la contabilidad, pero carecen de opciones amigables para no contadores. 
+    .row.mt-5 
+      .col-10.col-lg-8.offset-1.offset-lg-2
+        .cajon.color-acento-contenido.p-4.mb-4
+          .row
+            .col-3.d-none.d-lg-block
+              figure
+                img(src="@/assets/template/tema-1-41.svg", alt="Texto que describa la imagen")
+            .col-12.col-lg-9
+              p.m-0 Los programas contables usualmente ofrecen sistemas de control de existencias de inventarios compatibles con lo estudiado hasta ahora, pero carecen de funcionalidades más específicas como el cálculo de los costos indirectos de fabricación. Algunos de ellos ofrecen la posibilidad de liquidar las nóminas de manera asistida, tras el registro de datos básicos para efectuar los cálculos correspondientes. 
+    .row.mt-5
+      .col-10.col-lg-8.offset-1.offset-lg-2
+        .row.borde-gris.rounded-20
+          .col-4.py-4.d-none.d-xl-block
+            .row.p-4.borde-gris-der
+              figure
+                img(src="@/assets/template/tema-1-42.svg", alt="Texto que describa la imagen").w-75
+          .col-xl-8.p-5
+            p El paso de hojas de cálculo a sistemas contables básicos es un paso recurrente en la formalización de los registros en cualquier empresa en crecimiento. El principal factor limitante en este sentido es el costo de implementación de cualquier aplicativo de pago. Es por ello que a día de hoy existen modalidades para hacerse con una herramienta de este estilo, las más comunes son las siguientes:
+    .row.mt-5.text-center
+      .col-4.bg-verde-oscuro.rounded-20-izq
+        .row
+          .col-4.offset-4.mt-4
+            figure
+              img(src="@/assets/template/tema-1-43.svg", alt="Texto que describa la imagen")
+          
+          .h4.text-white.mt-4.px-4 Licencia vitalicia
+          p.mt-4.px-4.text-white Se paga la licencia de uso una única vez y con ella se puede utilizar el software de manera permanente, usualmente ofrecen anualidades para actualizar de acuerdo a las novedades normativas o implementación de nuevas características. Este modelo implica un gasto significativo en el corto plazo, pero que resulta más económico en el largo plazo.
+      .col-4.bg-verde-oscuro-opaco
+        .row
+          .col-4.offset-4.mt-4
+            figure
+              img(src="@/assets/template/tema-1-44.svg", alt="Texto que describa la imagen")
+          .h4.text-white.mt-4.px-4 Sistema de suscripción
+          p.mt-4.px-4.text-white Los aplicativos que se utilizan a través de navegador usualmente ofrecen una alternativa que no representa erogaciones significativas en un periodo determinado. Funcionan bajo la modalidad de suscripción por lo que se cancelan mensualidades con las que se otorgan permisos de uso por tiempo limitado. Son una opción amigable en el corto plazo, pero resultan costosas si se extiende su uso por periodos largos de tiempo.
+      .col-4.bg-verde-oscuro.pb-5.rounded-20-der
+        .row
+          .col-4.offset-4.mt-4
+            figure  
+              img(src="@/assets/template/tema-1-45.svg", alt="Texto que describa la imagen")
+          .h4.text-white.mt-4.px-4 Versiones demo o de licencia estudiantil
+          p.mt-4.px-4.text-white Algunos programas otorgan acceso a funcionalidades limitadas para comprender su funcionamiento o llevar a cabo tareas muy concretas. Usualmente emiten informes con marcas de agua para evitar su uso comercial. Esta metodología es recomendable cuando no se tiene certeza de si el software se adapta a las necesidades de la empresa.
 
 
 

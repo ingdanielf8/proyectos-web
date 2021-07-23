@@ -3,6 +3,16 @@
   color: $color-sistema-texto 
 .pl-4
   padding-left: 1.5rem
+.text-align-right
+  text-align: right
+.opacity-0
+  opacity: 0
+
+// Enlaces
+.anexo
+  background-color: transparent
+.anexo .anexo__texto p
+  color: $color-sistema-texto
 
 // Bloque texto ----------------------------------
 .bloque-texto-a.color-primario
@@ -25,23 +35,56 @@
   background-color: #F1D54E33
 .bg-gris
   background-color: #EEF0F2
+.bg-verde-oscuro
+  background-color: #10844A
+.bg-verde-oscuro-opaco
+  background-color: #14A564
 .bg-verde-claro
   background-color: #E2F6C6
 .bg-verde-degradado
   background: rgb(23,200,120)
   background: linear-gradient(180deg, rgba(23,200,120,1) 52%, rgba(21,165,100,1) 100%)
-// Borders ---------------------------------------
+
+  // Borders ---------------------------------------
 .borde-acento-contenido-izq
   border-left: 4px solid $color-acento-contenido
 .borde-verde
   border: solid 3px #29C77B
+.borde-gris
+  border: solid 4px #F6F6F6
+.borde-gris-der
+  border-right: solid 3px #AFAFAF
+.borde-y-none
+  border-bottom: none
+  border-top: none
+.rounded-10
+  border-radius: 10px
+.rounded-20
+  border-radius: 20px
+.rounded-20-der
+  border-top-right-radius: 20px
+  border-bottom-right-radius: 20px
+.rounded-20-izq
+  border-top-left-radius: 20px
+  border-bottom-left-radius: 20px
 
 // Tablas
+.tabla-a table
+  min-width: 0
 .tabla-a th
   border: solid 1px $white
 .tabla-a tr.bg-color-acento-contenido
   background-color: $color-acento-contenido 
+tr.bg-gris p, tr p:last-child
+  margin-bottom: 0
 
 // Listas
 .fas.fa-angle-right.verde
   color: #17C878
+
+// Slyders
+.slyder-b__img
+  background-color: #E2F6C6
+.slyder-b__img img
+  width: 75%
+  margin: 0 auto
