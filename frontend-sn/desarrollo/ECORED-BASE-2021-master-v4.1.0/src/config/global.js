@@ -23,7 +23,8 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo:
+          'Enfoque metodológico para el desarrollo de aplicaciones móviles nativas.',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -31,7 +32,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Plataformas de desarrollo móvil nativas.',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -39,45 +40,32 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Entornos de desarrollo.',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+            titulo: 'Android Studio.',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
+            titulo: 'Características',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Clasificación de los hilos',
+            titulo: 'Arquitectura.',
             hash: 't_3_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: 'Clasificación de tejidos',
+            titulo: 'Versiones.',
             hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
           },
         ],
       },
@@ -85,7 +73,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Instalación y configuración entorno android studio.',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -93,9 +81,34 @@ export default {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Componentes de una aplicación android.',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.1',
+            titulo: 'Actividades.',
+            hash: 't_5_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.2',
+            titulo: 'Servicios.',
+            hash: 't_5_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.3',
+            titulo: 'Proveedores de contenido.',
+            hash: 't_5_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.4',
+            titulo: 'Receptores de emisiones.',
+            hash: 't_5_4',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -135,187 +148,174 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'D. E. Avison y G. Fitzgerald, Information system development. Maidenhead: McGraw-Hill Education, 2006.',
+      link: '',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'P. Letelier, J. H. Canós, y C. Penadés, «Metodologías Ágiles en el Desarrollo de Software», presentado en VIII Jornadas de Ingeniería del Software y Bases de Datos JISBD, Alicante - España, 2003, pp. 1-8. cambio. Madrid [etc.]: Addison Wesley',
+      link: '',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Amaya Balafuera, Y. D. (2015). Metodologías ágiles en el desarrollo de aplicaciones para dispositivos móviles. Estado actual. Revista de tecnología, 12 (2).',
+      link: 'https://doi.org/10.18270/rt.v12i2.1291',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'H. Takeuchi y I. Nonaka, «The new new product development game», Harvard Business Review, 1986.',
+      link: '',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
+        'D. Astels, Test-driven development : a practical guide. Upper Saddle River, N.J.; London: Prentice Hall PTR, 2003.',
+      link: '',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Abrahamsson, P. Hanhineva, A. Hulkko, H. Ihme, T. Jäälinoja, J. Korkala, M. Salo, O. 2004. Mobile-D: an agile approach for mobile application development. En: Companion. to the 19th annual ACM SIGPLAN conference on Object-oriented programming systems, languages, and applications (pp. 174-175). ACM.',
+      link: '',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
-      significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+      termino: 'Dalvik',
+      significado: 'Máquina virtual de Android',
     },
     {
-      termino: 'Suftware',
+      termino: 'Manifiesto ágil',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es un documento redactado con principios para mejorar la forma de desarrollar.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Wereable',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
-    },
-    {
-      termino: 'Áectores',
-      significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
-    },
-    {
-      termino: 'Moda',
-      significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
-    },
-    {
-      termino: 'Diseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Dispositivo conectado que se puede llevar puesto y que se conecta al teléfono móvil.',
     },
   ],
   complementario: [
     {
+      texto: 'Manifiesto por el Desarrollo Ágil de Software. (2020, June 09).',
+      tipo: 'Página',
+      link: 'https://agilemanifesto.org/iso/es/manifesto.html',
+    },
+    {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+        'Perú, M. H. (2019, December 15). ¿Qué es la PROGRAMACIÓN EXTREMA? Metodología Ágil XP (Ciclo de Vida XP, Prácticas Básicas de XP). ',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=tCl33R9jHBk',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+        'Henao, C. (2018, June 27).  #3. SCRUM en 6 minutos Metodologías Ágiles.',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=HhC75IonpOU',
+    },
+    {
+      texto:
+        'Montoya, J. L. (2021, April 15). Exposición Metodologías de Desarrollo de Software | Mobile-D | Fundamentos de Ingeniería de Software.',
+      tipo: 'Video ',
+      link: 'https://www.youtube.com/watch?v=I3yMHHgQCEk',
+    },
+    {
+      texto:
+        'Axarnet. (2021, June 25). Plataformas de desarrollo de aplicaciones móviles| Axarnet.',
+      tipo: 'Página',
+      link:
+        'https://axarnet.es/blog/plataformas-desarrollo-aplicaciones-moviles',
+    },
+    {
+      texto:
+        'Funcionalidades y características de las aplicaciones nativas | Cero Ideas. (2018, October 15). Cero Ideas. Retrieved from https://ceroideas.es/funcionalidades-y-caracteristicas-de-las-aplicaciones-nativas',
+      tipo: 'Página',
+      link:
+        'https://ceroideas.es/funcionalidades-y-caracteristicas-de-las-aplicaciones-nativas',
+    },
+    {
+      texto:
+        'Peñalba, I. (2021). Hacer aplicaciones para Android: ¿Qué es un entorno de desarrollo y cuál es el mejor? El español. ',
+      tipo: 'Página',
+      link:
+        'https://www.elespanol.com/elandroidelibre/20200518/hacer-aplicaciones-android-entorno-desarrollo-mejor/490952339_0.html',
+    },
+    {
+      texto:
+        'Herramientas para el desarrollo de aplicaciones móviles - Conocimiento Libre. (2021, February 04).',
+      tipo: 'Página',
+      link:
+        'https://conocimientolibre.mx/herramientas-desarrollo-aplicaciones-moviles',
+    },
+    {
+      texto:
+        'Android Studio v1.0: características y comparativa con Eclipse – Academia Android. (2021, June 26).',
+      tipo: 'Página',
+      link:
+        'https://academiaandroid.com/android-studio-v1-caracteristicas-comparativa-eclipse/',
+    },
+    {
+      texto:
+        'TerryGLee. (2021, June 26). Información general sobre Visual Studio.',
+      tipo: 'Página',
+      link:
+        'https://docs.microsoft.com/es-es/visualstudio/get-started/visual-studio-ide?view=vs-2019',
+    },
+    {
+      texto:
+        'Arquitectura de la plataforma | Desarrolladores de Android. (2020, May 07).',
+      tipo: 'Página Oficial',
+      link: 'https://developer.android.com/guide/platform?hl=es-419',
+    },
+    {
+      texto:
+        'El origen de Android (Características y Costos) – Fredy Olmos. (2020, October 21). Retrieved from https://fredyolmos.com/ciencia-y-tecnologia/el-origen-de-android-costos-caracteristicas',
+      tipo: 'Página',
+      link: 'https://www.adslzone.net/reportajes/software/que-es-android',
+    },
+    {
+      texto:
+        'Archivos de descarga de Android Studio | Desarrolladores de Android. (2021, June 14).',
+      tipo: 'Página',
+      link: 'https://developer.android.com/studio/archive?hl=es-419',
+    },
+    {
+      texto:
+        'Cómo instalar Android Studio | Desarrolladores de Android. (2020, December 21). ',
+      tipo: 'Página Oficial',
+      link: 'https://developer.android.com/studio/install?hl=es-419',
+    },
+    {
+      texto:
+        'Aspectos fundamentales de la aplicación | Desarrolladores de Android. (2020, October 07).',
+      tipo: 'Página Oficial',
+      link:
+        'https://developer.android.com/guide/components/fundamentals?hl=es-419',
     },
   ],
   creditos: {
     liderEquipo: [
       {
-        nombre: 'Maria Camila Garcia Santamaria',
-        cargo: 'Líder del equipo',
-        centro: 'Dirección General',
+        nombre: 'Zulema Yidney Leon Escobar ',
+        cargo: 'Experto Temático',
+        centro: 'Centro de Teleinformática y Producción Industrial',
       },
     ],
     contenidoInstruccional: [
       {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        nombre: 'Alix Cecilia Chinchilla Rueda',
+        cargo: 'Evaluadora Instruccional',
+        centro: 'Centro de Gestión Industrial',
       },
     ],
     desarrolloProducto: [
       {
-        nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        nombre: 'María Inés Machado López',
+        cargo: 'Diseñadora Instruccional',
+        centro: 'Centro de Diseño y Metrología',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: ['Nombre 1', 'Nombre 2'],
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        nombre: 'Sandra Patricia Hoyos Sepúlveda ',
+        cargo: 'Edición y corrección de estilo',
+        centro: 'Centro para la Industria de la Comunicación Gráfica',
       },
     ],
     gestoresRepositorio: [
