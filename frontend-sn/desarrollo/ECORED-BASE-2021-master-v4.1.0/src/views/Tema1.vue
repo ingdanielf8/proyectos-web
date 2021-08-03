@@ -79,22 +79,22 @@
           tr
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-18.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-19.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-20.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-21.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-22.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-23.png", alt="Texto que describa la imagen").w-75.margin-0-auto
       table.tabla-borde-azul.mt-3
         thead
           tr.text-center
@@ -108,22 +108,22 @@
           tr
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-24.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-25.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-26.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-27.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-28.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-29.png", alt="Texto que describa la imagen").w-75.margin-0-auto
       table.tabla-borde-azul.mt-3
         thead
           tr.text-center
@@ -137,22 +137,22 @@
           tr
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-30.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-31.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-32.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-33.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-34.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-35.png", alt="Texto que describa la imagen").w-75.margin-0-auto
       table.tabla-borde-azul.mt-3
         thead
           tr.text-center
@@ -166,22 +166,22 @@
           tr
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-36.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-37.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-38.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-39.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-40.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-41.png", alt="Texto que describa la imagen").w-75.margin-0-auto
       table.tabla-borde-azul.mt-3
         thead
           tr.text-center
@@ -195,22 +195,22 @@
           tr
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-42.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-43.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-44.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-45.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-46.png", alt="Texto que describa la imagen").w-75.margin-0-auto
             th.py-3 
               figure
-                img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-47.png", alt="Texto que describa la imagen").w-75.margin-0-auto
     .titulo-segundo.mt-5
       #t_1_3.h4 1.3  Encapsulados
     .row.mt-4
