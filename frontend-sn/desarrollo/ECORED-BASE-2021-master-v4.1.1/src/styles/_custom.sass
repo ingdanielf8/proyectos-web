@@ -1,0 +1,104 @@
+// General ------------------------------
+.titulo-principal__numero
+  background-color: $color-secundario
+.titulo-principal__numero span
+  color: $white
+.margin-0-auto
+  margin: 0 auto
+.titulo-segundo::after
+  border-left: 50px solid $color-secundario
+.position-relative
+  position: relative
+.ml-5
+  margin-left: 3rem !important
+.ml-4
+  margin-left: 1.5rem !important
+.w-31
+  width: 31%
+.w-23
+  width: 23%
+
+// Backgrounds colors ------------------------------
+.bg-amarillo-claro
+  background-color: #FFEEC1
+.bg-rojo-deg
+  background: linear-gradient(180deg, #FF4B52 35%, #CC0A12 100%)
+.bg-amarillo-deg
+  background: linear-gradient(180deg, #FFC935 35%, #FF8900 100%)
+.bg-verde
+  background-color: #96F008
+.bg-verde-claro
+  background-color: #EBFFCC
+
+// Bordes -------------------------------
+.rounded-20
+  border-radius: 20px
+.borde-verde-1
+  border: 1px solid #004046
+.borde-no-top
+  border-top: 0 !important
+
+// Bloque Texto ------------------------------
+.bloque-texto-a.color-acento-botones-invertido::before
+  background-color: $color-secundario
+.bloque-texto-a.color-acento-botones
+  background-color: $color-secundario
+.bloque-texto-a.color-primario-invertido
+  background-color: $color-primario
+.bloque-texto-a.color-primario-invertido::before 
+  background-color: #E8E8E8
+.bloque-texto-a.color-acento-contenido-invertido
+  background-color: $color-acento-contenido
+.bloque-texto-a.color-acento-contenido-invertido::before
+  background-color: #E8E8E8
+
+// Cajon --------------------------------------
+.cajon.color-acento-botones
+  background-color: #FFD94799
+
+// Listas -------------------------------
+.lista-ol--cuadro__vineta.acento-botones
+  background-color: $color-acento-botones
+  color: $color-sistema-texto
+.lista-ol--cuadro__vineta.primario
+  background-color: $color-primario
+li .fa-angle-right::before 
+  color: $color-acento-botones
+.fa-angle-right.primario::before
+  color: $color-primario
+.fa-brain::before
+  // background-image: url(../assets/template/cel.svg)
+  background-repeat: no-repeat
+  background-size: auto
+.lista-ul--color li > i:first-of-type
+  color: transparent
+
+// Tablas -------------------------------
+table.separada
+  border-collapse: separate
+  border-spacing: 20px 0px
+.tabla-borde-azul th, .tabla-borde-azul td 
+  border: 1px solid #70D2DF
+.tabla-borde-azul td:hover ~ th  
+  background-color: black
+.tabla-a table
+  min-width: 0
+.no-border td, .no-border thead 
+  border: transparent
+.image-cover
+  position: absolute
+  top: 0px
+  opacity: 0
+  transition: all 1000ms
+.image-cover:hover
+  display:block
+  opacity: 100%
+  transition: all 650ms
+
+// slyder
+.slyder-a__bullets
+  display: none
+.slyder-a__btn--sigt
+  background-color: #FFC935
+.slyder-a__btn--atrs
+  background-color: #FFC935
