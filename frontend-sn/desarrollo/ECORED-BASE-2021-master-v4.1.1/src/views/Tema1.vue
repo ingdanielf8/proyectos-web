@@ -95,81 +95,81 @@
             .col-2.col-xl-1.offset-1.px-2.px-2.align-self-center
               figure
                 img(src="@/assets/template/tema-1-14.png", alt="Texto que describa la imagen")
-            .col-10.col-xl-9.px-5
+            .col-8.col-xl-9.px-5
               p #[strong BMP:] desarrollado para sistemas operativos Microsoft como formato de almacenamiento para mapas de bits con una profundidad de color de hasta 24 bits por píxel. Los archivos en este formato son relativamente grandes, por lo que no es adecuado para ser usado en páginas web.
 
           div.row
             .col-2.col-xl-1.offset-1.px-2.px-2.align-self-center
-              figure
+              figure.ml-4
                 img(src="@/assets/template/tema-1-15.png", alt="Texto que describa la imagen")
-            .col-10.col-xl-9.px-5
+            .col-8.col-xl-9.px-5
               p #[strong  TIFF:] formato que se utiliza para la transmisión de datos impresos y de imágenes de alta resolución; soporta el modelo de color CMYK y permite una profundidad de color de hasta 16 bits. Es el formato estándar cuando la calidad prima sobre el tamaño de los archivos. Es empleado por las editoriales y los medios impresos.
             
           .row
             .col-2.col-xl-1.offset-1.px-2.px-2.align-self-center
-              figure
+              figure.ml-4
                 img(src="@/assets/template/tema-1-16.png", alt="Texto que describa la imagen")
-            .col-10.col-xl-9.px-5
+            .col-8.col-xl-9.px-5
               p #[strong  JPEG:] sistema de compresión con pérdida, utilizado para lograr que las imágenes digitales que se utilizan sean lo más pequeñas posible y se carguen rápidamente en el documento.
               
           .row
             .col-2.col-xl-1.offset-1.px-2.px-2.align-self-center
-              figure
+              figure.ml-4
                 img(src="@/assets/template/tema-1-17.png", alt="Texto que describa la imagen")
-            .col-10.col-xl-9.px-5
+            .col-8.col-xl-9.px-5
               p #[strong GIF:] es el formato preferido en Internet gracias a su posibilidad de animar imágenes. Los archivos GIF utilizan mapas de bits y admiten hasta 8 bits/píxel, permitiendo 256 colores en la gama RGB.
           .row
             .col-2.col-xl-1.offset-1.px-2.px-2.align-self-center
-              figure
+              figure.ml-4
                 img(src="@/assets/template/tema-1-18.png", alt="Texto que describa la imagen")
-            .col-10.col-xl-9.px-5
+            .col-8.col-xl-9.px-5
               p #[strong PSD:] del inglés “Photoshop Document”, es un formato nativo de proyectos gráficos desarrollados con Photoshop. Guarda la información relacionada con las capas, los canales, la historia, lo que permite la posterior edición de los mismos. Las imágenes en formato PSD solo pueden abrirse y editarse con Adobe Photoshop. Las imágenes resultantes son de tipo pixel.
-          .row
+          .row.py-3
             .col-2.col-xl-1.offset-1.px-2.align-self-center
-              figure
+              figure.ml-4
                 img(src="@/assets/template/tema-1-19.png", alt="Texto que describa la imagen")
-            .col-10.col-xl-9.px-5
+            .col-8.col-xl-9.px-5
               p #[strong RAW:] solo se encuentra disponible en cámaras digitales sofisticadas, indicadas para fotógrafos profesionales. Este formato ofrece la máxima calidad ya que contiene los píxeles en bruto tal y como se han adquirido, generando un archivo que contiene la totalidad de los datos de la imagen, por lo que comúnmente se lo conoce como negativo digital. Los datos del archivo RAW generan un tipo de compresión sin pérdida de información, por lo que comúnmente suele decirse que no comprimen.
           .row
             .col-2.col-xl-1.offset-1.px-2.px-2.align-self-center
-              figure
+              figure.ml-4
                 img(src="@/assets/template/tema-1-20.png", alt="Texto que describa la imagen")
-            .col-10.col-xl-9.px-5
+            .col-8.col-xl-9.px-5
               p #[strong PDF:] del inglés Portable Document Format. Es un tipo de archivo universal, que funciona independientemente del software, del sistema operativo, de la resolución, de la versión, entre otros; usados para la creación del archivo original. Este formato permite el almacenamiento de archivos bitmap, vector, texto, adicionalmente soporta archivos que pueden tener diversas páginas.
           .row
             .col-2.col-xl-1.offset-1.px-2.px-2.align-self-center
-              figure
+              figure.ml-4
                 img(src="@/assets/template/tema-1-21.png", alt="Texto que describa la imagen")
-            .col-10.col-xl-9.px-5
+            .col-8.col-xl-9.px-5
               p #[strong PNG:] este formato se destaca porque permite comprimir imágenes sin pérdidas de calidad.  Además, ofrece la posibilidad de almacenar y publicar imágenes y gráficos respetando las transparencias.
           .row
             .col-2.col-xl-1.offset-1.px-2.px-2.align-self-center
-              figure
+              figure.ml-4
                 img(src="@/assets/template/tema-1-22.png", alt="Texto que describa la imagen")
-            .col-10.col-xl-9.px-5
+            .col-8.col-xl-9.px-5
               p #[strong EPS:] del inglés Encapsulated PostScript, es un formato estandarizado que permite importar y exportar archivos de texto e imágenes, es compatible con todos los sistemas operativos. Se usa básicamente en el ámbito editorial.
           .row
             .col-2.col-xl-1.offset-1.px-2.px-2.align-self-center
-              figure
+              figure.ml-4
                 img(src="@/assets/template/tema-1-23.png", alt="Texto que describa la imagen")
-            .col-10.col-xl-9.px-5
+            .col-8.col-xl-9.px-5
               p #[strong AI:] es la extensión nativa de los archivos generados desde Adobe Illustrator, que se clasifican como archivos de imágenes vectoriales. Las imágenes vectoriales son las más indicadas para usar en páginas web por el peso final de ellas. Una ventaja de la imagen vectorial es que se pueden escalar sin que pierdan calidad, al tiempo que requiere menos espacio de almacenamiento.
           .row
             .col-2.col-xl-1.offset-1.px-2.px-2.align-self-center
-              figure
+              figure.ml-4
                 img(src="@/assets/template/tema-1-24.png", alt="Texto que describa la imagen")
-            .col-10.col-xl-9.px-5
+            .col-8.col-xl-9.px-5
               p #[strong SVG:] del inglés Scalable Vector Graphics. Al igual que el formato Ai, el SVG es una extensión de gráficos vectoriales bidimensionales, tanto estáticos como animados. Es un formato poco conocido pero muy útil para ser utilizarlo en entornos digitales. Su ventaja radica en que es un formato abierto y estándar.
           .row
             .col-2.col-xl-1.offset-1.px-2.px-2.align-self-center
-              figure
+              figure.ml-4
                 img(src="@/assets/template/tema-1-25.png", alt="Texto que describa la imagen")
-            .col-10.col-xl-9.px-5
+            .col-8.col-xl-9.px-5
               p #[strong CDR:] es la extensión nativa de los archivos generados desde Corel Draw. Al igual que los archivos Ai, las imágenes resultantes de Corel se clasifican como archivos de imágenes vectoriales. Se puede decir que Corel Draw es la competencia directa de Illustrator.
       .col-10.offset-1.mt-5
         .tarjeta.bg-rojo-deg.p-3.mb-5.py-4
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1.ml-5
+            .col-3.col-md-2.col-xl-1.ml-5
               img(src="@/assets/template/tema-1-26.svg")
             .col
               .row.justify-content-between.align-items-center
@@ -183,13 +183,13 @@
       .col-10.offset-1
         .tarjeta.bg-amarillo-deg.p-3.mb-5.py-4
           .row.justify-content-around.align-items-center
-            .col-3.col-sm-2.col-lg-1.ml-5
+            .col-3.col-sm-2.col-xl-1.ml-5
               img(src="@/assets/template/tema-1-27.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  h3.mb-1 “Formatos de imagen digital”
-                  p Estimado aprendiz, para profundizar sobre el tema puede consultar la siguiente página:  
+                  h3.mb-1 “Mapa de Bits e Imágenes Vectoriales”
+                  p Estimado aprendiz, para profundizar sobre el tema puede consultar la siguiente video:  
                 .col-sm-auto
                   a.boton.color-acento-contenido.text-white(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
                     span Enlace web
@@ -200,7 +200,7 @@
         p Desde una visión general, según #[strong Fernández (2015):]
         p.mt-3 La resolución se refiere a la capacidad de una tecnología o un mecanismo para reflejar los detalles de una imagen. A mayor resolución, mejor calidad de imagen, pero también más tamaño y peso. 
         p Si se divide una imagen en pocos píxeles, se podrá codificar con poca información, pero seguramente perderá mucho detalle, por lo que se dice que tiene poca resolución. Si se divide en muchas más partes, éstas llegarán a ser tan pequeñas que no se podrán  distinguir. La visión de la imagen será mucho mejor y más detallada, pero también mucho más costosa en bits al ser más grande y más pesada. 
-      .col-6.col-lg-5
+      .col-6.col-lg-5.align-self-center
         figure
           img(src="@/assets/template/tema-1-28.png", alt="Texto que describa la imagen")
     .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mt-5
@@ -216,7 +216,7 @@
       .col-10.col-lg-8.offset-1.offset-lg-2
         .cajon.color-acento-contenido.p-4.mb-4
           .row
-            .col-3.d-none.d-lg-block
+            .col-3.d-none.d-lg-block.align-self-center
               figure
                 img(src="@/assets/template/tema-1-30.svg", alt="Texto que describa la imagen").px-4
             .col-12.col-lg-9.align-self-center
@@ -289,158 +289,505 @@
     .h4.mt-5 Herramientas para la edición
     p.mt-5 Tienen que ver con los software de tratamiento de imagen. El mercado ofrece múltiples opciones y se clasifican entre los editores para computador, celulares y editores online. 
     .row.mt-5
-      .col-4.borde-verde-1.py-5.w-31
+      <div class="col-4 borde-verde-1 w-31 py-5" @mouseover="chBg('canva')" @mouseleave="chBgTransparent()">
         figure
           img(src="@/assets/template/tema-1-42.png", alt="Texto que describa la imagen").w-50.margin-0-auto
-      .col-4.borde-verde-1.position-relative.w-31.mx-4
+      </div>
+      <div class="col-4 position-relative borde-verde-1 w-31 mx-3" @mouseover="chBg('Crello')" @mouseleave="chBgTransparent()">
         figure(style="position:absolute; top:40%; left:2%;")
           img(src="@/assets/template/tema-1-43.png", alt="Texto que describa la imagen").w-75.margin-0-auto
-      .col-4.borde-verde-1.mx-0.position-relative.w-31
+      </div>     
+      <div class="col-4 position-relative borde-verde-1 w-31 mx-0" @mouseover="chBg('piktoChart')" @mouseleave="chBgTransparent()">
         figure(style="position:absolute; top:50%; left:2%;")
           img(src="@/assets/template/tema-1-44.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+      </div>   
     .row.mt-0.text-center
-      .col-4.borde-verde-1.borde-no-top.w-31
-        p.mt-3 #[strong Nombre:Canva] 
-      .col-4.borde-verde-1.borde-no-top.w-31.mx-4
-        p.mt-3 #[strong Nombre:Crello] 
-      .col-4.borde-verde-1.mx-0.borde-no-top.w-31
+      <div class="col-4 borde-verde-1 borde-no-top w-31" :class="{ 'bg-verde-claro': (overFlag == 'canva') }">
+        p.mt-3 #[strong Nombre:Canva]
+      </div>
+      <div class="col-4 borde-verde-1 borde-no-top w-31 mx-3" :class="{ 'bg-verde-claro': (overFlag == 'Crello') }">
+        p.mt-3 #[strong Nombre:Crello]
+      </div>
+      <div class="col-4 borde-verde-1 borde-no-top w-31 mx-0" :class="{ 'bg-verde-claro': (overFlag == 'piktoChart') }">
         p.mt-3 #[strong Nombre:Piktochart]
+      </div>           
     
     .row.mt-5
-      .col-4.borde-verde-1.py-5.w-31
+      <div class="col-4 borde-verde-1 w-31 py-5" @mouseover="chBg('adobeSpark')" @mouseleave="chBgTransparent()">
         figure
           img(src="@/assets/template/tema-1-45.png", alt="Texto que describa la imagen").w-50.margin-0-auto
-      .col-4.borde-verde-1.position-relative.w-31.mx-4
+      </div>      
+      <div class="col-4 position-relative borde-verde-1 w-31 mx-3" @mouseover="chBg('beFunky')" @mouseleave="chBgTransparent()">
         figure(style="position:absolute; top:35%; left:2%;")
           img(src="@/assets/template/tema-1-46.png", alt="Texto que describa la imagen").w-75.margin-0-auto
-      .col-4.borde-verde-1.mx-0.position-relative.w-31
+      </div>
+      <div class="col-4 position-relative borde-verde-1 w-31 mx-0" @mouseover="chBg('crello')" @mouseleave="chBgTransparent()">
         figure(style="position:absolute; top:45%; left:2%;")
           img(src="@/assets/template/tema-1-47.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+      </div>  
+        
     .row.mt-0.text-center
-      .col-4.borde-verde-1.borde-no-top.w-31
+      <div class="col-4 borde-verde-1 borde-no-top w-31" :class="{ 'bg-verde-claro': (overFlag == 'adobeSpark') }">
         p.mt-3 #[strong Nombre:Adobe Spark] 
-      .col-4.borde-verde-1.borde-no-top.w-31.mx-4
-        p.mt-3 #[strong Nombre:Befunky] 
-      .col-4.borde-verde-1.mx-0.borde-no-top.w-31
+      </div>
+      <div class="col-4 borde-verde-1 borde-no-top w-31 mx-3" :class="{ 'bg-verde-claro': (overFlag == 'beFunky') }">
+        p.mt-3 #[strong Nombre:Befunky]
+      </div> 
+      <div class="col-4 borde-verde-1 borde-no-top w-31 mx-0" :class="{ 'bg-verde-claro': (overFlag == 'crello') }">
         p.mt-3 #[strong Nombre:Crello]
+      </div>  
+        
     .h4.mt-5 Para computador
     p.mt-5 Suelen tener mayores funcionalidades, lo que se traduce en mejor desempeño, pero también ocupan espacio en el disco duro ya que son mucho más completos. Normalmente requieren conocimientos de la herramienta, incluso de diseño, así que se necesita conocimiento y experiencia en su manejo Algunos editores de fotos para computadora son Adobe Photoshop, Corel Draw, Paint.net, GIMP.
     .row.mt-5
-      .col-3.borde-verde-1.py-5.w-23
+      <div class="col-3 borde-verde-1 w-23 py-5" @mouseover="chBg('ilustrator')" @mouseleave="chBgTransparent()">
         figure
           img(src="@/assets/template/tema-1-48.png", alt="Texto que describa la imagen").w-50.margin-0-auto
-      .col-3.borde-verde-1.position-relative.w-23.mx-4
+      </div>
+      <div class="col-3 borde-verde-1 w-23 position-relative mx-3" @mouseover="chBg('designer')" @mouseleave="chBgTransparent()">
         figure(style="position:absolute; top:22%; left:2%;")
           img(src="@/assets/template/tema-1-49.png", alt="Texto que describa la imagen").w-50.margin-0-auto
-      .col-3.borde-verde-1.mx-0.position-relative.w-23
+      </div>
+      <div class="col-3 borde-verde-1 w-23 position-relative mx-0" @mouseover="chBg('VSCO')" @mouseleave="chBgTransparent()">
         figure(style="position:absolute; top:22%; left:2%;")
           img(src="@/assets/template/tema-1-50.png", alt="Texto que describa la imagen").w-50.margin-0-auto
-      .col-3.borde-verde-1.mx-0.position-relative.w-23.ml-4
+      </div>    
+      <div class="col-3 borde-verde-1 w-23 position-relative mx-0 ml-3" @mouseover="chBg('indesign')" @mouseleave="chBgTransparent()">
         figure(style="position:absolute; top:22%; left:2%;")
           img(src="@/assets/template/tema-1-51.png", alt="Texto que describa la imagen").w-50.margin-0-auto
+      </div>  
+        
     .row.mt-0.text-center
-      .col-3.borde-verde-1.borde-no-top.w-23
+      <div class="col-3 borde-verde-1 borde-no-top w-23" :class="{ 'bg-verde-claro': (overFlag == 'ilustrator') }">
         p.mt-3 #[strong Nombre:Adobe Ilustrator] 
-      .col-3.borde-verde-1.borde-no-top.w-23.mx-4
+      </div>
+      <div class="col-3 borde-verde-1 borde-no-top w-23 mx-3" :class="{ 'bg-verde-claro': (overFlag == 'designer') }">
         p.mt-3 #[strong Nombre:Gravit Designer] 
-      .col-3.borde-verde-1.mx-0.borde-no-top.w-23
-        p.mt-3 #[strong Nombre:VSCO]
-      .col-3.borde-verde-1.mx-0.borde-no-top.w-23.ml-4
-        p.mt-3 #[strong Nombre:Adobe Indesign]
+      </div>   
+      <div class="col-3 borde-verde-1 borde-no-top w-23 mx-0" :class="{ 'bg-verde-claro': (overFlag == 'VSCO') }">
+        p.mt-3 #[strong Nombre:VSCO] 
+      </div>   
+      <div class="col-3 borde-verde-1 borde-no-top w-23 mx-0 ml-3" :class="{ 'bg-verde-claro': (overFlag == 'indesign') }">
+        p.mt-3 #[strong Nombre:Adobe Indesign] 
+      </div>  
+        
     .row.mt-5
-      .col-3.borde-verde-1.py-5.w-23
+      <div class="col-3 borde-verde-1 w-23 py-5" @mouseover="chBg('afterLight')" @mouseleave="chBgTransparent()">
         figure
           img(src="@/assets/template/tema-1-52.png", alt="Texto que describa la imagen").w-50.margin-0-auto
-      .col-3.borde-verde-1.position-relative.w-23.mx-4
+      </div>
+      <div class="col-3 borde-verde-1 position-relative w-23 mx-3" @mouseover="chBg('adobePhotoshop')" @mouseleave="chBgTransparent()">
         figure(style="position:absolute; top:22%; left:2%;")
           img(src="@/assets/template/tema-1-53.png", alt="Texto que describa la imagen").w-50.margin-0-auto
-      .col-3.borde-verde-1.mx-0.position-relative.w-23
+      </div>
+      <div class="col-3 borde-verde-1 position-relative w-23 mx-0" @mouseover="chBg('SVGEdit')" @mouseleave="chBgTransparent()">
         figure(style="position:absolute; top:22%; left:2%;")
           img(src="@/assets/template/tema-1-54.png", alt="Texto que describa la imagen").w-50.margin-0-auto
-      .col-3.borde-verde-1.mx-0.position-relative.w-23.ml-4
+      </div>  
+      <div class="col-3 borde-verde-1 position-relative w-23 mx-0 ml-3" @mouseover="chBg('snapSeed')" @mouseleave="chBgTransparent()">
         figure(style="position:absolute; top:22%; left:2%;")
           img(src="@/assets/template/tema-1-55.png", alt="Texto que describa la imagen").w-50.margin-0-auto
+      </div>         
     .row.mt-0.text-center
-      .col-3.borde-verde-1.borde-no-top.w-23
+      <div class="col-3 borde-verde-1 borde-no-top w-23" :class="{ 'bg-verde-claro': (overFlag == 'afterLight') }">
         p.mt-3 #[strong Nombre:Afterlight] 
-      .col-3.borde-verde-1.borde-no-top.w-23.mx-4
+      </div>
+      <div class="col-3 borde-verde-1 borde-no-top w-23 mx-3" :class="{ 'bg-verde-claro': (overFlag == 'adobePhotoshop') }">
         p.mt-3 #[strong Nombre:Adobe Photoshop] 
-      .col-3.borde-verde-1.mx-0.borde-no-top.w-23
-        p.mt-3 #[strong Nombre:SVG-Edit]
-      .col-3.borde-verde-1.mx-0.borde-no-top.w-23.ml-4
-        p.mt-3 #[strong Nombre:Snapseed]
+      </div>         
+      <div class="col-3 borde-verde-1 borde-no-top w-23 mx-0" :class="{ 'bg-verde-claro': (overFlag == 'SVGEdit') }">
+        p.mt-3 #[strong Nombre:SVG-Edit] 
+      </div> 
+      <div class="col-3 borde-verde-1 borde-no-top w-23 mx-0 ml-3" :class="{ 'bg-verde-claro': (overFlag == 'snapSeed') }">
+        p.mt-3 #[strong Nombre:Snapseed] 
+      </div>
+        
     .row.mt-5
-      .col-3.borde-verde-1.py-5.w-23
+      <div class="col-3 borde-verde-1 w-23 py-5" @mouseover="chBg('vectr')" @mouseleave="chBgTransparent()">
         figure
           img(src="@/assets/template/tema-1-56.png", alt="Texto que describa la imagen").w-50.margin-0-auto
-      .col-3.borde-verde-1.position-relative.w-23.mx-4
+      </div>
+      <div class="col-3 borde-verde-1 position-relative w-23 mx-3" @mouseover="chBg('inkScape')" @mouseleave="chBgTransparent()">
         figure(style="position:absolute; top:22%; left:2%;")
           img(src="@/assets/template/tema-1-57.png", alt="Texto que describa la imagen").w-50.margin-0-auto
-      .col-3.borde-verde-1.mx-0.position-relative.w-23
+      </div>
+      <div class="col-3 borde-verde-1 position-relative w-23 mx-0" @mouseover="chBg('gimp')" @mouseleave="chBgTransparent()">
         figure(style="position:absolute; top:30%; left:2%;")
           img(src="@/assets/template/tema-1-58.png", alt="Texto que describa la imagen").w-50.margin-0-auto
-      .col-3.borde-verde-1.mx-0.position-relative.w-23.ml-4
+      </div>  
+      <div class="col-3 borde-verde-1 position-relative w-23 mx-0 ml-3" @mouseover="chBg('canVa')" @mouseleave="chBgTransparent()">
         figure(style="position:absolute; top:22%; left:2%;")
           img(src="@/assets/template/tema-1-59.png", alt="Texto que describa la imagen").w-50.margin-0-auto
+      </div>            
     .row.mt-0.text-center
-      .col-3.borde-verde-1.borde-no-top.w-23
-        p.mt-3 #[strong Nombre:Vectr] 
-      .col-3.borde-verde-1.borde-no-top.w-23.mx-4
+      <div class="col-3 borde-verde-1 borde-no-top w-23" :class="{ 'bg-verde-claro': (overFlag == 'vectr') }">
+        p.mt-3 #[strong Nombre:Vectr]  
+      </div>
+      <div class="col-3 borde-verde-1 borde-no-top w-23 mx-3" :class="{ 'bg-verde-claro': (overFlag == 'inkScape') }">
         p.mt-3 #[strong Nombre:Inkscape] 
-      .col-3.borde-verde-1.mx-0.borde-no-top.w-23
-        p.mt-3 #[strong Nombre:Gimp]
-      .col-3.borde-verde-1.mx-0.borde-no-top.w-23.ml-4
-        p.mt-3 #[strong Nombre:Canva]
+      </div>         
+      <div class="col-3 borde-verde-1 borde-no-top w-23 mx-0" :class="{ 'bg-verde-claro': (overFlag == 'gimp') }">
+        p.mt-3 #[strong Nombre:Gimp] 
+      </div> 
+      <div class="col-3 borde-verde-1 borde-no-top w-23 mx-0 ml-3" :class="{ 'bg-verde-claro': (overFlag == 'canVa') }">
+        p.mt-3 #[strong Nombre:Canva] 
+      </div>
+        
     .row.mt-5
-      .col-3.borde-verde-1.py-5.w-23
+      <div class="col-3 borde-verde-1 w-23 py-5" @mouseover="chBg('paintShop')" @mouseleave="chBgTransparent()">
         figure
           img(src="@/assets/template/tema-1-60.png", alt="Texto que describa la imagen").w-100.margin-0-auto
-      .col-3.borde-verde-1.position-relative.w-23.mx-4
+      </div>
+      <div class="col-3 borde-verde-1 position-relative w-23 mx-3" @mouseover="chBg('lightRoom')" @mouseleave="chBgTransparent()">
         figure(style="position:absolute; top:22%; left:2%;")
           img(src="@/assets/template/tema-1-61.png", alt="Texto que describa la imagen").w-50.margin-0-auto
-      .col-3.borde-verde-1.mx-0.position-relative.w-23
+      </div>
+      <div class="col-3 borde-verde-1 position-relative w-23 mx-0" @mouseover="chBg('pixlrEditor')" @mouseleave="chBgTransparent()">
         figure(style="position:absolute; top:22%; left:2%;")
           img(src="@/assets/template/tema-1-62.png", alt="Texto que describa la imagen").w-50.margin-0-auto
-      .col-3.borde-verde-1.mx-0.position-relative.w-23.ml-4
+      </div>  
+      <div class="col-3 borde-verde-1 position-relative w-23 mx-0 ml-3" @mouseover="chBg('corelDraw')" @mouseleave="chBgTransparent()">
         figure(style="position:absolute; top:22%; left:2%;")
           img(src="@/assets/template/tema-1-63.png", alt="Texto que describa la imagen").w-50.margin-0-auto
+      </div>
+      
+        
     .row.mt-0.text-center
-      .col-3.borde-verde-1.borde-no-top.w-23
-        p.mt-3 #[strong Nombre:PaintShop Pro 2019] 
-      .col-3.borde-verde-1.borde-no-top.w-23.mx-4
+      <div class="col-3 borde-verde-1 borde-no-top w-23" :class="{ 'bg-verde-claro': (overFlag == 'paintShop') }">
+        p.mt-3 #[strong Nombre:PaintShop Pro 2019]  
+      </div>
+      <div class="col-3 borde-verde-1 borde-no-top w-23 mx-3" :class="{ 'bg-verde-claro': (overFlag == 'lightRoom') }">
         p.mt-3 #[strong Nombre:Lightroom] 
-      .col-3.borde-verde-1.mx-0.borde-no-top.w-23
-        p.mt-3 #[strong Nombre:Pixlr Editor]
-      .col-3.borde-verde-1.mx-0.borde-no-top.w-23.ml-4
-        p.mt-3 #[strong Nombre:Corel Draw]
+      </div>         
+      <div class="col-3 borde-verde-1 borde-no-top w-23 mx-0" :class="{ 'bg-verde-claro': (overFlag == 'pixlrEditor') }">
+        p.mt-3 #[strong Nombre:Pixlr Editor] 
+      </div> 
+      <div class="col-3 borde-verde-1 borde-no-top w-23 mx-0 ml-3" :class="{ 'bg-verde-claro': (overFlag == 'corelDraw') }">
+        p.mt-3 #[strong Nombre:Corel Draw] 
+      </div>
+        
     .h4.mt-5 Para celulares
     p.mt-5 se crearon para sistemas operativos como Android e iOS; aunque también necesitan descargarse, sus funciones no necesitan mucho espacio de memoria. Esto los hace más limitados que un software de gran tamaño, pero con las ventajas de modificar una imagen en cualquier momento. Algunos de este tipo son: Photoshop Express, VSCO, Canva, entre otros.
     .row.mt-5
-      .col-4.borde-verde-1.py-5.w-31
+      <div class="col-4 borde-verde-1 w-31 py-5" @mouseover="chBg('cAnva')" @mouseleave="chBgTransparent()">
         figure
           img(src="@/assets/template/tema-1-42.png", alt="Texto que describa la imagen").w-50.margin-0-auto
-      .col-4.borde-verde-1.position-relative.w-31.mx-4
+      </div>      
+      <div class="col-4 position-relative borde-verde-1 w-31 mx-3" @mouseover="chBg('adobePH')" @mouseleave="chBgTransparent()">
         figure(style="position:absolute; top:17%; left:2%;")
           img(src="@/assets/template/tema-1-64.png", alt="Texto que describa la imagen").w-50.margin-0-auto
-      .col-4.borde-verde-1.mx-0.position-relative.w-31
+      </div>
+      <div class="col-4 position-relative borde-verde-1 w-31 mx-0" @mouseover="chBg('vsco')" @mouseleave="chBgTransparent()">
         figure(style="position:absolute; top:21%; left:2%;")
           img(src="@/assets/template/tema-1-65.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+      </div>
+        
     .row.mt-0.text-center
-      .col-4.borde-verde-1.borde-no-top.w-31
+      <div class="col-4 borde-verde-1 borde-no-top w-31" :class="{ 'bg-verde-claro': (overFlag == 'cAnva') }">
         p.mt-3 #[strong Nombre:Canva] 
-      .col-4.borde-verde-1.borde-no-top.w-31.mx-4
-        p.mt-3 #[strong Nombre:Adobe Photoshop] 
-      .col-4.borde-verde-1.mx-0.borde-no-top.w-31
+      </div>
+      <div class="col-4 borde-verde-1 borde-no-top w-31 mx-3" :class="{ 'bg-verde-claro': (overFlag == 'adobePH') }">
+        p.mt-3 #[strong Nombre:Adobe Photoshop]
+      </div> 
+      <div class="col-4 borde-verde-1 borde-no-top w-31 mx-0" :class="{ 'bg-verde-claro': (overFlag == 'vsco') }">
         p.mt-3 #[strong Nombre:VSCO]
+      </div>
+        
     .h4.mt-5 Editores online
     p.mt-5 no necesitan descargarse en dispositivos y muchos de ellos tienen versiones gratuitas, con funciones limitadas y un poco de publicidad en sus interfaces. Algunos son Canva o Photoshop Express en esta clasificación, además de Photo Fancy y PicMonkey.
     .row.mt-5
-      .col-4.borde-verde-1.py-5.w-31.offset-4
+      <div class="col-4 borde-verde-1 w-31 py-5 offset-4" @mouseover="chBg('picMonkey')" @mouseleave="chBgTransparent()">
         figure
           img(src="@/assets/template/tema-1-66.png", alt="Texto que describa la imagen").w-50.margin-0-auto
+      </div>        
     .row.mt-0.text-center
-      .col-4.borde-verde-1.borde-no-top.w-31.offset-4
+      <div class="col-4 borde-verde-1 borde-no-top w-31 offset-4" :class="{ 'bg-verde-claro': (overFlag == 'picMonkey') }">
         p.mt-3 #[strong Nombre:PicMonkey] 
+      </div>         
+    .row.mt-5
+      .col-12
+        .bloque-texto-a.color-acento-botones.p-4.p-md-3.mt-4 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-4.mb-4.mb-lg-0
+              figure
+                img(src="@/assets/template/tema-1-67.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
+            .col-lg-8
+              .bloque-texto-a__texto.p-4
+                .h4.mb-0 Gratuitos: 
+                p.mb-0 VSCO PicsArtPhoto Lab, Lensa, Photoscape X, Paint.Net, GIMP, Adobe Photoshop Express, Krita, Canva, Pixlr, iPiccy, Fotor, Lensa.
+                .h4.mt-3.mb-0 Pago:
+                p.mb-0 InPixio Photo Editor, Adobe Photoshop, PaintShop, Pixelmator Pro, PhotoPlus, Lightroom, PhotoDirector, PicMonkey, Ribbet, Mextures, Touch Retouch y SKRWT
+    .titulo-segundo.mt-5
+      #t_1_2.h4 1.2  Edición de audio
+    .row.mt-5
+      .col-12.col-lg-6
+        p Hace referencia a la posibilidad de manipular diferentes elementos sonoros, involucrando en el proceso un terminal computarizado y software específico, con el fin de integrar o generar sonidos nuevos o que se adapten a una necesidad específica.
+        p.mt-3 Un sonido digital suele tener asociados una serie de condiciones y parámetros característicos entre los que se puede destacar: la tendencia a ser dinámicos, su capacidad de interactividad, su condición ubicua y su naturaleza versátil.
+      .col-6.offset-3.offset-lg-0
+        figure  
+          img(src="@/assets/template/tema-1-68.png", alt="Texto que describa la imagen")
+    .h4.mt-5 Formatos para la edición de audio 
+    p.mt-5 Ahora es pertinente revisar los formatos de audio y conocer algunos softwares comúnmente utilizados para la edición de este tipo de recursos:
+    p.mt-5 Según el uso y la utilidad, los formatos de audio se dividen en dos categorías. Una, los que se usan para almacenar archivos de audio en DD, memorias USB o dispositivos que permiten escuchar este tipo de archivos (MP3, WAV, AIFF) y otra los que se usan en servicios de transmisión online (OGG, FLAC, ALAC).
+    .row.mt-5
+      .col-10.offset-1
+        SlyderA.bg-verde-claro.rounded-20
+          .row.py-4
+            .col-2.col-xl-1.offset-1.px-2.px-2.align-self-center
+              figure.ml-1
+                img(src="@/assets/template/tema-1-112.png", alt="Texto que describa la imagen")
+            .col-8.col-xl-9.px-5
+              p #[strong MP3:] formato de audio comprimido con pérdida más conocido. Al mismo tiempo es el más compatible con múltiples reproductores multimedia. Se caracteriza por la compresión de la secuencia del sonido, dando como resultado un archivo realmente pequeño, que normalmente ocupa la mitad del archivo original. Para conseguirlo, es necesaria la pérdida de determinados sonidos, que supuestamente no pueden ser escuchados por el oído humano.
+          div.row
+            .col-2.col-xl-1.offset-1.px-2.px-2.align-self-center
+              figure.ml-4
+                img(src="@/assets/template/tema-1-69.png", alt="Texto que describa la imagen")
+            .col-8.col-xl-9.px-5
+              p #[strong WAV:] formato sin compresión de datos creado por Microsoft e IBM. Es compatible con todos los programas reproductores de audio. Los archivos de formato WAV no son tan populares como los MP3 porque son de mayor tamaño, aunque de mejor calidad.
+          div.row
+            .col-2.col-xl-1.offset-1.px-2.px-2.align-self-center
+              figure.ml-4
+                img(src="@/assets/template/tema-1-70.png", alt="Texto que describa la imagen")
+            .col-8.col-xl-9.px-5
+              p #[strong AIFF:] Audio Interchange File Format, formato estándar de audio, desarrollado por Apple para almacenar datos de sonido en computadores Apple. Hoy en día los archivos WAV y AIFF son compatibles.
+          div.row
+            .col-2.col-xl-1.offset-1.px-2.px-2.align-self-center
+              figure.ml-4
+                img(src="@/assets/template/tema-1-71.png", alt="Texto que describa la imagen")
+            .col-8.col-xl-9.px-5
+              p #[strong WMA:] del inglés Windows Media Audio, es un formato de archivos musicales creados por Microsoft. Una de sus principales características está en que aquellos archivos que han sido comprimidos en formato WMA ocupan menos espacio que los MP3, lo que implica también la reducción de su calidad. Por tanto, se trata de un formato de compresión de audio con pérdida.
+          div.row
+            .col-1.col-xl-1.offset-1.px-2.px-2.align-self-center
+              figure.ml-4
+                img(src="@/assets/template/tema-1-72.png", alt="Texto que describa la imagen")
+            .col-8.col-xl-9.px-5
+              p #[strong FLAC:] del inglés Free Lossless Audio Codec, es un formato de archivos de audio, libre y abierto, cuyo objetivo es reducir el tamaño original sin perder calidad. FLAC se ha convertido en la competencia directa del formato WAV.
+          div.row
+            .col-2.col-xl-1.offset-1.px-2.px-2.align-self-center
+              figure.ml-4
+                img(src="@/assets/template/tema-1-73.png", alt="Texto que describa la imagen")
+            .col-8.col-xl-9.px-5
+              p #[strong AAC:] del inglés Advanced Audio Coding, es un formato de compresión con pérdida que está usando Apple como formato principal para los iPods y para su software iTunes. Es la versión de Apple del formato MP3. (Truesdell, 2007, p 516).
+          div.row
+            .col-2.col-xl-1.offset-1.px-2.px-2.align-self-center
+              figure.ml-4
+                img(src="@/assets/template/tema-1-74.png", alt="Texto que describa la imagen")
+            .col-8.col-xl-9.px-5
+              p #[strong OGG:] archivos de audio comprimidos, que por su tamaño pueden ser transmitidos vía WIFI. Adicionalmente puede contener video. No es compatible con dispositivos Apple o con sistema operativo iOS.
+          div.row
+            .col-2.col-xl-1.offset-1.px-2.px-2.align-self-center
+              figure.ml-4
+                img(src="@/assets/template/tema-1-75.png", alt="Texto que describa la imagen")
+            .col-8.col-xl-9.px-5
+              p #[strong ALAC:] del inglés Apple Lossless Audio Codec, es básicamente la alternativa de Apple al formato FLAC. Es el formato utilizado por iTunes para las transmisiones de Apple Music.
+    p.mt-5 Algunos programas para edición de audio offline:
+    
+    .row.mt-5
+      .col-4.py-5.w-31.bg-naranja-claro.rounded-20-top
+        figure
+          img(src="@/assets/template/tema-1-76.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+      .col-4.position-relative.w-31.mx-3.bg-naranja-claro.rounded-20-top
+        figure(style="position:absolute; top:20%; left:2%;")
+          img(src="@/assets/template/tema-1-77.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+      .col-4.mx-0.position-relative.w-31.bg-naranja-claro.rounded-20-top
+        figure(style="position:absolute; top:30%; left:2%;")
+          img(src="@/assets/template/tema-1-78.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+    .row.mt-0.text-center
+      .col-4.borde-no-top.w-31.bg-naranja-claro
+        figure.px-lg-5
+          img(src="@/assets/template/tema-1-79.png", alt="Texto que describa la imagen").w-50.margin-0-auto
+      .col-4.borde-no-top.w-31.mx-3.bg-naranja-claro
+        figure.px-lg-5
+          img(src="@/assets/template/tema-1-79.png", alt="Texto que describa la imagen").w-50.margin-0-auto
+      .col-4.mx-0.borde-no-top.w-31.bg-naranja-claro
+        figure.px-lg-5
+          img(src="@/assets/template/tema-1-79.png", alt="Texto que describa la imagen").w-50.margin-0-auto
+    .row.mt-0
+      .col-4.borde-no-top.w-31.bg-naranja-claro.px-4.rounded-20-bot
+        p.mt-4.text-small #[strong Audacity:] Es un programa gratuito de código abierto para grabar y editar sonido.
+      .col-4.borde-no-top.w-31.mx-3.bg-naranja-claro.px-4.rounded-20-bot
+        p.mt-4.text-small.mb-5.pb-5 #[strong Power Sound Editor:] Permite llevar a cabo avanzadas y poderosas tareas a partir de cualquier archivo en audio. Puede usarlo para grabar o editar sus archivos y mezclarlos con otras piezas de sonido
+      .col-4.mx-0.borde-no-top.w-31.bg-naranja-claro.px-4.rounded-20-bot
+        p.mt-4.text-small #[strong Mp3DirectCut:] Programa que permite editar de forma rápida archivos comprimidos en mp3. Permitir realizar la edición de los archivos sin descomprimirlos.
+
+    .row.mt-4
+      .col-4.py-5.w-31.bg-naranja-claro.rounded-20-top
+        figure.px-3
+          img(src="@/assets/template/tema-1-80.png", alt="Texto que describa la imagen").margin-0-auto
+      .col-4.position-relative.w-31.mx-3.bg-naranja-claro.rounded-20-top
+        figure(style="position:absolute; top:20%; left:2%;")
+          img(src="@/assets/template/tema-1-81.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+      .col-4.mx-0.position-relative.w-31.bg-naranja-claro.rounded-20-top
+        figure(style="position:absolute; top:30%; left:2%;")
+          img(src="@/assets/template/tema-1-82.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+    .row.mt-0.text-center
+      .col-4.borde-no-top.w-31.bg-naranja-claro
+        figure.px-lg-5
+          img(src="@/assets/template/tema-1-79.png", alt="Texto que describa la imagen").w-50.margin-0-auto
+      .col-4.borde-no-top.w-31.mx-3.bg-naranja-claro
+        figure.px-lg-5
+          img(src="@/assets/template/tema-1-113.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+      .col-4.mx-0.borde-no-top.w-31.bg-naranja-claro
+        figure.px-lg-3
+          img(src="@/assets/template/tema-1-114.png", alt="Texto que describa la imagen").margin-0-auto
+    .row.mt-0
+      .col-4.borde-no-top.w-31.bg-naranja-claro.px-4.rounded-20-bot
+        p.mt-4.text-small.pb-5.mb-5 #[strong Music Editor Free:] software de edición de música, ayuda a registrar y editar música y sonidos, permitiéndole crear o editar sus propias pistas musicales o archivos de audio. Al igual que la mayoría de las herramientas de este tipo permite cortar, copiar y pegar partes de la grabación y, de ser necesario, añadir efectos.
+      .col-4.borde-no-top.w-31.mx-3.bg-naranja-claro.px-4.rounded-20-bot
+        p.mt-4.text-small #[strong Wavosaur:] al tiempo que permite grabar audio, este programa permite editar archivos en formato wav o mp3. Cuenta con funciones como copiar, cortar, pegar. 
+      .col-4.mx-0.borde-no-top.w-31.bg-naranja-claro.px-4.rounded-20-bot
+        p.mt-4.text-small #[strong WavePad:] permite grabar y editar música, voz y archivos de audio. Puede realizar la mayoría de tareas básicas en lo que se refiere a edición de audios.
+
+    .row.mt-4
+      .col-4.py-5.w-31.bg-naranja-claro.rounded-20-top
+        figure.px-3
+          img(src="@/assets/template/tema-1-83.png", alt="Texto que describa la imagen").margin-0-auto
+      .col-4.position-relative.w-31.mx-3.bg-naranja-claro.rounded-20-top
+        figure(style="position:absolute; top:20%; left:2%;").px-3
+          img(src="@/assets/template/tema-1-84.png", alt="Texto que describa la imagen").margin-0-auto
+      .col-4.mx-0.position-relative.w-31.bg-naranja-claro.rounded-20-top
+        figure(style="position:absolute; top:15%; left:2%;").px-4
+          img(src="@/assets/template/tema-1-85.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+    .row.mt-0.text-center
+      .col-4.borde-no-top.w-31.bg-naranja-claro
+        figure.px-lg-5
+          img(src="@/assets/template/tema-1-79.png", alt="Texto que describa la imagen").w-50.margin-0-auto
+      .col-4.borde-no-top.w-31.mx-3.bg-naranja-claro
+        figure.px-lg-5
+          img(src="@/assets/template/tema-1-79.png", alt="Texto que describa la imagen").w-50.margin-0-auto
+      .col-4.mx-0.borde-no-top.w-31.bg-naranja-claro
+        figure.px-lg-3.ml-4
+          img(src="@/assets/template/tema-1-86.png", alt="Texto que describa la imagen").margin-0-auto
+    .row.mt-0
+      .col-4.borde-no-top.w-31.bg-naranja-claro.px-4.rounded-20-bot
+        p.mt-4.text-small #[strong Expstudio:] Este programa cuenta con múltiples funciones para editar archivos de audio o música. La versión gratuita una vez finalizada la edición sólo permite guardar los audios resultantes en formato wav o mp2. 
+      .col-4.borde-no-top.w-31.mx-3.bg-naranja-claro.px-4.rounded-20-bot
+        p.mt-4.text-small.pb-5.mb-5 #[strong DJ Audio Editor:] herramienta de fácil uso, que le permite editar canciones y sonidos en una forma única y atractiva. Permite añadir cientos de efectos de sonido a los archivos de audio, incluso brinda la posibilidad de grabar desde varias fuentes de audio y exportar los archivos a los principales formatos de audio.
+      .col-4.mx-0.borde-no-top.w-31.bg-naranja-claro.px-4.rounded-20-bot
+        p.mt-4.text-small #[strong Let 's make music:] programa pensado principalmente para producir música con el computador. Incluye la creación de melodías y ritmos, sintetizar y mezclar sonidos y guardar de forma ordenada cada una de las melodías que se van creando. 
+
+    .row.mt-4
+      .col-4.py-4.w-31.bg-naranja-claro.rounded-20-top
+        figure.px-3
+          img(src="@/assets/template/tema-1-87.png", alt="Texto que describa la imagen").margin-0-auto
+      .col-4.position-relative.w-31.mx-3.bg-naranja-claro.rounded-20-top
+        figure(style="position:absolute; top:25%; left:2%;").px-3
+          img(src="@/assets/template/tema-1-88.png", alt="Texto que describa la imagen").w-25.margin-0-auto      
+    .row.mt-0.text-center
+      .col-4.borde-no-top.w-31.bg-naranja-claro
+        figure.px-lg-3.ml-4
+          img(src="@/assets/template/tema-1-86.png", alt="Texto que describa la imagen").margin-0-auto
+      .col-4.borde-no-top.w-31.mx-3.bg-naranja-claro
+        figure.px-lg-3.ml-4
+          img(src="@/assets/template/tema-1-86.png", alt="Texto que describa la imagen").margin-0-auto     
+    .row.mt-0
+      .col-4.borde-no-top.w-31.bg-naranja-claro.px-4.rounded-20-bot
+        p.mt-4.text-small #[strong WaveSurfer:]  software de código abierto diseñado pensando en los usuarios: tanto en aquellos que tienen un conocimiento avanzado del tema, como aquellos que apenas están empezando.  
+      .col-4.borde-no-top.w-31.mx-3.bg-naranja-claro.px-4.rounded-20-bot 
+        p.mt-4.text-small.pb-5.mb-5 #[strong Adobe Audition:] Aplicación en forma de estudio de sonido destinado a la edición de audio digital de Adobe Systems Incorporated que permite un entorno de edición mezclado de ondas multipista.
+    figure.mt-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .titulo-segundo.mt-5
+      #t_1_3.h4 1.3  Edición de video 
+    figure.mt-4
+      img(src="@/assets/template/tema-1-89.png", alt="Texto que describa la imagen")
+    p.mt-5 La edición de video requiere de la manipulación de varios elementos, en donde la unión de varias imágenes y la adición de efectos digitales, como música, efectos y textos, posibilitan tener un resultado de un producto listo, pero que requiere de una serie de conocimientos que se amplían en el video relacionado a continuación:
+    .h4.mt-5 La imagen en movimiento
+    .row.mt-5 
+      .col-12.col-lg-9
+        p Son aquellas que pueden verse a través de medios audiovisuales y representan secuencias: cine, animación, vídeo, gift, etc. 
+        p.mt-3 El movimiento de una imagen se produce cuando una sucesión de imágenes estáticas, llamadas fotogramas, son proyectadas a gran velocidad. Para que una imagen fija se perciba en movimiento se tienen que proyectar un mínimo de 16 imágenes por segundo, aunque para percibirlo como real, se graba y se proyecta a 24 fotogramas por segundo en el cine y a 25 en la televisión y el video.
+      .col-4.col-lg-3.offset-4.offset-lg-0
+        figure  
+          img(src="@/assets/template/tema-1-90.svg", alt="Texto que describa la imagen")
+    .h4.mt-5 Aspectos de la edición de video
+    .h4.mt-5 Narrativa audiovisual
+    figure.mt-5
+      img(src="@/assets/template/tema-1-91.png", alt="Texto que describa la imagen")
+    p.mt-5 Las imágenes en movimiento, al igual que las imágenes fijas, asumen el espacio en dos dimensiones y componen la realidad mediante encuadres o planos fijos y puntos de vista o ángulos de visión. Las imágenes en movimiento tienen además la propiedad de trabajar con la dimensión del tiempo.
+    p.mt-4 Los elementos narrativos de un producto audiovisual son:
+    .row.mt-5
+      .col-10.col-lg-8.offset-1.offset-lg-2
+        .cajon.color-acento-botones.bg-acento-botones-60.p-4.mb-4
+          .h4 El fotograma
+          p.mt-4 Unidad mínima en la que se divide una captura de imagen en movimiento. Es una imagen fija que, al sucederse con otras, produce una imagen en movimiento. Es equivalente a una fotografía.
+    .row.mt-4
+      .col-10.col-lg-8.offset-1.offset-lg-2
+        .cajon.color-acento-botones.bg-acento-botones-40.p-4.mb-4
+          .h4 La secuencia
+          p.mt-4 Es la manera como se narra de forma completa, una acción concreta. Aunque la acción sucede en diferentes lugares y momentos, se mantiene una línea argumental. Su duración depende de la importancia que tenga dentro del guion. La secuencia se compone de escenas y estas a su vez de planos. Existe un tipo de plano adaptado a la secuencia: el plano secuencia es un plano fijo o en movimiento que no tiene cortes y dura lo mismo que la secuencia que está capturando.
+    .row.mt-4
+      .col-10.col-lg-8.offset-1.offset-lg-2
+        .cajon.color-acento-botones.bg-acento-botones-20.p-4.mb-4
+          .h4 La escena 
+          p.mt-4 Se encarga de mostrar una acción que transcurre en un mismo tiempo y lugar. El paso de una escena a otra se da a través de cortes que pueden ser secos, si se pasa de una imagen a otra diferente; fundidos a negro cuando se oscurece la imagen hasta el negro o, fundido encadenado cuando se superpone paulatinamente a la siguiente escena. La escena se compone de tomas.
+    .row.mt-4
+      .col-10.col-lg-8.offset-1.offset-lg-2
+        .cajon.color-acento-botones.bg-acento-botones-10.p-4.mb-4
+          .h4 La toma
+          p.mt-4 Es la grabación obtenida de una acción o escena. Es habitual hacer varias tomas de una misma escena utilizando diferentes ángulos de visión o puntos de vista.
+    .h4.mt-5 Los planos en movimiento 
+    p.mt-5 Surgen cuando la cámara hace un seguimiento del espacio y del movimiento de los personajes. Estos planos son, entre otros:
+    .row.mt-5
+      .col-4.py-5.w-31.bg-verde-claro.rounded-20-top
+        figure
+          img(src="@/assets/template/tema-1-92.svg", alt="Texto que describa la imagen").w-50.margin-0-auto
+      .col-4.position-relative.w-31.mx-3.bg-verde-claro.rounded-20-top
+        figure(style="position:absolute; top:20%; left:2%;")
+          img(src="@/assets/template/tema-1-93.svg", alt="Texto que describa la imagen").w-50.margin-0-auto
+      .col-4.mx-0.position-relative.w-31.bg-verde-claro.rounded-20-top
+        figure(style="position:absolute; top:20%; left:2%;")
+          img(src="@/assets/template/tema-1-94.svg", alt="Texto que describa la imagen").w-50.margin-0-auto    
+    .row.mt-0.text-center
+      .col-4.borde-no-top.w-31.bg-verde-claro.px-4.rounded-20-bot
+        .h4 Travelin:
+        p.mt-4.text-small Plano que describe la cámara al acompañar al personaje o elemento durante su desplazamiento de un lugar a otro. 
+      .col-4.borde-no-top.w-31.mx-3.bg-verde-claro.px-4.rounded-20-bot
+        .h4 Panorámica o paneo:
+        p.mt-4.text-small.mb-5 Plano que se obtiene al realizar un movimiento de cámara de derecha a izquierda para dar una visión general del espacio. 
+      .col-4.mx-0.borde-no-top.w-31.bg-verde-claro.px-4.rounded-20-bot
+        .h4 Plano grúa:
+        p.mt-4.text-small Plano que se capta al colocar la cámara sobre una grúa elevada para tomar la imagen cenital, desde lo alto y en todas las direcciones.
+    p.mt-5 Racionero (2008) afirma que “los planos cinematográficos se clasifican según su tamaño y dependiendo de este tienen diferentes funciones y reciben distintos nombres”. Según las características de movimiento e imagen los planos se pueden clasificar en:
+    .row.mt-5
+      .col-10.offset-1
+        SlyderC(:datos="datosSlyder1")
+    .h4.mt-5 Proceso de edición del video
+    .row.mt-5
+      .col-12.col-lg-6
+        p Es el proceso mediante el cual se crea un producto audiovisual a partir de la selección y unión de fragmentos de vídeo y audio obtenidos previamente a través de un soporte digital (cámaras) Anteriormente se hablaba de dos formas de edición: analógica y digital, pero actualmente, la analógica está casi descontinuada y es la edición digital bajo la que se trabaja en todos los entornos en los que son necesarios los productos audiovisuales.
+        p La parte final de la edición es la posproducción de imagen y audio. En ella se elaboran los efectos especiales, sobreimpresión de textos o animaciones, y en el audio, locuciones, efectos o bandas sonoras.
+        p.mt-3 La edición es un proceso dispendioso que habitualmente había venido requiriendo de dos profesionales: el que define el concepto y el que utiliza el programa. Los cambios en el mercado y las competencias profesionales hoy en día han simplificado los procesos, con el apoyo también de la tecnología, y un mismo profesional debe estar en capacidad de elaborar un producto audiovisual de principio a fin.
+      .col-6.offset-3.offset-lg-0.align-self-center
+        figure
+          img(src="@/assets/template/tema-1-102.png", alt="Texto que describa la imagen")
+    .row.mt-5
+      .col-10.col-lg-8.offset-1.offset-lg-2
+        .bloque-texto-a.color-acento-botones-invertido.p-4.p-md-3.mt-4 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-8
+              .bloque-texto-a__texto.p-4
+                .h4.mb-0 Herramientas técnicas para la edición de video
+                p.mb-0 Al momento de iniciar la edición, es necesario contar con dos herramientas básicas para procesar el material “en bruto”, o sea, todo el material grabado por el dispositivo. Se trata del guion de montaje y el programa de edición.    
+            .col-lg-4.mb-4.mb-lg-0
+              figure
+                img(src="@/assets/template/tema-1-103.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
+    .row.mt-5
+      .col-10.offset-1
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-4.mt-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/template/tema-1-104.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            .h4.d-block.mb-0 Guion técnico
+            p.mb-0 Es el mismo documento que se utilizó en la etapa de grabación, pero que en la edición se constituye como un documento clave que consigna el orden en que se insertarán todos los elementos de la narrativa audiovisual; define cómo se une una escena con otra, los tipos de plano que contiene cada escena, las transiciones entre las escenas y las secuencias definidas. Además de las imágenes, consigna también los sonidos de cada escena y otro tipo de elementos gráficos como títulos o imágenes insertadas que contribuyan a dar sentido.
+    .h4.mt-5 Programas de edición
+    p.mt-5 Al igual que para las imágenes estáticas, existe una amplia variedad de software con los cuales llevar a cabo el montaje de las imágenes de video. Los software más populares actualmente son los siguientes:
+    .row.mt-5
+      .col-10.offset-1
+        SlyderD(:datos="datosSlyder2")
+
 </template>
 
 <script>
@@ -448,7 +795,94 @@ export default {
   name: 'Tema1',
   components: {},
   data: () => ({
-    // variables de vue
+    overFlag: '',
+    datosSlyder1: [
+      {
+        titulo: 'Plano general',
+        texto:
+          'Ubica al espectador en el espacio donde sucede la acción y su objetivo es describir el entorno.',
+        imagen: require('@/assets/template/tema-1-95.png'),
+      },
+      {
+        titulo: 'Plano de detalle',
+        texto:
+          'Se usa para destacar elementos específicos que se consideren fundamentales para la acción que quiere presentarse.',
+        imagen: require('@/assets/template/tema-1-96.png'),
+      },
+      {
+        titulo: 'Plano entero',
+        texto:
+          'Está estrechamente relacionado con el plano general, la diferencia radica en que el centro de acción lo producen los personajes no el decorado.',
+        imagen: require('@/assets/template/tema-1-97.png'),
+      },
+      {
+        titulo: 'Plano americano',
+        texto:
+          '“Nació a partir de la necesidad del western, que en el plano medio tenía que incluir la pistola del cowboy. Este plano comprende, entonces, desde la pistola colgada debajo de la cintura hasta la cabeza entera del personaje”. ',
+        imagen: require('@/assets/template/tema-1-98.png'),
+      },
+      {
+        titulo: 'Plano medio',
+        texto:
+          'Este plano presenta desde la cintura hasta la cabeza del personaje.',
+        imagen: require('@/assets/template/tema-1-99.png'),
+      },
+      {
+        titulo: 'Primer plano',
+        texto:
+          '“Es el más expresivo, del cual se ha dicho es el reflejo del alma”. (Lourdes, 2000, p.56)',
+        imagen: require('@/assets/template/tema-1-100.png'),
+      },
+      {
+        titulo: 'Primerísimo primer plano',
+        texto:
+          'Este plano supone un acercamiento muy acentuado al rostro del personaje, va de debajo de los labios hasta las cejas.',
+        imagen: require('@/assets/template/tema-1-101.png'),
+      },
+    ],
+    datosSlyder2: [
+      {
+        titulo: 'Final Cut Pro (Mac): ',
+        texto:
+          'Programa de Apple que se ha convertido en uno de los referentes para la edición de vídeo de forma profesional.',
+        imagen: require('@/assets/template/tema-1-105.png'),
+      },
+      {
+        titulo: 'Adobe Premiere Pro (Windows y Mac):',
+        texto:
+          'Es una de las mejores alternativas profesionales para sacar el máximo rendimiento a la edición de vídeo. Pertenece a la familia de productos de Adobe Creative Suite. ',
+        imagen: require('@/assets/template/tema-1-106.png'),
+      },
+      {
+        titulo: 'Adobe After Effects (Windows y Mac):',
+        texto:
+          'Es un complemento para Adobe Premiere Pro que aunque requiere de un nivel algo avanzado, permite crear animaciones, gráficos 3D con movimiento y efectos para incluir en los vídeos dando un toque muy profesional.',
+        imagen: require('@/assets/template/tema-1-107.png'),
+      },
+      {
+        titulo: 'Avid Media Composer (Windows y Mac):',
+        texto:
+          'A pesar de no ser tan popular en los estudios de posproducción profesional de cine y televisión es muy usado por su dinámico flujo de trabajo. ',
+        imagen: require('@/assets/template/tema-1-108.png'),
+      },
+      {
+        titulo: 'Pinnacle Studio (Windows): ',
+        texto: 'Es un software muy intuitivo y fácil de manejar.',
+        imagen: require('@/assets/template/tema-1-109.png'),
+      },
+      {
+        titulo: 'Sony Vegas Pro (Windows):',
+        texto:
+          'Potente software con una estética que sigue la línea de Sony. También tiene una versión llamada Movie Studio para usuarios no tan avanzados.',
+        imagen: require('@/assets/template/tema-1-110.png'),
+      },
+      {
+        titulo: 'Corel VideoStudio (Windows):',
+        texto:
+          'Una opción más a tener en cuenta entre los programas avanzados. Recientemente ha añadido la opción de capturar en vídeo la pantalla del ordenador, ideal para tutoriales.',
+        imagen: require('@/assets/template/tema-1-111.png'),
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {
@@ -457,6 +891,14 @@ export default {
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    chBg(id) {
+      this.overFlag = id
+    },
+    chBgTransparent() {
+      this.overFlag = ''
+    },
   },
 }
 </script>

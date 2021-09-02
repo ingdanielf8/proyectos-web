@@ -370,6 +370,7 @@ export default {
   methods: {
     chBg(id) {
       this.overFlag = id
+      console.log("Hola")
     },
     chBgTransparent() {
       this.overFlag = ''

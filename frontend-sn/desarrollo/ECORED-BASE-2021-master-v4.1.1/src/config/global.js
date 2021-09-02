@@ -23,116 +23,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Montaje audiovisual',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo: 'Edición de imagen',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
+            titulo: 'Edición de audio',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
+            titulo: 'Edición de video',
+            hash: 't_1_3',
           },
         ],
       },
@@ -140,90 +50,32 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Creación web',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
+            titulo: 'Diseño web',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
+            titulo: 'Arquitectura y diagramación web',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Motion + Presentador',
+            titulo: 'Maquetación web',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Animación 2D',
+            titulo: 'Tipos de medios y plataformas digitales',
             hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Fundamentación Textil',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Clasificación de los hilos',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
           },
         ],
       },
@@ -265,141 +117,169 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Blázquez Nieto, A. (2019). Nuevas Tecnologías Aplicadas a la Vida: Smartphone, Tablet E Internet.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://docplayer.es/78951030-Nuevas-tecnologias-aplicadas-a-la-vida-smartphone-tablet-e-internet.html',
+    },
+    {
+      referencia: 'Equipo 09, EvntosSv.com. (2019). Maquetacion Web.',
+      link: 'https://evntossv.neocities.org/maquetacion.html',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'Faulker, A. & Gyncild, B. (2015). Adobe Photoshop CC 2014. Madrid: Anaya Multimedia.',
+      link: '',
+    },
+    {
+      referencia: 'Fernández. (2005). Imagen Digital.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'http://comunicacion3unlz.com.ar/wp-content/uploads/2014/07/Imagen-digital.pdf',
+    },
+    {
+      referencia: 'Garrett, J. J. (2002). ia/recon (Spanish)',
+      link: 'http://www.jjg.net/ia/recon/spanish.html',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Leyva, Alarcón, Barrera & Ortegón. (2017). Exploración del diseño y arquitectura web. Aplicación a páginas electrónicas del sector bancario desde la perspectiva del usuario. Revista Escuela de Administración de Negocios, 80, enero-junio, 2016, 41-57, Universidad EAN.',
+      link: '',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Lozano Botache, J. P. (20138). Narraciones cinematográficas: Potencialidades pedagógicas y de investigación cualitativa, desde el cine colombiano [Tesis de doctorado. Universidad del Cauca]. Repositorio Unicauca.',
+      link: 'https://bit.ly/3sVtKzL',
+    },
+    {
+      referencia:
+        'Lourdes Cortés, M. (ed.). (2000). Luces, cámara, acción: textos de cine y televisión. Editorial de la Universidad de Costa Rica.',
+      link: '',
+    },
+    {
+      referencia:
+        'Montero Miguel, R. (2014). Administración de servicios de transferencia de archivos y contenidos multimedia. Ra-Ma. S.A.',
+      link: '',
+    },
+    {
+      referencia:
+        'Morville, P. & Rosenfeld, L. (1998). Information architecture for the World Wide Web. O’Reilly.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ordóñez, C. A. (2005). Formatos de imagen digital. Revista Digital Universitaria, 5(7), 1-10. ',
+      link: 'http://www.revista.unam.mx/vol.6/num5/art50/may_art50.pdf',
+    },
+    {
+      referencia:
+        'Racionero, A. (2008). El lenguaje cinematográfico. Editorial UOC.',
+      link: '',
+    },
+    {
+      referencia:
+        'Real Academia Española: Diccionario de la lengua española, 23.ª ed. [versión 23.4 en línea].',
+      link: 'https://dle.rae.es',
+    },
+    {
+      referencia: 'R M. (2014, 2 julio). Los modos de color en diseño gráfico.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://blog.agencialanave.com/los-modos-de-color-en-diseno-grafico/',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
+        'Rosenfeld, L. & Morville, P. (1998). Information Architecture for the Wold Wide Web. Cambridge: O Reilly.',
+      link: '',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Shum, Y. M. (2021). Situación Global Mobile 2020 - 5.190 millones de usuarios únicos.',
+      link: 'https://yiminshum.com/mobile-movil-app-2020/',
+    },
+    {
+      referencia:
+        'Viveros, M. A. T. (2005). Introducción a la Creación de Imágenes Digitales para Multimedia Interactivo.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://programas.cuaed.unam.mx/repositorio/moodle/pluginfile.php/1161/mod_resource/content/1/contenido/index.html',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
-      significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+      termino: 'Buscador',
+      significado: 'Herramienta web que permite ubicar contenidos en la red.',
     },
     {
-      termino: 'Suftware',
-      terminoHtml: '<em>Suftware</em>',
+      termino: 'Declaración CSS',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es la suma de la propiedad más el valor y se encuentra siempre entre dos corchetes. Si el selector es la parte del código que dice en qué parte se ha de aplicar la Regla CSS, la declaración explica en qué consisten las instrucciones.',
     },
     {
-      termino: 'Pirognóstico',
-      significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+      termino: 'Etiqueta',
+      significado: 'Cada uno de los elementos del lenguaje HTML.',
     },
     {
-      termino: 'Áectores',
-      terminoHtml: '<em>Áectores</em>',
+      termino: 'Formatos',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Se les llama formatos generalmente a cada tipo de archivo. Ejemplo: JPG, GIF.',
     },
     {
-      termino: 'Moda',
+      termino: 'Hosting',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Sinónimo de servidor y también se le conoce a los servidores que albergan como "HOST".',
     },
     {
-      termino: 'DIseño',
+      termino: 'HTML',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Hypertext Markup Language o lenguaje de marcado de hipertextos. Destinado a simplificar la escritura de documentos estándar. Es la base estructural en la que están diseñadas las páginas de la World Wide Web.',
     },
     {
-      termino: 'Diseña',
+      termino: 'HTTP',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Hypertext Transfer Protocol o protocolo de transferencia de hipertexto. Es el mecanismo de intercambio de información que constituye la base funcional de la World Wide Web.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Lenguaje de programación',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Puede utilizarse para definir una secuencia de instrucciones para su procesamiento por un computador.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Multimedia',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Combinación de varias tecnologías de presentación de información (imágenes, sonido, animación, video, texto) con la intención de captar tantos sentidos humanos como sea posible.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Navegador',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Programa que permite leer documentos en la web y seguir enlaces (links) de documento en documento de hipertexto.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'WWW',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'También conocido simplemente como el Web, es uno de los servicios más populares de Internet. Combina texto con gráficos, imágenes, animaciones e incluso música, enlazados entre sí de tal manera que facilita la navegación por la información dispersa en todo Internet.',
     },
   ],
   complementario: [
     {
-      texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto: 'Ordóñez, C. A. (2005) Formatos de imagen digital.',
+      tipo: 'Revista Digital Universitaria',
+      link: 'http://www.revista.unam.mx/vol.6/num5/art50/may_art50.pdf',
+    },
+    {
+      texto: 'HubSpot. (2021). Los 25 mejores editores de fotos en 2021.',
+      tipo: 'Articulo',
+      link: 'https://blog.hubspot.es/marketing/mejores-editores-de-fotos',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'UNAM. (s.f.). Introducción a la Creación de Imágenes Digitales para Multimedia Interactivo. ',
+      tipo: 'Sitio web',
+      link:
+        'https://programas.cuaed.unam.mx/repositorio/moodle/pluginfile.php/1161/mod_resource/content/1/contenido/index.html',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Hostinger cursos web. (2021). Cómo dar a un sitio un diseño web responsive: la guía definitiva.',
+      tipo: 'Sitio web',
+      link:
+        'https://www.hostinger.co/tutoriales/sitio-con-diseno-web-responsive',
     },
   ],
   creditos: {
@@ -417,6 +297,23 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Jorge Alberto García',
+        cargo: 'Experto Disciplinar',
+        centro:
+          'Regional Distrito Capital – Centro Para la Industria de la Comunicación Gráfica',
+      },
+      {
+        nombre: 'Paulo César Hernández González',
+        cargo: 'Experto Temático',
+        centro:
+          'Regional Distrito Capital – Centro para la industria de la comunicación gráfica',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor Metodológico y Pedagógico',
+        centro: 'Regional Distrito Capital – Centro de Diseño y metrología',
+      },
     ],
     desarrolloProducto: [
       {
@@ -431,28 +328,14 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
-        cargo: 'Diseño web',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        nombre: 'Maryuri Agudelo Franco',
+        cargo: 'Diseñadora Instruccional',
+        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Revisión y corrección de estilo',
+        centro: 'Centro de diseño y Metrología – Regional Distrito Capital ',
       },
     ],
     gestoresRepositorio: [
