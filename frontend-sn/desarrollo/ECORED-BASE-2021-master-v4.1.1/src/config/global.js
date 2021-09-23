@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'Producción de contenidos digitales.',
+    componenteFormativo:
+      'Contexto, cronograma y diseño de estrategias de ciberseguridad',
     descripcionCurso:
-      'La composición de efectos visuales consiste en la creación de productos a partir de la manipulación y combinación de elementos digitales, con el fin de generar piezas que transmitan la sensación de unidad en la imagen resultante, independiente de si es real o no. Este concepto puede aplicarse tanto a imágenes fijas, en movimiento o audiovisuales y páginas web; aprendizajes que serán abordados en el presente componente formativo.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
+      'Mediante el desarrollo del presente componente el aprendiz estará en capacidad de comprender cómo realizar la implementación de una estrategia de seguridad a partir de procesos de planificación, que le permita establecer las etapas y controles de seguridad y mejorar los niveles de seguridad de la organización.',
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
@@ -23,26 +24,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Montaje audiovisual',
+        titulo: 'Determinar el contexto',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Edición de imagen',
+            titulo: 'Algunos conceptos y estándar orientador',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Edición de audio',
+            titulo: 'Objetivos de control y su estructura',
             hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Edición de video',
-            hash: 't_1_3',
           },
         ],
       },
@@ -50,32 +45,73 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Creación web',
+        titulo: 'Dominios de control',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Diseño web',
+            titulo: 'Objetivos de control para la seguridad de la información',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Arquitectura y diagramación web',
+            titulo: 'Objetivos de control para el factor humano',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Maquetación web',
+            titulo: 'Objetivos de control para la gestión de activos',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Tipos de medios y plataformas digitales',
+            titulo: 'Controles de accesos',
             hash: 't_2_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5',
+            titulo: 'Controles criptográficos',
+            hash: 't_2_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.6',
+            titulo: 'Controles y objetivos para el aseguramiento físico',
+            hash: 't_2_6',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo: 'Alcance de los controles de seguridad',
+        desarrolloContenidos: true,
+        subMenu: [],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Técnicas de planificación',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'La planificación y los objetivos',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Características de validación',
+            hash: 't_4_2',
           },
         ],
       },
@@ -117,225 +153,106 @@ export default {
   referencias: [
     {
       referencia:
-        'Blázquez Nieto, A. (2019). Nuevas Tecnologías Aplicadas a la Vida: Smartphone, Tablet E Internet.',
+        'Instituto Internacional de Estudios en Seguridad Global (2020). Factor humano y ciberseguridad, un riesgo en crecimiento. INISEG.',
       link:
-        'https://docplayer.es/78951030-Nuevas-tecnologias-aplicadas-a-la-vida-smartphone-tablet-e-internet.html',
-    },
-    {
-      referencia: 'Equipo 09, EvntosSv.com. (2019). Maquetacion Web.',
-      link: 'https://evntossv.neocities.org/maquetacion.html',
+        'https://www.iniseg.es/blog/ciberseguridad/factor-humano-y-ciberseguridad/',
     },
     {
       referencia:
-        'Faulker, A. & Gyncild, B. (2015). Adobe Photoshop CC 2014. Madrid: Anaya Multimedia.',
-      link: '',
-    },
-    {
-      referencia: 'Fernández. (2005). Imagen Digital.',
+        'Instituto Nacional de Tecnologías de la Comunicación (2009). Implantación de un SGSI en la empresa.',
       link:
-        'http://comunicacion3unlz.com.ar/wp-content/uploads/2014/07/Imagen-digital.pdf',
+        'https://www.incibe.es/extfrontinteco/img/File/intecocert/sgsi/img/Guia_apoyo_SGSI.pdf',
     },
     {
-      referencia: 'Garrett, J. J. (2002). ia/recon (Spanish)',
-      link: 'http://www.jjg.net/ia/recon/spanish.html',
+      referencia: 'ISO (2021). Dominios de seguridad y controles. (ISO 27000).',
+      link: 'https://www.iso27000.es/iso27002.html',
     },
     {
-      referencia:
-        'Leyva, Alarcón, Barrera & Ortegón. (2017). Exploración del diseño y arquitectura web. Aplicación a páginas electrónicas del sector bancario desde la perspectiva del usuario. Revista Escuela de Administración de Negocios, 80, enero-junio, 2016, 41-57, Universidad EAN.',
-      link: '',
-    },
-    {
-      referencia:
-        'Lozano Botache, J. P. (20138). Narraciones cinematográficas: Potencialidades pedagógicas y de investigación cualitativa, desde el cine colombiano [Tesis de doctorado. Universidad del Cauca]. Repositorio Unicauca.',
-      link: 'https://bit.ly/3sVtKzL',
+      referencia: 'ISO (2021). Planificación en ISO. (ISO 27001).',
+      link: 'https://normaiso27001.es/planificacion-en-iso-27001/',
     },
     {
       referencia:
-        'Lourdes Cortés, M. (ed.). (2000). Luces, cámara, acción: textos de cine y televisión. Editorial de la Universidad de Costa Rica.',
-      link: '',
-    },
-    {
-      referencia:
-        'Montero Miguel, R. (2014). Administración de servicios de transferencia de archivos y contenidos multimedia. Ra-Ma. S.A.',
-      link: '',
-    },
-    {
-      referencia:
-        'Morville, P. & Rosenfeld, L. (1998). Information architecture for the World Wide Web. O’Reilly.',
-      link: '',
-    },
-    {
-      referencia:
-        'Ordóñez, C. A. (2005). Formatos de imagen digital. Revista Digital Universitaria, 5(7), 1-10. ',
-      link: 'http://www.revista.unam.mx/vol.6/num5/art50/may_art50.pdf',
-    },
-    {
-      referencia:
-        'Racionero, A. (2008). El lenguaje cinematográfico. Editorial UOC.',
-      link: '',
-    },
-    {
-      referencia:
-        'Real Academia Española: Diccionario de la lengua española, 23.ª ed. [versión 23.4 en línea].',
-      link: 'https://dle.rae.es',
-    },
-    {
-      referencia: 'R M. (2014, 2 julio). Los modos de color en diseño gráfico.',
-      link:
-        'https://blog.agencialanave.com/los-modos-de-color-en-diseno-grafico/',
-    },
-    {
-      referencia:
-        'Rosenfeld, L. & Morville, P. (1998). Information Architecture for the Wold Wide Web. Cambridge: O Reilly.',
-      link: '',
-    },
-    {
-      referencia:
-        'Shum, Y. M. (2021). Situación Global Mobile 2020 - 5.190 millones de usuarios únicos.',
-      link: 'https://yiminshum.com/mobile-movil-app-2020/',
-    },
-    {
-      referencia:
-        'Viveros, M. A. T. (2005). Introducción a la Creación de Imágenes Digitales para Multimedia Interactivo.',
-      link:
-        'https://programas.cuaed.unam.mx/repositorio/moodle/pluginfile.php/1161/mod_resource/content/1/contenido/index.html',
+        'Organización Internacional de Normalización (ISO 2021). FASE 6 Implementando un SGSI. (ISO 27001).',
+      link: 'https://normaiso27001.es/fase-6-implementando-un-sgsi/',
     },
   ],
   glosario: [
     {
-      termino: 'Buscador',
-      significado: 'Herramienta web que permite ubicar contenidos en la red.',
-    },
-    {
-      termino: 'Declaración CSS',
+      termino: 'Amenaza',
       significado:
-        'Es la suma de la propiedad más el valor y se encuentra siempre entre dos corchetes. Si el selector es la parte del código que dice en qué parte se ha de aplicar la Regla CSS, la declaración explica en qué consisten las instrucciones.',
+        'Es cualquier debilidad presente y que puede ser aprovechada para afectar un sistema de información.',
     },
     {
-      termino: 'Etiqueta',
-      significado: 'Cada uno de los elementos del lenguaje HTML.',
-    },
-    {
-      termino: 'Formatos',
+      termino: 'Confidencialidad',
       significado:
-        'Se les llama formatos generalmente a cada tipo de archivo. Ejemplo: JPG, GIF.',
+        'Principio con el cual, la información solo es accedida por la persona o sistema autorizado para su acceso.',
     },
     {
-      termino: 'Hosting',
+      termino: 'Control',
       significado:
-        'Sinónimo de servidor y también se le conoce a los servidores que albergan como "HOST".',
+        'Son acciones que se deben implementar bajo un proceso o procedimiento, para garantizar los objetivos de seguridad de la organización.',
     },
     {
-      termino: 'HTML',
+      termino: 'Disponibilidad',
       significado:
-        'Hypertext Markup Language o lenguaje de marcado de hipertextos. Destinado a simplificar la escritura de documentos estándar. Es la base estructural en la que están diseñadas las páginas de la World Wide Web.',
+        'Principio que supone que un activo de información se mantenga disponible sin sufrir ninguna degradación o alteración.',
     },
     {
-      termino: 'HTTP',
+      termino: 'Integridad',
       significado:
-        'Hypertext Transfer Protocol o protocolo de transferencia de hipertexto. Es el mecanismo de intercambio de información que constituye la base funcional de la World Wide Web.',
+        'Principio que sugiere que la información se mantenga intacta y sin alteraciones posterior a sufrir un incidente.',
     },
     {
-      termino: 'Lenguaje de programación',
+      termino: 'Riesgo',
       significado:
-        'Puede utilizarse para definir una secuencia de instrucciones para su procesamiento por un computador.',
+        'Probabilidad que suceda un incidente aprovechándose de una amenaza existente afectando los principios de la seguridad de la información.',
     },
     {
-      termino: 'Multimedia',
+      termino: 'Vulnerabilidad',
       significado:
-        'Combinación de varias tecnologías de presentación de información (imágenes, sonido, animación, video, texto) con la intención de captar tantos sentidos humanos como sea posible.',
-    },
-    {
-      termino: 'Navegador',
-      significado:
-        'Programa que permite leer documentos en la web y seguir enlaces (links) de documento en documento de hipertexto.',
-    },
-    {
-      termino: 'WWW',
-      significado:
-        'También conocido simplemente como el Web, es uno de los servicios más populares de Internet. Combina texto con gráficos, imágenes, animaciones e incluso música, enlazados entre sí de tal manera que facilita la navegación por la información dispersa en todo Internet.',
+        'Falencia en un sistema que puede ser aprovechada para generar un incidente de seguridad.',
     },
   ],
   complementario: [
     {
-      texto: 'Ordóñez, C. A. (2005) Formatos de imagen digital.',
-      tipo: 'Revista Digital Universitaria',
-      link: 'http://www.revista.unam.mx/vol.6/num5/art50/may_art50.pdf',
-    },
-    {
-      texto: 'HubSpot. (2021). Los 25 mejores editores de fotos en 2021.',
-      tipo: 'Articulo',
-      link: 'https://blog.hubspot.es/marketing/mejores-editores-de-fotos',
-    },
-    {
       texto:
-        'UNAM. (s.f.). Introducción a la Creación de Imágenes Digitales para Multimedia Interactivo. ',
-      tipo: 'Sitio web',
-      link:
-        'https://programas.cuaed.unam.mx/repositorio/moodle/pluginfile.php/1161/mod_resource/content/1/contenido/index.html',
-    },
-    {
-      texto:
-        'Hostinger cursos web. (2021). Cómo dar a un sitio un diseño web responsive: la guía definitiva.',
-      tipo: 'Sitio web',
-      link:
-        'https://www.hostinger.co/tutoriales/sitio-con-diseno-web-responsive',
+        'ISO / IEC JTC 1 / SC 27 Seguridad de la información, ciberseguridad y protección de la privacidad. (2013). ISO / IEC 27001: 2013.',
+      tipo: 'Otro: Norma técnica',
+      link: 'https://www.iso.org/standard/54534.html',
     },
   ],
   creditos: {
     liderEquipo: [
       {
-        nombre: 'Maria Camila Garcia Santamaria',
-        cargo: 'Líder del equipo',
-        centro: 'Dirección General',
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Asesor pedagógico',
+        centro:
+          'Regional Santander - Centro Industrial del Diseño y la Manufactura',
       },
     ],
     contenidoInstruccional: [
       {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Jorge Alberto García',
-        cargo: 'Experto Disciplinar',
-        centro:
-          'Regional Distrito Capital – Centro Para la Industria de la Comunicación Gráfica',
-      },
-      {
-        nombre: 'Paulo César Hernández González',
+        nombre: 'Hernando José Peña Hidalgo',
         cargo: 'Experto Temático',
-        centro:
-          'Regional Distrito Capital – Centro para la industria de la comunicación gráfica',
+        centro: 'Cauca - Centro de Teleinformática y Producción Industrial ',
       },
       {
-        nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Revisor Metodológico y Pedagógico',
-        centro: 'Regional Distrito Capital – Centro de Diseño y metrología',
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro: 'Regional Distrito Capital- Centro de Diseño y Metrología ',
       },
     ],
     desarrolloProducto: [
       {
-        nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        nombre: 'Fabián Leonardo Correa Díaz',
+        cargo: 'Diseñador Instruccional',
+        centro: 'Regional Tolima - Centro agropecuario La Granja',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Maryuri Agudelo Franco',
-        cargo: 'Diseñadora Instruccional',
-        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
-      },
-      {
-        nombre: 'Sandra Patricia Hoyos Sepúlveda',
-        cargo: 'Revisión y corrección de estilo',
-        centro: 'Centro de diseño y Metrología – Regional Distrito Capital ',
+        nombre: 'Jhana Johanna Bustillo Ardila',
+        cargo: 'Revisión de estilo',
+        centro: 'Centro Industrial del Diseño y la Manufactura ',
       },
     ],
     gestoresRepositorio: [
