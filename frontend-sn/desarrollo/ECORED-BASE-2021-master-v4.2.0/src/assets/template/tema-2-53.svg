@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="142" height="142" viewBox="0 0 142 142">
+  <defs>
+    <filter id="Rectángulo_32426" x="0" y="0" width="142" height="142" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_98478" data-name="Grupo 98478" transform="translate(-613 -10186.01)">
+    <g transform="matrix(1, 0, 0, 1, 613, 10186.01)" filter="url(#Rectángulo_32426)">
+      <rect id="Rectángulo_32426-2" data-name="Rectángulo 32426" width="130" height="130" rx="20" transform="translate(6 4)" fill="#fff1db"/>
+    </g>
+    <g id="Grupo_94798" data-name="Grupo 94798" transform="translate(403.716 9864.222)">
+      <g id="Grupo_94796" data-name="Grupo 94796">
+        <g id="Grupo_94791" data-name="Grupo 94791">
+          <rect id="Rectángulo_32510" data-name="Rectángulo 32510" width="1.999" height="3.918" transform="translate(279.004 368.587)" fill="#111e61"/>
+        </g>
+        <g id="Grupo_94792" data-name="Grupo 94792">
+          <path id="Trazado_163718" data-name="Trazado 163718" d="M287.065,377.105v1.022H272.943v-1.022a31.2,31.2,0,0,0-24.1,30.34h62.314A31.207,31.207,0,0,0,287.065,377.105Z" fill="#ff9800"/>
+        </g>
+        <g id="Grupo_94793" data-name="Grupo 94793">
+          <path id="Trazado_163719" data-name="Trazado 163719" d="M286.48,368.65v-1.789a3.076,3.076,0,0,0-3.072-3.073H276.6a3.075,3.075,0,0,0-3.071,3.073v1.789Z" fill="#ff9800"/>
+        </g>
+        <g id="Grupo_94794" data-name="Grupo 94794">
+          <path id="Trazado_163720" data-name="Trazado 163720" d="M272.943,377.1v1.022h14.122v-5.621H272.943v4.6Z" fill="#ff9800"/>
+        </g>
+        <g id="Grupo_94795" data-name="Grupo 94795">
+          <rect id="Rectángulo_32511" data-name="Rectángulo 32511" width="69.438" height="8.291" transform="translate(245.284 409.889)" fill="#ff9800"/>
+        </g>
+      </g>
+      <g id="Grupo_94797" data-name="Grupo 94797">
+        <path id="Trazado_163721" data-name="Trazado 163721" d="M248.847,408.062h62.314l3.561,2.445H245.284Z" fill="#111e61"/>
+      </g>
+    </g>
+  </g>
+</svg>

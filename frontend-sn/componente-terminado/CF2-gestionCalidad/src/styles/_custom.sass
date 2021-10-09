@@ -1,0 +1,384 @@
+// GENERAL
+.titulo-principal__numero
+  background-color: $color-acento-botones
+.titulo-principal__numero span
+  color: $color-sistema-texto
+.margin-0-auto
+  margin: 0 auto
+.titulo-segundo::after
+  border-left: 50px solid $color-acento-botones
+.position-relative
+  position: relative
+.position-absolute
+  position: absolute
+.bot-0
+  bottom: 0
+.italic
+  font-style: italic
+.h4
+  margin-bottom: 0px
+.font-25
+  font-size: 25px
+.font-30
+  font-size: 30px
+.h-100
+  height: 100%
+.mr-3
+  margin-right: 1.0rem !important
+.ml-5
+  margin-left: 3rem !important
+.ml-4
+  margin-left: 1.5rem !important
+.ml-3
+  margin-left: 1.0rem !important
+.pr-4
+  padding-right: 1.5rem !important
+.pl-5
+  padding-left: 3rem !important
+.pl-4
+  padding-left: 1.5rem !important
+.w-60
+  width: 60%
+.w-31
+  width: 31%
+.w-23
+  width: 23%
+.w-15
+  width: 15%
+.z-index-2
+  z-index: 2
+.bloque-texto-b i
+  color: $color-acento-botones
+
+
+
+// IMAGEN BANNER PRINCIPAL
+.banner-principal__row .banner-principal__img
+  padding: 0 px !important
+  z-index: 1
+  position: relative
+.banner-principal__img::after
+  content: " "
+  position: absolute
+  top: 35%
+  left: 14%
+  width: 25%
+  height: 56%
+  background-image: url(../assets/curso/panel2.png)
+  background-color: transparent
+  background-repeat: no-repeat
+  z-index: -1
+  overflow: hidden
+  animation: 3s infinite floating ease-in-out alternate
+.banner-principal__img::before
+  content: " "
+  position: absolute
+  top: 43%
+  left: 61%
+  width: 23%
+  height: 31%
+  background-image: url(../assets/curso/tuerca-2.png)
+  background-color: transparent
+  background-repeat: no-repeat
+  z-index: -1
+  overflow: hidden
+  animation: 8s infinite rotation linear
+.banner-principal__row::after 
+  content: " "
+  position: absolute
+  top: 26%
+  left: 60%
+  width: 10%
+  height: 30%
+  background-image: url(../assets/curso/tuerca-1.png)
+  background-color: transparent
+  background-repeat: no-repeat
+  z-index: 0
+  overflow: hidden
+  animation: 8s infinite rotation linear
+
+// BG IMAGE
+.bg-image
+  background-image: url(../assets/template/tema-5-1.png)
+  background-repeat: no-repeat
+  background-size: cover
+
+// BACKGROUND
+.bg-rosado
+  background-color: #FFF9E8 
+.bg-gris
+  background-color: #FCFAFA
+.bg-rojo-claro
+  background-color: #FFE7E0
+.bg-rojo
+  background-color: #FF805A 
+.bg-rojo-fuerte
+  background-color: #FD646D
+.bg-rosado-fuerte
+  background-color: #FFC096
+.bg-amarillo
+  background-color: #FCEF7C
+.bg-blanco
+  background-color: $white
+.bg-gris
+  background-color: #F6F6F6
+.bg-rosa-claro
+  background-color: #FFF5DB
+.bg-naranja
+  background-color: #FFE9AC
+.bg-naranja-claro
+  background-color: #FFF1CB
+.bg-verde
+  background-color: #D3FDB8
+
+// BORDES
+.rounded-15
+  border-radius: 15px
+.rounded-20
+  border-radius: 20px
+.borde-rojo-5
+  border: 5px solid #FF805A
+.borde-amarillo-5
+  border: 5px solid #F6BF28
+.borde-rojo-4
+  border: 4px solid #FF805A
+.borde-azul
+  border: 1px solid #111E61 !important
+.borde-gris-4
+  border: 4px solid #F6F6F6
+
+// TEXTO
+.text-rojo
+  color: #FF805A !important
+
+// CUADRO FONDO
+.cuadro-azul 
+  position: relative
+  z-index: 2
+.cuadro-azul:after
+  position: absolute
+  top: 35%
+  left: 0%
+  z-index: -1 
+  content: "  "
+  background-color: #E3FCFD
+  height: 80%
+  width: 60% 
+
+// MODAL
+.modal-a__close-btn
+  width: 55px
+  height: 55px
+.modal-a__close-btn i
+  font-size: 2.5em
+.modal-a__content .titulo
+  font-size: 50px
+.modal-p .modal-a__content
+  border-left: 53px solid #FF805A
+  z-index: 2.5em
+.modal-p .modal-a__content .modal-a__close-btn
+  background-color: #FF805A
+.modal-h .modal-a__content
+  border-left: 53px solid #F6BF28
+  z-index: 2.5em
+.modal-h .modal-a__content .modal-a__close-btn
+  background-color: #F6BF28
+.modal-v .modal-a__content
+  border-left: 53px solid #5DF2FF
+  z-index: 2.5em
+.modal-v .modal-a__content .modal-a__close-btn
+  background-color: #5DF2FF
+.modal-a1 .modal-a__content
+  border-left: 53px solid #FFEE58
+  z-index: 2.5em
+.modal-a1 .modal-a__content .modal-a__close-btn
+  background-color: #FFEE58
+
+// ANEXO
+.anexo.aguamarina
+  background-color: #EAFDFF
+.anexo.aguamarina:hover
+  background-color: #bbd5d8
+
+// BLOQUE TEXTO
+.bloque-texto-a
+  background-color: #C9F6F9 !important
+.bloque-texto-a::before 
+  left: 45%
+  background-color: #FFBBA7 !important
+  
+// TARJETAS
+.tarjeta.color-acento-botones--borde
+  background-color: #FFF4F0
+  
+// KEY FRAMES
+@keyframes floating 
+  from 
+    transform: translatey(8px)
+
+  to 
+    transform: translatey(-8px)
+@keyframes rotation 
+  from 
+    transform: rotate(0deg)
+
+  to 
+    transform: rotate(359deg)
+@keyframes slide-in 
+  from 
+    transform: translatex(10px)
+
+  to 
+    transform: translatex(-10px)
+
+// ANIMACIONES
+.zoom-in
+  transform: scale(1)
+  transition: all 800ms
+.zoom-in:hover img
+  transform: scale(1.1)
+  transition: all 800ms
+  z-index: 2
+.slide-in  
+  animation: 3s infinite slide-in ease-in-out alternate
+.floating  
+  animation: 3s infinite floating ease-in-out alternate
+.rotation
+  animation: 8s infinite rotation linear
+.image-cover
+  position: absolute
+  top: 0px
+  opacity: 0
+  transition: all 1000ms
+.image-cover:hover
+  display:block
+  opacity: 100%
+  transition: all 650ms
+
+
+// NAVHOLDER
+.nav-holder
+  display: inline-block
+  margin: 10px 5px
+  overflow: hidden
+  position: relative
+  width: 100%
+  -webkit-transform: translateZ(0)
+  -moz-transform: translateZ(0)
+  transform: translateZ(0)
+.nav-holder *, .nav-holder *:before, .nav-holder *:after
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  transition: all 0.45s ease
+.nav-holder:before
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  content: ''
+  background-color: #fff
+  border: 5px solid #FF805A
+  z-index: 888
+  opacity: 1
+  -webkit-transition: all 0.45s ease
+  -moz-transition: all 0.45s ease
+  transition: all 0.45s ease
+  border-radius: 15px
+.color2:before
+  border: 5px solid #F6BF28!important
+.nav-holder:before
+  -webkit-transform: translateY(100%)
+  -moz-transform: translateY(100%)
+  transform: translateY(100%)
+
+.nav-holder:hover:before
+  -webkit-transform: translateY(0)
+  -moz-transform: translateY(0)
+  transform: translateY(0)
+  opacity: 1
+  bottom: 0px
+  -webkit-transition-delay: 0.1s
+  -moz-transition-delay: 0.1s
+  transition-delay: 0.1s
+
+.nav-holder
+  .text
+    position: absolute
+    top: 0px
+    bottom: 0px
+    left: 0px
+    right: 0px
+    z-index: 999
+  img
+    backface-visibility: hidden
+    vertical-align: top
+    z-index: 0
+  p, i
+    opacity: 0
+    text-align: center
+  li
+    margin-bottom: 0
+    padding-bottom: 0
+    font-size: .9em
+.nav-holder .h3
+    margin: 10px 0px
+    color: #000
+.nav-holder:hover
+  p, i
+    opacity: 1
+    -webkit-transition-delay: 0.2s
+    -moz-transition-delay: 0.2s
+    transition-delay: 0.2s
+.nav-holder i
+  color: #E01650  
+.nav-holder *
+  color: #000
+
+// TARJETA HOVER ------------------
+.tarjeta-container
+  position: relative
+  overflow: hidden
+  height: 262px   s
+  
+  .tarjetaContent
+    position: relative    
+    top: 0 
+    left: 0      
+    transition: all 0.45s 0s ease;
+    .tarjetaImg
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center          
+      height: 300px
+      border-radius: 20px
+    .tarjetaTxt 
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center          
+      height: 223px  
+    .tarjetaImg img
+      width: 100%  
+      border-radius: 20px
+    .tarjetaTxt      
+      text-align: center
+      background-color: #FFF
+      border: 6px solid #29B39D
+      border-radius: 20px 
+    .tarjetaTxt h1 
+      font-size: 100px
+  &:hover
+    .tarjetaContent
+      top: -262px
+@media (max-width: $bp-max-md)
+  .tarjeta-container
+    height: 265px 
+  .tarjeta-container .tarjetaContent .tarjetaImg, .tarjeta-container .tarjetaContent .tarjetaTxt
+    height: 265px
+  .tarjeta-container .tarjetaContent:hover    
+    top: -265px  
