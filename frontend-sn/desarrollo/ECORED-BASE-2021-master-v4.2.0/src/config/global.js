@@ -1,9 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'Inglés básico para servicio de recepción',
+    componenteFormativo: 'Los Clientes y el SARLAFT',
     descripcionCurso:
-      'El idioma inglés básico es fundamental en el desempeño de la labor como recepcionista. Por tanto, es importante que desarrolle habilidades comunicativas en idioma inglés que le permitan manejarlo como segunda lengua y, de esta forma, garantizar una comunicación fluida con huéspedes extranjeros.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
+      'La importancia de los clientes en cualquier organización y su debida atención, recalca lo fundamental hoy en día del conocimiento,  implementación e interpretación de la información enviada por ellos, sobre Sistema de administración del riesgo en lavados de activos y financiación de terrorismo, y así dar gestión a sus solicitudes de manera oportuna. <br>Por ello, es indispensable conocer los procedimientos y formatos para evaluar la funcionalidad del sistema. ',
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
@@ -23,54 +23,54 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Análisis, técnicas y requerimientos de la información',
+        titulo: 'Normatividad',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Normativa vigente SARLAFT',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'SARLAFT 4.0',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Otros sistemas de prevención',
+            hash: 't_1_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Mecanismos para la evaluación y seguimiento de procesos',
+        titulo: 'Políticas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Repetición del ciclo de mejora',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Benchmarking',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Auditorías de calidad',
-            hash: 't_2_3',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Riesgos',
+        titulo: 'Procedimientos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Definición de riesgo empresarial',
+            titulo: 'Conocimiento del cliente: verificación de información',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Tipos de riesgo empresarial',
+            titulo: 'Importancia del manual SARLAFT dentro de los sistemas',
             hash: 't_3_2',
           },
         ],
@@ -79,43 +79,17 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Presupuestos de mejoramiento continuo',
+        titulo: 'Formatos y datos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: 'Conceptos de presupuestos como mejora continua',
-            hash: 't_4_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.2',
-            titulo: 'Importancia del presupuesto como mejora continua',
-            hash: 't_4_2',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo: 'Evaluación y procedimientos organizacionales',
+        titulo: 'Normas de Seguridad y Salud en el Trabajo SST',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.1',
-            titulo: 'Normatividad empresarial',
-            hash: 't_5_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.2',
-            titulo: 'Gestión de calidad, seguridad y salud en el trabajo',
-            hash: 't_5_2',
-          },
-        ],
+        subMenu: [],
       },
     ],
     subMenu: [
@@ -154,148 +128,99 @@ export default {
   },
   referencias: [
     {
-      referencia:
-        'Castillo, E. y Montes, C. (2017). El presupuesto como herramienta de control de gestión en la gerencia financiera en las empresas comerciales mipymes. Universidad La Gran Colombia.',
+      referencia: 'ICETEX. (2.020). MANUAL SARLAFT ICETEX.',
       link:
-        'https://repository.ugc.edu.co/bitstream/handle/11396/4334/Presupuesto_herramienta_financiera_pymes.pdf?sequence=1&isAllowed=y',
+        'https://portal.icetex.gov.co/Portal/docs/default-source/documentos-el-icetex/biblioteca/manuales-de-la-entidad/manual-sarlaft-icetex-v13.pdf',
     },
     {
-      referencia:
-        'Decreto 1072 de 2015. [Ministerio del Trabajo]. Por medio del cual se expide el Decreto Único Reglamentario del Sector Trabajo. Mayo 26 de 2015. ',
+      referencia: 'SISTEMA NACIONAL ALA/CFT. (2.006). CIRCULARES',
       link:
-        'https://www.mintrabajo.gov.co/documents/20147/0/DUR+Sector+Trabajo+Actualizado+a+15+de+abril++de+2016.pdf/a32b1dcf-7a4e-8a37-ac16-c121928719c8',
+        'https://www.uiaf.gov.co/sistema_nacional_ala_cft/normatividad_sistema_documentos_28/circulares',
     },
     {
-      referencia:
-        'Donoso, P. (2003). Instrumentalización del Control de Gestión. Universidad Católica. ',
-      link: '',
-    },
-    {
-      referencia:
-        'EALDE Business School . (2016). El presupuesto como herramienta de gestión. ',
-      link: 'https://www.ealde.es/presupuesto-herramienta-gestion/',
-    },
-    {
-      referencia: 'FAO. (2015). Cómo analizar el desempeño organizacional. ',
+      referencia: 'SISTEMA NACIONAL ALA/CFT. (2.006).DECRETOS.',
       link:
-        'http://www.fao.org/capacity-development/resources/practical-tools/analyse-organizational-performance/es/',
+        'https://www.uiaf.gov.co/sistema_nacional_ala_cft/normatividad_sistema_documentos_28/decretos',
     },
     {
-      referencia:
-        'Gisbert, V. y Raissouni, O. (2014). Benchmarking, herramienta de control de calidad y mejora continua. 3c Empresa: investigación y pensamiento crítico, 3(4), p. 217-233.',
-      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=4924484',
-    },
-    {
-      referencia:
-        'ICONTEC. (2018). Gestión de la calidad. Calidad de una organización. Orientación para lograr el éxito sostenido (GTC-ISO 9004). ',
+      referencia: 'SISTEMA NACIONAL ALA/CFT. (2.013). LEYES.',
       link:
-        'https://www.academia.edu/40054977/ISO_9004_2018_ORIENTACI%C3%93N_PARA_LOGRAR_EL_%C3%89XITO_SOSTENIDO',
+        'https://www.uiaf.gov.co/sistema_nacional_ala_cft/normatividad_sistema_documentos_28/leyes',
     },
     {
-      referencia:
-        'ISOTools. (2015). En qué consiste una auditoría de la norma de calidad ISO 9001.',
+      referencia: 'SISTEMA NACIONAL ALA/CFT. (2.006). RESOLUCIONES.',
       link:
-        'https://www.isotools.org/2015/10/07/en-que-consiste-una-auditoria-de-la-norma-de-calidad-iso-9001/',
+        'https://www.uiaf.gov.co/sistema_nacional_ala_cft/normatividad_sistema_documentos_28/decretos',
     },
     {
-      referencia:
-        'ISOTools. (2019). Definición del riesgo empresarial y principales tipos.',
+      referencia: 'UIAF. (2019). Guía de Normatividad ALA/CFT.',
       link:
-        'https://www.isotools.org/2019/08/12/definicion-del-riesgos-empresariales-y-principales-tipos/',
+        'Https://www.uiaf.gov.co/sistema_nacional_ala_cft/normatividad_sistema_documentos_28/documentos_interes_ala_cft/guia_normatividad_ala_cft_29974',
     },
     {
-      referencia:
-        'North, D. (1990). Institutions, Institutional Change and Economic Performance. Cambridge University Press.',
-      link: 'https://doi.org/10.1017/CBO9780511808678',
-    },
-    {
-      referencia:
-        'Saldías, J. y Andalaf, A. (2006). Sistemas de control de gestión, análisis para organizaciones sin fines de lucro. Revista Ingeniería Industrial, 5(1), p. 61-76.',
-      link: 'https://dialnet.unirioja.es/descarga/articulo/3996997',
-    },
-    {
-      referencia: 'Westreicher, G. (2021). Riesgo Empresarial. Economipedia.',
-      link: 'https://economipedia.com/definiciones/riesgo-empresarial.html',
+      referencia: 'UIAF. (2021). Normatividad.',
+      link:
+        'https://www.uiaf.gov.co/sistema_nacional_ala_cft/normatividad_sistema_documentos_28',
     },
   ],
   glosario: [
     {
-      termino: 'Benchmarking:',
+      termino: 'Formato',
       significado:
-        'Como dice Michael J. Spendolini, es un proceso sistemático y continuo para evaluar los productos, servicios y procesos de trabajo de las organizaciones que se reconocen como representantes de las mejores prácticas, con el propósito de realizar mejoras organizacionales.',
+        'Es el conjunto de las características técnicas y de presentación de un texto, objeto o documento en diferentes ámbitos, tanto reales como virtuales.',
     },
     {
-      termino: 'Consultor:',
+      termino: 'FPADM',
       significado:
-        'Persona experta en una materia o actividad sobre la que ejecuta una asesoría profesional.',
+        'SISTEMA DE AUTOCONTROL Y GESTIÓN DEL RIESGO INTEGRAL LA/FT/FPADM o SAGRILAFT, no es un cambio solo de nombre, ya que incorpora nuevas definiciones y categorías que permitirán abarcar una mayor cantidad de sectores económicos y así servir de una forma más eficaz en la prevención del riesgo.',
     },
     {
-      termino: 'ESAN:',
+      termino: 'Manual',
       significado:
-        'Es la primera institución académica de posgrado en Administración creada en Hispanoamérica. Fue establecida el 25 de julio de 1963, en el marco de un convenio entre los gobiernos del Perú y los Estados Unidos de América. Su organización y puesta en marcha fue confiada a la Escuela de Negocios para Graduados de la Universidad de Stanford, California. Se encuentra en Lima, Perú.',
+        'Es un libro o folleto en el cual se recogen los aspectos básicos, esenciales de una materia. Así, los manuales nos permiten comprender mejor el funcionamiento de algo, o acceder, de manera ordenada y concisa, al conocimiento de algún tema o materia.',
     },
+
     {
-      termino: 'Know-how:',
+      termino: 'Periodicidad ',
       significado:
-        'Conjunto de prácticas o actividades de una empresa que son de su exclusivo conocimiento y que dan su impronta ante el mercado y competidores.',
+        'Es un término aplicado para mencionar a una persona o elemento que se caracteriza por ser periódico, es decir, el elemento mencionado en la oración es frecuente (posee una repetitividad muy continua) esta palabra puede ser aplicada en cualquier ocasión.',
     },
+
     {
-      termino: 'Plan, do, check, act:',
+      termino: 'Procesos de control',
       significado:
-        'Ciclo de Deming en su idioma original, inglés, que corresponde a: planear, hacer, revisar y actuar.',
+        'Consiste en el proceso sistemático de regular o medir las actividades que desarrolla la organización para que estas coincidan con los objetivos y expectativas establecidos en sus planes.',
     },
+
     {
-      termino: 'Sistémico:',
+      termino: 'Procedimientos',
       significado:
-        'Dicho de entidades, organizaciones o personas que se rigen o ajustan a un sistema. ',
+        'Es un conjunto de acciones que tienen que realizarse todas igualmente, para obtener los mismos resultados bajo las mismas circunstancias',
+    },
+
+    {
+      termino: 'ROS',
+      significado:
+        'El ROS es el Reporte de Operación Sospechosa que todo oficial de cumplimiento o funcionario responsable de las personas naturales o jurídicas señaladas en el artículo 3° de la Ley N° 19.913, debe enviar a la UAF cuando, en el ejercicio de su actividad o de sus funciones, detecte una operación sospechosa de lavado de activos o financiamiento del terrorismo, que corresponda ser informada a este servicio.',
     },
   ],
   complementario: [
     {
       texto:
-        'ISOTools. (2016). El ciclo PHVA para la mejora continua de las organizaciones.',
-      tipo: 'Blog',
-      link:
-        'https://www.isotools.org/2016/02/25/ciclo-phva-para-mejora-continua/',
+        'GRUPO ISA.  (2.012). Prevención del lavado de activos y financiación del terrorismo. (Video). YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=BxJfd8BYMts',
+    },
+    {
+      texto: 'VANESSA ESPITIA (2019). Normatividad SARLAFT. (Video). YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=dww1OIC7K4E',
     },
     {
       texto:
-        'Gisbert, V. y Raissouni, O. (2014). Benchmarking, herramienta de control de calidad y mejora continua. 3c Empresa: investigación y pensamiento crítico, 3(4), p. 217-233.',
-      tipo: 'Artículo de revista',
-      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=4924484',
-    },
-    {
-      texto:
-        'ISOTools. (2015). En qué consiste una auditoría de la norma de calidad ISO 9001.',
-      tipo: 'Blog',
-      link:
-        'https://www.isotools.org/2015/10/07/en-que-consiste-una-auditoria-de-la-norma-de-calidad-iso-9001/',
-    },
-    {
-      texto:
-        'ISOTools. (2019). Definición del riesgo empresarial y principales tipos.',
-      tipo: 'Blog',
-      link:
-        'https://www.isotools.org/2019/08/12/definicion-del-riesgos-empresariales-y-principales-tipos/',
-    },
-    {
-      texto:
-        'Muñiz, L. (2015). El Reporting herramienta clave para mejorar la gestión empresarial. SisConGes & Estrategia.',
-      tipo: 'eBook',
-      link:
-        'https://accid.org/wp-content/uploads/2018/11/Ebook_reporting_SCG_Estrategia_ACCID.pdf',
-    },
-    {
-      texto:
-        'BRAINTRUST Consulting Services. (2017, 16 octubre). webinar4 emisión en directo presupuesto como herramienta de gestión [Video]. YouTube. ',
-      tipo: 'Webinar-video',
-      link: 'https://youtu.be/Iw0Wkw1BFWA',
-    },
-    {
-      texto: 'FAO. (2015). Cómo analizar el desempeño organizacional.',
-      tipo: 'Página web',
-      link:
-        'http://www.fao.org/capacity-development/resources/practical-tools/analyse-organizational-performance/es/',
+        'INFOLAFT SARLAFT SAGRILAFT(2016). Manual SARLAFT: ¿cómo construir un buen documento?.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=sNQ3Ngh1vCQ',
     },
   ],
   creditos: {
@@ -309,15 +234,14 @@ export default {
     ],
     contenidoInstruccional: [
       {
-        nombre: 'José Luis Rangel Ayala',
-        cargo: 'Experto Temático',
-        centro:
-          'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios. CIES',
+        nombre: 'Jhon Jairo Villamizar Mora',
+        cargo: 'Experto temático',
+        centro: 'Centro de la Industria, la Empresa y los Servicios. CIES.',
       },
       {
-        nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Revisor Metodológico y Pedagógico',
-        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
+        nombre: 'Carolina Coca Salazar',
+        cargo: 'Revisora Metodológica y Pedagógica',
+        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología.',
       },
     ],
     desarrolloProducto: [
@@ -328,20 +252,15 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Gloria Lida Álzate Suárez',
+        nombre: 'Claudia Milena Hernández Naranjo',
         cargo: 'Diseñadora Instruccional',
-        centro:
-          'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica',
+        centro: 'Regional Distrito Capital – Centro de Diseño y Metrología.',
       },
       {
-        nombre: 'Darío González',
-        cargo: 'Corrección de estilo',
-        centro: 'Regional Tolima – Centro Agropecuario La Granja',
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Revisión y corrección de estilo',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica – Regional Distrito Capital',
       },
     ],
     gestoresRepositorio: [

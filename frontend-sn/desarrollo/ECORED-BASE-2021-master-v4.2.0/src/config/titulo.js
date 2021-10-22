@@ -1,1 +1,1 @@
-module.exports = 'Inglés básico para servicio de recepción'
+module.exports = 'Los Clientes y el SARLAFT'
